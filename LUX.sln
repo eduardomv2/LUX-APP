@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.34929.205
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST 3 LUX", "TEST 3 LUX\TEST 3 LUX.csproj", "{9AEB37C0-14F2-40EC-A399-492E102759BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUX", "TEST 3 LUX\LUX.csproj", "{9AEB37C0-14F2-40EC-A399-492E102759BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
