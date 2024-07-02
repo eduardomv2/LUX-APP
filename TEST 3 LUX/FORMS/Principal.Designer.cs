@@ -37,11 +37,11 @@
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogo.Location = new System.Drawing.Point(129, 67);
+            this.lblLogo.Font = new System.Drawing.Font("Myanmar Text", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Location = new System.Drawing.Point(143, 67);
             this.lblLogo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(78, 39);
+            this.lblLogo.Size = new System.Drawing.Size(77, 51);
             this.lblLogo.TabIndex = 1;
             this.lblLogo.Text = "LUX";
             // 
@@ -50,7 +50,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(25, 41);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 85);
+            this.pictureBox1.Size = new System.Drawing.Size(113, 96);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
