@@ -60,7 +60,7 @@
             // 
             // MenuPanel
             // 
-            this.MenuPanel.BackColor = System.Drawing.Color.Transparent;
+            this.MenuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.MenuPanel.Controls.Add(this.lblLogo);
             this.MenuPanel.Controls.Add(this.pictureBox1);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
