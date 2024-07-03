@@ -17,11 +17,7 @@ namespace TEST_3_LUX
             InitializeComponent();
         }
 
-        /// <summary>
-        /// ERROR: El diseñador necesita este método.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+       
 
         private void Principal_Load(object sender, EventArgs e)
         {
