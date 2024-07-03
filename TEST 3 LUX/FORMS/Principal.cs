@@ -17,7 +17,7 @@ namespace TEST_3_LUX
             InitializeComponent();
         }
 
-    
+       
 
         private void Principal_Load(object sender, EventArgs e)
         {
