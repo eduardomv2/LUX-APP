@@ -42,6 +42,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.MenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -85,7 +86,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(86, 282);
+            this.pictureBox2.Location = new System.Drawing.Point(96, 282);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(127, 440);
             this.pictureBox2.TabIndex = 3;
@@ -220,6 +221,15 @@
             this.tlpBotones.Size = new System.Drawing.Size(468, 368);
             this.tlpBotones.TabIndex = 10;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(798, 128);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "LUX";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,6 +237,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(144)))), ((int)(((byte)(90)))));
             this.ClientSize = new System.Drawing.Size(1300, 722);
             this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tlpBotones);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuPanel);
@@ -242,6 +253,7 @@
             this.panel1.ResumeLayout(false);
             this.tlpBotones.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -259,6 +271,7 @@
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.TableLayoutPanel tlpBotones;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
