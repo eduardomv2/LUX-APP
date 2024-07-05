@@ -235,7 +235,7 @@
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(776, 78);
+            this.checkedListBox1.Location = new System.Drawing.Point(758, 80);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(120, 49);
             this.checkedListBox1.TabIndex = 12;
@@ -243,11 +243,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1003, 100);
+            this.label2.Location = new System.Drawing.Point(898, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 13;
-            this.label2.Text = "label2";
+            this.label2.Text = "cambios";
             // 
             // Principal
             // 
