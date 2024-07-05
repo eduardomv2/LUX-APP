@@ -63,6 +63,16 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondoestrellado {
+            get {
+                object obj = ResourceManager.GetObject("fondoestrellado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tallo {
             get {
                 object obj = ResourceManager.GetObject("tallo", resourceCulture);

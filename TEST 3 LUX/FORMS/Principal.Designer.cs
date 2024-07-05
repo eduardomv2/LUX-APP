@@ -32,7 +32,6 @@
             this.lblLogo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MenuPanel = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
@@ -44,7 +43,6 @@
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.MenuPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.tlpBotones.SuspendLayout();
             this.SuspendLayout();
@@ -52,21 +50,23 @@
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
+            this.lblLogo.BackColor = System.Drawing.Color.Transparent;
             this.lblLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogo.ForeColor = System.Drawing.Color.White;
-            this.lblLogo.Location = new System.Drawing.Point(124, 193);
+            this.lblLogo.Location = new System.Drawing.Point(77, 161);
+            this.lblLogo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(194, 91);
+            this.lblLogo.Size = new System.Drawing.Size(157, 73);
             this.lblLogo.TabIndex = 1;
             this.lblLogo.Text = "LUX";
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(97, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(73, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(227, 204);
+            this.pictureBox1.Size = new System.Drawing.Size(170, 166);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -74,24 +74,14 @@
             // MenuPanel
             // 
             this.MenuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.MenuPanel.Controls.Add(this.pictureBox2);
+            this.MenuPanel.BackgroundImage = global::TEST_3_LUX.Properties.Resources.fondoestrellado;
             this.MenuPanel.Controls.Add(this.lblLogo);
             this.MenuPanel.Controls.Add(this.pictureBox1);
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
-            this.MenuPanel.Margin = new System.Windows.Forms.Padding(4);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(429, 889);
+            this.MenuPanel.Size = new System.Drawing.Size(322, 722);
             this.MenuPanel.TabIndex = 3;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(128, 382);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(169, 507);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
             // 
             // panel1
             // 
@@ -99,20 +89,18 @@
             this.panel1.Controls.Add(this.btnMaximizar);
             this.panel1.Controls.Add(this.btnMinimizar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(429, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(322, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1304, 39);
+            this.panel1.Size = new System.Drawing.Size(978, 32);
             this.panel1.TabIndex = 4;
             // 
             // btnCerrar
             // 
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.CausesValidation = false;
-            this.btnCerrar.Location = new System.Drawing.Point(1264, 7);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCerrar.Location = new System.Drawing.Point(948, 6);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(33, 25);
+            this.btnCerrar.Size = new System.Drawing.Size(25, 20);
             this.btnCerrar.TabIndex = 2;
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -121,10 +109,9 @@
             // 
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.CausesValidation = false;
-            this.btnMaximizar.Location = new System.Drawing.Point(1223, 7);
-            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMaximizar.Location = new System.Drawing.Point(917, 6);
             this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(33, 25);
+            this.btnMaximizar.Size = new System.Drawing.Size(25, 20);
             this.btnMaximizar.TabIndex = 1;
             this.btnMaximizar.UseVisualStyleBackColor = true;
             this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
@@ -134,10 +121,9 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.BackColor = System.Drawing.Color.LawnGreen;
             this.btnMinimizar.CausesValidation = false;
-            this.btnMinimizar.Location = new System.Drawing.Point(1181, 7);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMinimizar.Location = new System.Drawing.Point(886, 6);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(33, 25);
+            this.btnMinimizar.Size = new System.Drawing.Size(25, 20);
             this.btnMinimizar.TabIndex = 0;
             this.btnMinimizar.UseVisualStyleBackColor = false;
             this.btnMinimizar.Click += new System.EventHandler(this.button1_Click);
@@ -151,10 +137,9 @@
             this.btnActividades.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActividades.FlatAppearance.BorderSize = 0;
             this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActividades.Location = new System.Drawing.Point(4, 4);
-            this.btnActividades.Margin = new System.Windows.Forms.Padding(4);
+            this.btnActividades.Location = new System.Drawing.Point(3, 3);
             this.btnActividades.Name = "btnActividades";
-            this.btnActividades.Size = new System.Drawing.Size(304, 218);
+            this.btnActividades.Size = new System.Drawing.Size(228, 178);
             this.btnActividades.TabIndex = 5;
             this.btnActividades.UseVisualStyleBackColor = false;
             this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click);
@@ -168,10 +153,9 @@
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(4, 230);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Location = new System.Drawing.Point(3, 187);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(304, 219);
+            this.button4.Size = new System.Drawing.Size(228, 178);
             this.button4.TabIndex = 8;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -184,10 +168,9 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(316, 4);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(237, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(304, 218);
+            this.button3.Size = new System.Drawing.Size(228, 178);
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -200,10 +183,9 @@
             this.btnHorario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHorario.FlatAppearance.BorderSize = 0;
             this.btnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHorario.Location = new System.Drawing.Point(316, 230);
-            this.btnHorario.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHorario.Location = new System.Drawing.Point(237, 187);
             this.btnHorario.Name = "btnHorario";
-            this.btnHorario.Size = new System.Drawing.Size(304, 219);
+            this.btnHorario.Size = new System.Drawing.Size(228, 178);
             this.btnHorario.TabIndex = 9;
             this.btnHorario.UseVisualStyleBackColor = false;
             this.btnHorario.Click += new System.EventHandler(this.btnHorario_Click);
@@ -220,29 +202,27 @@
             this.tlpBotones.Controls.Add(this.button4, 0, 1);
             this.tlpBotones.Controls.Add(this.button3, 1, 0);
             this.tlpBotones.Controls.Add(this.btnHorario, 1, 1);
-            this.tlpBotones.Location = new System.Drawing.Point(773, 249);
-            this.tlpBotones.Margin = new System.Windows.Forms.Padding(4);
+            this.tlpBotones.Location = new System.Drawing.Point(580, 202);
             this.tlpBotones.Name = "tlpBotones";
             this.tlpBotones.RowCount = 2;
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tlpBotones.Size = new System.Drawing.Size(624, 453);
+            this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpBotones.Size = new System.Drawing.Size(468, 368);
             this.tlpBotones.TabIndex = 10;
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(144)))), ((int)(((byte)(90)))));
-            this.ClientSize = new System.Drawing.Size(1733, 889);
+            this.ClientSize = new System.Drawing.Size(1300, 722);
             this.ControlBox = false;
             this.Controls.Add(this.tlpBotones);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -250,7 +230,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.MenuPanel.ResumeLayout(false);
             this.MenuPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.tlpBotones.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -270,7 +249,6 @@
         private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.TableLayoutPanel tlpBotones;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
