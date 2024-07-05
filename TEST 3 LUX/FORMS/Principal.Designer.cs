@@ -42,6 +42,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.MenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -52,12 +55,12 @@
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("HP Simplified Hans", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogo.ForeColor = System.Drawing.Color.White;
             this.lblLogo.Location = new System.Drawing.Point(93, 157);
             this.lblLogo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(140, 73);
+            this.lblLogo.Size = new System.Drawing.Size(157, 73);
             this.lblLogo.TabIndex = 1;
             this.lblLogo.Text = "LUX";
             // 
@@ -220,6 +223,32 @@
             this.tlpBotones.Size = new System.Drawing.Size(468, 368);
             this.tlpBotones.TabIndex = 10;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "label1";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(776, 78);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 49);
+            this.checkedListBox1.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1003, 100);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "label2";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,6 +256,9 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(144)))), ((int)(((byte)(90)))));
             this.ClientSize = new System.Drawing.Size(1300, 722);
             this.ControlBox = false;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tlpBotones);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuPanel);
@@ -242,6 +274,7 @@
             this.panel1.ResumeLayout(false);
             this.tlpBotones.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -259,6 +292,9 @@
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.TableLayoutPanel tlpBotones;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
