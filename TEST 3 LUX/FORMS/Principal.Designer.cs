@@ -33,6 +33,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.lblLogo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -44,12 +45,11 @@
             this.button4 = new System.Windows.Forms.Button();
             this.btnActividades = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -112,6 +112,19 @@
             this.lblLogo.Size = new System.Drawing.Size(121, 62);
             this.lblLogo.TabIndex = 1;
             this.lblLogo.Text = "LUX";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::TEST_3_LUX.Properties.Resources.Logo_Oficial;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(298, 295);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button2
             // 
@@ -190,12 +203,12 @@
             this.tableLayoutPanel1.Controls.Add(this.button3, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.button4, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.btnActividades, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(298, 173);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(303, 178);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(484, 426);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(508, 440);
             this.tableLayoutPanel1.TabIndex = 16;
             // 
             // button5
@@ -207,9 +220,9 @@
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(245, 3);
+            this.button5.Location = new System.Drawing.Point(257, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(236, 207);
+            this.button5.Size = new System.Drawing.Size(248, 214);
             this.button5.TabIndex = 9;
             this.button5.UseVisualStyleBackColor = false;
             // 
@@ -222,9 +235,9 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(245, 216);
+            this.button3.Location = new System.Drawing.Point(257, 223);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(236, 207);
+            this.button3.Size = new System.Drawing.Size(248, 214);
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -237,9 +250,9 @@
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(3, 216);
+            this.button4.Location = new System.Drawing.Point(3, 223);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(236, 207);
+            this.button4.Size = new System.Drawing.Size(248, 214);
             this.button4.TabIndex = 8;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -255,7 +268,7 @@
             this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActividades.Location = new System.Drawing.Point(3, 3);
             this.btnActividades.Name = "btnActividades";
-            this.btnActividades.Size = new System.Drawing.Size(236, 207);
+            this.btnActividades.Size = new System.Drawing.Size(248, 214);
             this.btnActividades.TabIndex = 5;
             this.btnActividades.UseVisualStyleBackColor = false;
             // 
@@ -272,19 +285,6 @@
             this.btnMinimizar.TabIndex = 0;
             this.btnMinimizar.UseVisualStyleBackColor = false;
             this.btnMinimizar.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::TEST_3_LUX.Properties.Resources.Logo_Oficial;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(298, 295);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Principal
             // 
@@ -306,9 +306,9 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
