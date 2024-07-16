@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace TEST_3_LUX
         public Principal()
         {
             InitializeComponent();
+           
         }
   
         private void Principal_Load(object sender, EventArgs e)
@@ -25,7 +27,8 @@ namespace TEST_3_LUX
             
         }
 
-        
+
+
         #region BOTONES PARA MANEJO DE VENTANA
         private void button1_Click(object sender, EventArgs e)
         {
