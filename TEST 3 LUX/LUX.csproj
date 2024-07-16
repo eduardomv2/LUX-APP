@@ -99,5 +99,173 @@
   <ItemGroup>
     <None Include="Resources\fondoestrellado1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_cute-smiling-cartoon-characters-of-moon_29889836-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nocheestrellada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoestrellas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nocheestrelladanoche.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nocheestrelladabarco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canvabarco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canvanocheestrellada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondonochenocheestrellada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_3d-space-rocket-render-with-transparent-background_22996345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coheteblanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coheteblanco1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLANETAS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondodinosaurios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondodinosauriogoogle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondodinosaurios2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoestrelladoazul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondoestrellado3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondosaturno.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondosaturno1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño sin título.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturno1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño sin título %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girasol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girasoleshorizontal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girasolesabajo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Oficial1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresblancas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondonublado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puesta_de_sol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puesta_de_sol1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondomorado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondomorado1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubesoscuro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondomorado2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nubes6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puesta_de_sol2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencils-2782840_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño_sin_título__4_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño_sin_título__12_-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,10 +118,178 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fondo21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pencils-2782840_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pencils-2782840_640.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondodinosauriogoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondodinosauriogoogle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondosaturno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondosaturno1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="st" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\st.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canvanocheestrellada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canvanocheestrellada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puesta_de_sol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\puesta_de_sol2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coheteblanco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coheteblanco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondodinosaurios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondodinosaurios.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLANETAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PLANETAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vecteezy_cute-smiling-cartoon-characters-of-moon_29889836-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vecteezy_cute-smiling-cartoon-characters-of-moon_29889836-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondodinosaurios2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondodinosaurios2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girasol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girasol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nocheestrellada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nocheestrellada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondonochenocheestrellada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondonochenocheestrellada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño sin título (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vecteezy_3d-space-rocket-render-with-transparent-background_22996345" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vecteezy_3d-space-rocket-render-with-transparent-background_22996345.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saturno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saturno1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño_sin_título__4_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño_sin_título__4_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño sin título" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puesta_de_sol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\puesta_de_sol1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girasoleshorizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girasoleshorizontal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canvabarco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canvabarco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondomorado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondomorado2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tallo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nubes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondoestrellas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoestrellas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondoestrelladoazul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondoestrelladoazul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Oficial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo Oficial1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fondoestrellado3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fondoestrellado3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fondoestrellado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondoestrellado1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nocheestrelladabarco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nocheestrelladabarco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondomorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondomorado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puesta_de_sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\puesta_de_sol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondonublado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondonublado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floresblancas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floresblancas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondomorado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondomorado1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nocheestrelladanoche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nocheestrelladanoche.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondosaturno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondosaturno.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubes41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubes41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coheteblanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coheteblanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nubesoscuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nubesoscuro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girasolesabajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\girasolesabajo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño_sin_título__12_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño_sin_título__12_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
