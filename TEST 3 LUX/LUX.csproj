@@ -117,5 +117,20 @@
   <ItemGroup>
     <None Include="Resources\PAGINA_WEB-removebg-preview %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAGINA_WEB-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño_sin_título__19_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAGINA_WEB__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAGINA_WEB__3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAGINA_WEB__4_-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
