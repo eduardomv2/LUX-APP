@@ -73,8 +73,12 @@ namespace TEST_3_LUX
             this.Hide();
         }
 
+
         #endregion
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
