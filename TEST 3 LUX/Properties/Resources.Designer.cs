@@ -103,6 +103,46 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título__19__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Diseño_sin_título__19_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAGINA_WEB__2__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("PAGINA_WEB__2_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAGINA_WEB__3__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("PAGINA_WEB__3_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAGINA_WEB__4__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("PAGINA_WEB__4_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PAGINA_WEB_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("PAGINA_WEB-removebg-preview", resourceCulture);
@@ -116,6 +156,16 @@ namespace TEST_3_LUX.Properties {
         internal static System.Drawing.Bitmap PAGINA_WEB_removebg_preview__1_ {
             get {
                 object obj = ResourceManager.GetObject("PAGINA_WEB-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAGINA_WEB_removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("PAGINA_WEB-removebg-preview (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
