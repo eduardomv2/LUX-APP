@@ -80,5 +80,11 @@ namespace TEST_3_LUX
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //ABRIR GITHUB DEL PROYECTO
+            System.Diagnostics.Process.Start("https://github.com/eduardomv2/LUX-APP");
+        }
     }
 }

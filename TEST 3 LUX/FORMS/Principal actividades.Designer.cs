@@ -33,21 +33,23 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panelActividades.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblActividades
@@ -56,7 +58,7 @@
             this.lblActividades.AutoSize = true;
             this.lblActividades.BackColor = System.Drawing.Color.Transparent;
             this.lblActividades.Font = new System.Drawing.Font("Showcard Gothic", 45.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActividades.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(38)))));
+            this.lblActividades.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(38)))));
             this.lblActividades.Location = new System.Drawing.Point(505, 19);
             this.lblActividades.Name = "lblActividades";
             this.lblActividades.Size = new System.Drawing.Size(415, 76);
@@ -116,6 +118,18 @@
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.UseVisualStyleBackColor = false;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__17__removebg_preview;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Location = new System.Drawing.Point(436, 36);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(63, 52);
+            this.pictureBox7.TabIndex = 38;
+            this.pictureBox7.TabStop = false;
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.button7);
@@ -128,20 +142,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(220, 598);
             this.panel1.TabIndex = 38;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button4.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(360, 249);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(373, 329);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "PICTOGRAMAS";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -193,45 +193,18 @@
             this.button2.TabIndex = 37;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox7
+            // panel2
             // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__17__removebg_preview;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(435, 38);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(63, 52);
-            this.pictureBox7.TabIndex = 38;
-            this.pictureBox7.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button5.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(739, 249);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(208, 164);
-            this.button5.TabIndex = 39;
-            this.button5.Text = "PICTOGRAMAS";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button8.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(953, 249);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(196, 164);
-            this.button8.TabIndex = 40;
-            this.button8.Text = "PICTOGRAMAS";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.UseVisualStyleBackColor = false;
+            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.button10);
+            this.panel2.Controls.Add(this.button8);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(220, 127);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1080, 598);
+            this.panel2.TabIndex = 42;
             // 
             // button9
             // 
@@ -239,10 +212,10 @@
             this.button9.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(953, 419);
+            this.button9.Location = new System.Drawing.Point(739, 305);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(196, 159);
-            this.button9.TabIndex = 42;
+            this.button9.TabIndex = 47;
             this.button9.Text = "PICTOGRAMAS";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.UseVisualStyleBackColor = false;
@@ -253,13 +226,56 @@
             this.button10.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(739, 419);
+            this.button10.Location = new System.Drawing.Point(525, 305);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(208, 159);
-            this.button10.TabIndex = 41;
+            this.button10.TabIndex = 46;
             this.button10.Text = "PICTOGRAMAS";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button8.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(739, 135);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(196, 164);
+            this.button8.TabIndex = 45;
+            this.button8.Text = "PICTOGRAMAS";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button5.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(525, 135);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(208, 164);
+            this.button5.TabIndex = 44;
+            this.button5.Text = "PICTOGRAMAS";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Font = new System.Drawing.Font("This Cafe", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(146, 135);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(373, 329);
+            this.button4.TabIndex = 43;
+            this.button4.Text = "PICTOGRAMAS";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // Principal_actividades
             // 
@@ -267,11 +283,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(218)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(1300, 725);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelActividades);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -280,8 +292,9 @@
             this.Text = "Principal_actividades";
             this.panelActividades.ResumeLayout(false);
             this.panelActividades.PerformLayout();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -289,7 +302,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblActividades;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panelActividades;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -301,9 +313,11 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }
