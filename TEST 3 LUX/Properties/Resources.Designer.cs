@@ -73,6 +73,56 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título__16_ {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título (16)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título__17__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Diseño_sin_título__17_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título__18_ {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título (18)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAGINA_WEB_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("PAGINA_WEB-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAGINA_WEB_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("PAGINA_WEB-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pencils_2782840_640 {
             get {
                 object obj = ResourceManager.GetObject("pencils-2782840_640", resourceCulture);
