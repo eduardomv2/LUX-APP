@@ -65,7 +65,7 @@
             this.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(318, 725);
+            this.MenuPanel.Size = new System.Drawing.Size(312, 725);
             this.MenuPanel.TabIndex = 3;
             // 
             // linkLabelLUX
@@ -125,7 +125,7 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(318, 256);
+            this.panelLogo.Size = new System.Drawing.Size(312, 256);
             this.panelLogo.TabIndex = 3;
             // 
             // lblLogo
@@ -192,7 +192,7 @@
             this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActividades.Location = new System.Drawing.Point(3, 3);
             this.btnActividades.Name = "btnActividades";
-            this.btnActividades.Size = new System.Drawing.Size(246, 203);
+            this.btnActividades.Size = new System.Drawing.Size(249, 203);
             this.btnActividades.TabIndex = 5;
             this.btnActividades.UseVisualStyleBackColor = false;
             this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click);
@@ -208,7 +208,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(3, 212);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(246, 203);
+            this.button4.Size = new System.Drawing.Size(249, 203);
             this.button4.TabIndex = 8;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -221,9 +221,9 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(255, 212);
+            this.button3.Location = new System.Drawing.Point(258, 212);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(246, 203);
+            this.button3.Size = new System.Drawing.Size(249, 203);
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -236,9 +236,9 @@
             this.btnHorario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHorario.FlatAppearance.BorderSize = 0;
             this.btnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHorario.Location = new System.Drawing.Point(255, 3);
+            this.btnHorario.Location = new System.Drawing.Point(258, 3);
             this.btnHorario.Name = "btnHorario";
-            this.btnHorario.Size = new System.Drawing.Size(246, 203);
+            this.btnHorario.Size = new System.Drawing.Size(249, 203);
             this.btnHorario.TabIndex = 9;
             this.btnHorario.UseVisualStyleBackColor = false;
             this.btnHorario.Click += new System.EventHandler(this.btnHorario_Click);
@@ -263,7 +263,7 @@
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlpBotones.Size = new System.Drawing.Size(504, 418);
+            this.tlpBotones.Size = new System.Drawing.Size(510, 418);
             this.tlpBotones.TabIndex = 10;
             // 
             // btnMinimizar
@@ -310,12 +310,12 @@
             // 
             // panelPrincipal
             // 
-            this.panelPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panelPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panelPrincipal.Controls.Add(this.tlpBotones);
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelPrincipal.Location = new System.Drawing.Point(318, 0);
+            this.panelPrincipal.Location = new System.Drawing.Point(312, 0);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(982, 725);
+            this.panelPrincipal.Size = new System.Drawing.Size(988, 725);
             this.panelPrincipal.TabIndex = 11;
             // 
             // Principal

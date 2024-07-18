@@ -58,7 +58,7 @@
             this.lblActividades.AutoSize = true;
             this.lblActividades.BackColor = System.Drawing.Color.Transparent;
             this.lblActividades.Font = new System.Drawing.Font("Showcard Gothic", 45.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActividades.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(38)))));
+            this.lblActividades.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(210)))), ((int)(((byte)(38)))));
             this.lblActividades.Location = new System.Drawing.Point(505, 19);
             this.lblActividades.Name = "lblActividades";
             this.lblActividades.Size = new System.Drawing.Size(415, 76);
@@ -124,7 +124,7 @@
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__17__removebg_preview;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(435, 38);
+            this.pictureBox7.Location = new System.Drawing.Point(436, 36);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(63, 52);
             this.pictureBox7.TabIndex = 38;
