@@ -31,5 +31,24 @@ namespace TEST_3_LUX.FORMS
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            //Maximizar y restaurar
+            //Maximizar y restaurar ventana
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
     }
 }
