@@ -33,8 +33,13 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.lblDerechosReservados = new System.Windows.Forms.Label();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblLogo = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnActividades = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnComunicacion = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
@@ -42,15 +47,10 @@
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.panelPrincipal = new System.Windows.Forms.Panel();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblLogo = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.MenuPanel.SuspendLayout();
-            this.tlpBotones.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tlpBotones.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuPanel
@@ -101,14 +101,78 @@
             // 
             this.lblDerechosReservados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDerechosReservados.AutoSize = true;
-            this.lblDerechosReservados.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDerechosReservados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDerechosReservados.ForeColor = System.Drawing.Color.Black;
             this.lblDerechosReservados.Location = new System.Drawing.Point(101, 702);
             this.lblDerechosReservados.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDerechosReservados.Name = "lblDerechosReservados";
-            this.lblDerechosReservados.Size = new System.Drawing.Size(141, 14);
+            this.lblDerechosReservados.Size = new System.Drawing.Size(163, 15);
             this.lblDerechosReservados.TabIndex = 3;
             this.lblDerechosReservados.Text = "Derechos Reservados @Lux";
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__18_;
+            this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Controls.Add(this.lblLogo);
+            this.panelLogo.Controls.Add(this.pictureBox1);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(307, 273);
+            this.panelLogo.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(-3, 260);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(355, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "__________________________________________________________";
+            // 
+            // lblLogo
+            // 
+            this.lblLogo.AutoSize = true;
+            this.lblLogo.BackColor = System.Drawing.Color.Black;
+            this.lblLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.ForeColor = System.Drawing.Color.White;
+            this.lblLogo.Location = new System.Drawing.Point(180, 118);
+            this.lblLogo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblLogo.Name = "lblLogo";
+            this.lblLogo.Size = new System.Drawing.Size(157, 73);
+            this.lblLogo.TabIndex = 1;
+            this.lblLogo.Text = "LUX";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(44, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(217, 220);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::TEST_3_LUX.Properties.Resources.PAGINA_WEB_removebg_preview__1_;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(0, 385);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(260, 60);
+            this.button1.TabIndex = 11;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // btnActividades
             // 
@@ -126,20 +190,21 @@
             this.btnActividades.UseVisualStyleBackColor = false;
             this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click);
             // 
-            // button4
+            // btnComunicacion
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnComunicacion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(3, 212);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(254, 203);
-            this.button4.TabIndex = 8;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnComunicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnComunicacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnComunicacion.FlatAppearance.BorderSize = 0;
+            this.btnComunicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComunicacion.Location = new System.Drawing.Point(3, 212);
+            this.btnComunicacion.Name = "btnComunicacion";
+            this.btnComunicacion.Size = new System.Drawing.Size(254, 203);
+            this.btnComunicacion.TabIndex = 8;
+            this.btnComunicacion.UseVisualStyleBackColor = false;
+            this.btnComunicacion.Click += new System.EventHandler(this.btnComunicacion_Click);
             // 
             // button3
             // 
@@ -181,7 +246,7 @@
             this.tlpBotones.ColumnCount = 2;
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlpBotones.Controls.Add(this.button4, 0, 1);
+            this.tlpBotones.Controls.Add(this.btnComunicacion, 0, 1);
             this.tlpBotones.Controls.Add(this.button3, 1, 1);
             this.tlpBotones.Controls.Add(this.btnHorario, 1, 0);
             this.tlpBotones.Controls.Add(this.btnActividades, 0, 0);
@@ -246,70 +311,6 @@
             this.panelPrincipal.Size = new System.Drawing.Size(993, 725);
             this.panelPrincipal.TabIndex = 11;
             // 
-            // panelLogo
-            // 
-            this.panelLogo.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__18_;
-            this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelLogo.Controls.Add(this.label1);
-            this.panelLogo.Controls.Add(this.lblLogo);
-            this.panelLogo.Controls.Add(this.pictureBox1);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(307, 273);
-            this.panelLogo.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(-3, 260);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(355, 13);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "__________________________________________________________";
-            // 
-            // lblLogo
-            // 
-            this.lblLogo.AutoSize = true;
-            this.lblLogo.BackColor = System.Drawing.Color.Black;
-            this.lblLogo.Font = new System.Drawing.Font("Bernard MT Condensed", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogo.ForeColor = System.Drawing.Color.White;
-            this.lblLogo.Location = new System.Drawing.Point(180, 118);
-            this.lblLogo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(117, 76);
-            this.lblLogo.TabIndex = 1;
-            this.lblLogo.Text = "LUX";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(44, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(217, 220);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::TEST_3_LUX.Properties.Resources.PAGINA_WEB_removebg_preview__1_;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(0, 385);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(260, 60);
-            this.button1.TabIndex = 11;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -330,10 +331,10 @@
             this.Load += new System.EventHandler(this.Principal_Load);
             this.MenuPanel.ResumeLayout(false);
             this.MenuPanel.PerformLayout();
-            this.tlpBotones.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tlpBotones.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -343,7 +344,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel MenuPanel;
         private System.Windows.Forms.Button btnActividades;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnComunicacion;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.TableLayoutPanel tlpBotones;

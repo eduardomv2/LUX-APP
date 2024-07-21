@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
+using TEST_3_LUX.FORMS.Comunicacion;
 
 namespace TEST_3_LUX
 {
@@ -74,11 +75,18 @@ namespace TEST_3_LUX
         }
 
 
+        private void btnComunicacion_Click(object sender, EventArgs e)
+        {
+            Comunica com = new ComunicacionPrincipal(this);
+            com.Show();
+            this.Hide();
+        }
         #endregion
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }
+
     }
 }
