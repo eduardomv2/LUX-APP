@@ -33,20 +33,21 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelActividades.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // lblActividades
@@ -117,10 +118,23 @@
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.UseVisualStyleBackColor = false;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__17__removebg_preview;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Location = new System.Drawing.Point(436, 36);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(63, 52);
+            this.pictureBox7.TabIndex = 38;
+            this.pictureBox7.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(182)))), ((int)(((byte)(255)))));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.button5);
@@ -133,6 +147,23 @@
             this.panel2.Size = new System.Drawing.Size(1100, 600);
             this.panel2.TabIndex = 42;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__25__removebg_preview;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("This Cafe", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(821, 112);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(191, 193);
+            this.button3.TabIndex = 50;
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
@@ -179,21 +210,6 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button10.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(63, 112);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(190, 162);
-            this.button10.TabIndex = 46;
-            this.button10.Text = "PICTOGRAMAS";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button10.UseVisualStyleBackColor = false;
-            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Transparent;
@@ -210,6 +226,21 @@
             this.button4.TabIndex = 43;
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button10.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__16_;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(63, 112);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(190, 162);
+            this.button10.TabIndex = 46;
+            this.button10.Text = "PICTOGRAMAS";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button10.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -235,34 +266,14 @@
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // pictureBox7
+            // label1
             // 
-            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__17__removebg_preview;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(436, 36);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(63, 52);
-            this.pictureBox7.TabIndex = 38;
-            this.pictureBox7.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__25__removebg_preview;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("This Cafe", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(821, 112);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(191, 193);
-            this.button3.TabIndex = 50;
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = false;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(407, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.TabIndex = 51;
+            this.label1.Text = "test de ramas";
             // 
             // Principal_actividades
             // 
@@ -279,9 +290,10 @@
             this.Text = "Principal_actividades";
             this.panelActividades.ResumeLayout(false);
             this.panelActividades.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -303,5 +315,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
     }
 }
