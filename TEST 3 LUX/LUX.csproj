@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FORMS\Comunicacion\ComunicacionPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\ComunicacionPrincipal.Designer.cs">
+      <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonRojo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonVerde.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="FORMS\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS\Comunicacion\ComunicacionPrincipal.resx">
+      <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Principal actividades.resx">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +91,10 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\Resources\Comunicacion\Temas de charla\TemaAmarillo.csv" />
+    <None Include="bin\Debug\Resources\Comunicacion\Temas de charla\TemaRojo.csv" />
+    <None Include="bin\Debug\Resources\Comunicacion\Temas de charla\TemaVerde.csv" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -155,6 +178,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Diseño_sin_título__25_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaAmarillo.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaRojo.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaVerde.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\ola.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\path191.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975917.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975918.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975924.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455855-cartoon-cloud-wallpaper-1265817-desktop-background.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455856-akatsuki-cloud.jpg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455863-robin-hulsey-on-clipart-cartoon-clouds-animal-kids-room-pink-wallpaper-iphone.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455870-cartoon-clouds-wallpaper.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455875-fluffy-clouds-cartoon-wallpaper-mural.jpg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455909-cartoon-clouds-png-png-collections-at-s.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\9692779-full-moon-wallpaper-4k-aesthetic.jpg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\enrico-fumagalli-3O_sks7uyjI-unsplash.jpg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\sinMarca.png" />
+    <Content Include="bin\Debug\Resources\temaAmarillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FORMS\Comunicacion\Menus secundarios\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
