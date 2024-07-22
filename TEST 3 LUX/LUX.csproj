@@ -191,16 +191,6 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455855-cartoon-cloud-wallpaper-1265817-desktop-background.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455856-akatsuki-cloud.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455863-robin-hulsey-on-clipart-cartoon-clouds-animal-kids-room-pink-wallpaper-iphone.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455870-cartoon-clouds-wallpaper.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455875-fluffy-clouds-cartoon-wallpaper-mural.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\455909-cartoon-clouds-png-png-collections-at-s.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\9692779-full-moon-wallpaper-4k-aesthetic.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\enrico-fumagalli-3O_sks7uyjI-unsplash.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\sinMarca.png" />
-    <Content Include="bin\Debug\Resources\temaAmarillo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FORMS\Comunicacion\Menus secundarios\" />

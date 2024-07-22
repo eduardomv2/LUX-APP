@@ -27,6 +27,12 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.Location = main.Location;
             this.WindowState = main.WindowState;
             this.FormPrincipal = main;
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void ComunicacionPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
 
         #region CABECERA DE VENTANA
@@ -88,11 +94,13 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             tableLayoutPanel1.Controls.Clear();
             tableLayoutPanel1.RowStyles.Clear();
             tableLayoutPanel1.ColumnStyles.Clear();
-            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnCount = 5;
             tableLayoutPanel1.RowCount = 0;
 
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            for (int i = 0; i < 5; i++)
+            {
+                tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            }
 
             try
             {
@@ -139,11 +147,13 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             tableLayoutPanel1.ResumeLayout();
         }
 
+
         #endregion
 
-        private void ComunicacionPrincipal_Load(object sender, EventArgs e)
+        private void btnRetroceder_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            FormPrincipal.Show();
         }
     }
 }
