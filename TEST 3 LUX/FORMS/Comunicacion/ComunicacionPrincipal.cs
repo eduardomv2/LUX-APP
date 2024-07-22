@@ -43,7 +43,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
-            //Maximizar y restaurar ventana
+            //Maximizar y restaurar ventana .
             if (this.WindowState == FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
