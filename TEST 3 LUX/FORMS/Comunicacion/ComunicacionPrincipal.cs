@@ -38,7 +38,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         #region CABECERA DE VENTANA
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();//.
             FormPrincipal.Show();
         }
 
