@@ -191,6 +191,20 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\Diseño sin título %2840%29.png" />
+    <None Include="Resources\Diseño sin título %2839%29.png" />
+    <None Include="Resources\Diseño sin título %2838%29.png" />
+    <None Include="Resources\Diseño sin título %2837%29.png" />
+    <None Include="Resources\Diseño sin título %2836%29.png" />
+    <None Include="Resources\Diseño sin título %2835%29.png" />
+    <None Include="Resources\Diseño sin título %2834%29.png" />
+    <None Include="Resources\Diseño sin título %2832%29.png" />
+    <None Include="Resources\Diseño sin título %2831%29.png" />
+    <None Include="Resources\Diseño sin título %2830%29.png" />
+    <None Include="Resources\Diseño sin título %2829%29.png" />
+    <None Include="Resources\Diseño sin título %2828%29.png" />
+    <None Include="Resources\Diseño sin título %2827%29.png" />
+    <None Include="Resources\Diseño sin título %2826%29.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FORMS\Comunicacion\Menus secundarios\" />
