@@ -42,7 +42,6 @@
             this.btnTablaPictograma = new System.Windows.Forms.Button();
             this.btnRetroceder = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.tlpBotonesTemas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIncomodidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTranquilidad)).BeginInit();
@@ -112,7 +111,7 @@
             this.tlpBotonesTemas.Controls.Add(this.btnTemaAmarillo, 0, 0);
             this.tlpBotonesTemas.Controls.Add(this.btnTemaVerde, 2, 0);
             this.tlpBotonesTemas.Controls.Add(this.btnTemaRojo, 1, 0);
-            this.tlpBotonesTemas.Location = new System.Drawing.Point(344, 369);
+            this.tlpBotonesTemas.Location = new System.Drawing.Point(343, 304);
             this.tlpBotonesTemas.Name = "tlpBotonesTemas";
             this.tlpBotonesTemas.RowCount = 1;
             this.tlpBotonesTemas.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -129,7 +128,7 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(379, 462);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(378, 397);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -142,9 +141,9 @@
             this.pbIncomodidad.BackColor = System.Drawing.Color.Transparent;
             this.pbIncomodidad.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbIncomodidad.BackgroundImage")));
             this.pbIncomodidad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbIncomodidad.Location = new System.Drawing.Point(359, 174);
+            this.pbIncomodidad.Location = new System.Drawing.Point(366, 174);
             this.pbIncomodidad.Name = "pbIncomodidad";
-            this.pbIncomodidad.Size = new System.Drawing.Size(345, 209);
+            this.pbIncomodidad.Size = new System.Drawing.Size(177, 144);
             this.pbIncomodidad.TabIndex = 11;
             this.pbIncomodidad.TabStop = false;
             // 
@@ -154,9 +153,9 @@
             this.pbTranquilidad.BackColor = System.Drawing.Color.Transparent;
             this.pbTranquilidad.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbTranquilidad.BackgroundImage")));
             this.pbTranquilidad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbTranquilidad.Location = new System.Drawing.Point(637, 177);
+            this.pbTranquilidad.Location = new System.Drawing.Point(803, 174);
             this.pbTranquilidad.Name = "pbTranquilidad";
-            this.pbTranquilidad.Size = new System.Drawing.Size(342, 209);
+            this.pbTranquilidad.Size = new System.Drawing.Size(177, 144);
             this.pbTranquilidad.TabIndex = 13;
             this.pbTranquilidad.TabStop = false;
             // 
@@ -167,9 +166,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(528, 185);
+            this.pictureBox2.Location = new System.Drawing.Point(584, 174);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(336, 217);
+            this.pictureBox2.Size = new System.Drawing.Size(177, 144);
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
@@ -260,6 +259,5 @@
         private System.Windows.Forms.Button btnTablaPictograma;
         private System.Windows.Forms.Button btnRetroceder;
         private System.Windows.Forms.Button button1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }

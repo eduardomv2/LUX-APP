@@ -36,11 +36,30 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         }
 
         #region CABECERA DE VENTANA
-        private void btnRetroceder_Click(object sender, EventArgs e)
+        private void btnMinimizar_Click(object sender, EventArgs e)
         {
-            this.Close();//.
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            //Maximizar y restaurar ventana .
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
             FormPrincipal.Show();
         }
+
 
         #endregion
 
@@ -131,6 +150,10 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
 
         #endregion
 
-      
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormPrincipal.Show();
+        }
     }
 }
