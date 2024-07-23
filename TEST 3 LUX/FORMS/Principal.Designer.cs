@@ -39,7 +39,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnActividades = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnComunicacion = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
@@ -72,11 +72,11 @@
             // 
             this.linkLabelLUX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.linkLabelLUX.AutoSize = true;
-            this.linkLabelLUX.Font = new System.Drawing.Font("HP Simplified", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelLUX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelLUX.LinkColor = System.Drawing.Color.Black;
             this.linkLabelLUX.Location = new System.Drawing.Point(83, 702);
             this.linkLabelLUX.Name = "linkLabelLUX";
-            this.linkLabelLUX.Size = new System.Drawing.Size(141, 14);
+            this.linkLabelLUX.Size = new System.Drawing.Size(163, 15);
             this.linkLabelLUX.TabIndex = 13;
             this.linkLabelLUX.TabStop = true;
             this.linkLabelLUX.Text = "Derechos Reservados @Lux";
@@ -197,20 +197,21 @@
             this.btnActividades.UseVisualStyleBackColor = false;
             this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click);
             // 
-            // button4
+            // btnComunicacion
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnComunicacion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(3, 212);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(249, 203);
-            this.button4.TabIndex = 8;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnComunicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnComunicacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnComunicacion.FlatAppearance.BorderSize = 0;
+            this.btnComunicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComunicacion.Location = new System.Drawing.Point(3, 212);
+            this.btnComunicacion.Name = "btnComunicacion";
+            this.btnComunicacion.Size = new System.Drawing.Size(249, 203);
+            this.btnComunicacion.TabIndex = 8;
+            this.btnComunicacion.UseVisualStyleBackColor = false;
+            this.btnComunicacion.Click += new System.EventHandler(this.btnComunicacion_Click);
             // 
             // button3
             // 
@@ -252,7 +253,7 @@
             this.tlpBotones.ColumnCount = 2;
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlpBotones.Controls.Add(this.button4, 0, 1);
+            this.tlpBotones.Controls.Add(this.btnComunicacion, 0, 1);
             this.tlpBotones.Controls.Add(this.button3, 1, 1);
             this.tlpBotones.Controls.Add(this.btnHorario, 1, 0);
             this.tlpBotones.Controls.Add(this.btnActividades, 0, 0);
@@ -317,6 +318,7 @@
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(988, 725);
             this.panelPrincipal.TabIndex = 11;
+            this.panelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
             // 
             // Principal
             // 
@@ -351,7 +353,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel MenuPanel;
         private System.Windows.Forms.Button btnActividades;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnComunicacion;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.TableLayoutPanel tlpBotones;

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
+using TEST_3_LUX.FORMS.Comunicacion3;
 
 namespace TEST_3_LUX
 {
@@ -73,7 +74,12 @@ namespace TEST_3_LUX
             this.Hide();
         }
 
-
+        private void btnComunicacion_Click(object sender, EventArgs e)
+        {
+            ComunicacionPrincipal com = new ComunicacionPrincipal(this);
+            com.Show();
+            this.Hide();
+        }
         #endregion
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -86,5 +92,12 @@ namespace TEST_3_LUX
             //ABRIR GITHUB DEL PROYECTO
             System.Diagnostics.Process.Start("https://github.com/eduardomv2/LUX-APP");
         }
+
+        private void panelPrincipal_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+   
     }
 }
