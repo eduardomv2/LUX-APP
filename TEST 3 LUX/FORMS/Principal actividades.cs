@@ -50,5 +50,10 @@ namespace TEST_3_LUX.FORMS
                 this.WindowState = FormWindowState.Normal;
             }
         }
+
+        private void panelActividadesBotones_Paint(object sender, PaintEventArgs e)
+        {
+            panelActividadesBotones.BackColor = Color.FromArgb(128, 0, 0, 0);
+        }
     }
 }
