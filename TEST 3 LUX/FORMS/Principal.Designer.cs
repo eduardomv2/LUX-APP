@@ -95,7 +95,7 @@
             this.button5.ForeColor = System.Drawing.Color.Transparent;
             this.button5.Location = new System.Drawing.Point(0, 509);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(280, 60);
+            this.button5.Size = new System.Drawing.Size(289, 60);
             this.button5.TabIndex = 12;
             this.button5.UseVisualStyleBackColor = false;
             // 
@@ -190,7 +190,7 @@
             this.btnActividades.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActividades.FlatAppearance.BorderSize = 0;
             this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActividades.Location = new System.Drawing.Point(3, 3);
+            this.btnActividades.Location = new System.Drawing.Point(258, 3);
             this.btnActividades.Name = "btnActividades";
             this.btnActividades.Size = new System.Drawing.Size(249, 203);
             this.btnActividades.TabIndex = 5;
@@ -206,7 +206,7 @@
             this.btnComunicacion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnComunicacion.FlatAppearance.BorderSize = 0;
             this.btnComunicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComunicacion.Location = new System.Drawing.Point(3, 212);
+            this.btnComunicacion.Location = new System.Drawing.Point(3, 3);
             this.btnComunicacion.Name = "btnComunicacion";
             this.btnComunicacion.Size = new System.Drawing.Size(249, 203);
             this.btnComunicacion.TabIndex = 8;
@@ -237,7 +237,7 @@
             this.btnHorario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHorario.FlatAppearance.BorderSize = 0;
             this.btnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHorario.Location = new System.Drawing.Point(258, 3);
+            this.btnHorario.Location = new System.Drawing.Point(3, 212);
             this.btnHorario.Name = "btnHorario";
             this.btnHorario.Size = new System.Drawing.Size(249, 203);
             this.btnHorario.TabIndex = 9;
@@ -253,10 +253,10 @@
             this.tlpBotones.ColumnCount = 2;
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlpBotones.Controls.Add(this.btnComunicacion, 0, 1);
+            this.tlpBotones.Controls.Add(this.btnComunicacion, 0, 0);
+            this.tlpBotones.Controls.Add(this.btnHorario, 0, 1);
             this.tlpBotones.Controls.Add(this.button3, 1, 1);
-            this.tlpBotones.Controls.Add(this.btnHorario, 1, 0);
-            this.tlpBotones.Controls.Add(this.btnActividades, 0, 0);
+            this.tlpBotones.Controls.Add(this.btnActividades, 1, 0);
             this.tlpBotones.Location = new System.Drawing.Point(282, 168);
             this.tlpBotones.Name = "tlpBotones";
             this.tlpBotones.RowCount = 2;
