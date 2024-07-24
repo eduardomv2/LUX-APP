@@ -229,6 +229,12 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Emociones\triste.png" />
+    <None Include="Resources\DibujarActividades.png" />
+    <None Include="Resources\TecladoActividades.png" />
+    <None Include="Resources\PictogramasActividades.png" />
+    <None Include="Resources\RetrocederActividades.png" />
+    <None Include="Resources\PanelSuperiorActividades.png" />
+    <None Include="Resources\FondodeActividades.png" />
     <None Include="Resources\Diseño sin título %2840%29.png" />
     <None Include="Resources\Diseño sin título %2839%29.png" />
     <None Include="Resources\Diseño sin título %2838%29.png" />

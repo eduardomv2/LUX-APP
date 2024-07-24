@@ -73,6 +73,16 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DibujarActividades {
+            get {
+                object obj = ResourceManager.GetObject("DibujarActividades", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Diseño_sin_título__16_ {
             get {
                 object obj = ResourceManager.GetObject("Diseño sin título (16)", resourceCulture);
@@ -323,6 +333,16 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FondodeActividades {
+            get {
+                object obj = ResourceManager.GetObject("FondodeActividades", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PAGINA_WEB__2__removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("PAGINA_WEB__2_-removebg-preview", resourceCulture);
@@ -383,6 +403,16 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PanelSuperiorActividades {
+            get {
+                object obj = ResourceManager.GetObject("PanelSuperiorActividades", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pencils_2782840_640 {
             get {
                 object obj = ResourceManager.GetObject("pencils-2782840_640", resourceCulture);
@@ -393,9 +423,39 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PictogramasActividades {
+            get {
+                object obj = ResourceManager.GetObject("PictogramasActividades", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RetrocederActividades {
+            get {
+                object obj = ResourceManager.GetObject("RetrocederActividades", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tallo {
             get {
                 object obj = ResourceManager.GetObject("tallo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TecladoActividades {
+            get {
+                object obj = ResourceManager.GetObject("TecladoActividades", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
