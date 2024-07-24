@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FORMS\Actividades\DibujarActividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Actividades\DibujarActividades.Designer.cs">
+      <DependentUpon>DibujarActividades.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,18 +74,21 @@
     <Compile Include="FORMS\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Principal actividades.cs">
+    <Compile Include="FORMS\Actividades\Principal actividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Principal actividades.Designer.cs">
+    <Compile Include="FORMS\Actividades\Principal actividades.Designer.cs">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS\Actividades\DibujarActividades.resx">
+      <DependentUpon>DibujarActividades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Principal actividades.resx">
+    <EmbeddedResource Include="FORMS\Actividades\Principal actividades.resx">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Principal.resx">
@@ -191,6 +200,44 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\FELI.png" />
+    <None Include="Resources\Diseño sin título %2858%29.png" />
+    <None Include="Resources\Diseño sin título %2856%29.png" />
+    <None Include="Resources\36257_500.png" />
+    <None Include="Resources\Diseño_sin_título__55_-removebg-preview.png" />
+    <None Include="Resources\Diseño sin título %2853%29.png" />
+    <None Include="Resources\Baby Taylor Finn %2811%29.png" />
+    <None Include="Resources\Baby Taylor Finn %2810%29.png" />
+    <None Include="Resources\Baby Taylor Finn %289%29.png" />
+    <None Include="Resources\Diseño sin título %2851%29.png" />
+    <None Include="Resources\Diseño sin título %2850%29.png" />
+    <None Include="Resources\Diseño sin título %2849%29.png" />
+    <None Include="Resources\Diseño sin título %2848%29.png" />
+    <None Include="Resources\Diseño sin título %2847%29.png" />
+    <None Include="Resources\Baby Taylor Finn %288%29.png" />
+    <None Include="Resources\Baby Taylor Finn %286%29.png" />
+    <None Include="Resources\Diseño sin título %2846%29.png" />
+    <None Include="Resources\LUX %281%29.png" />
+    <None Include="Resources\Baby Taylor Finn %285%29.png" />
+    <None Include="Resources\Baby Taylor Finn %282%291.png" />
+    <None Include="Resources\Baby Taylor Finn %283%29.png" />
+    <None Include="Resources\Baby Taylor Finn %284%29.png" />
+    <None Include="Resources\Baby Taylor Finn %282%29.png" />
+    <None Include="Resources\LUX.png" />
+    <None Include="Resources\Baby Taylor Finn %281%29.png" />
+    <None Include="Resources\Diseño sin título %2845%29.png" />
+    <None Include="Resources\Dibujar %283%29.png" />
+    <None Include="Resources\Diseño sin título %2844%29.png" />
+    <None Include="Resources\Diseño sin título %2843%29.png" />
+    <None Include="Resources\Dibujar %282%29.png" />
+    <None Include="Resources\Dibujar %281%29.png" />
+    <None Include="Resources\Dibujar.png" />
+    <None Include="Resources\Baby Taylor Finn.png" />
+    <None Include="Resources\Game On %282%29.png" />
+    <None Include="Resources\Game On %281%29.png" />
+    <None Include="Resources\Game On.png" />
+    <None Include="Resources\Diseño sin título %2842%29.png" />
+    <None Include="Resources\Diseño sin título %2841%29.png" />
     <None Include="Resources\Diseño sin título %2840%29.png" />
     <None Include="Resources\Diseño sin título %2839%29.png" />
     <None Include="Resources\Diseño sin título %2838%29.png" />
