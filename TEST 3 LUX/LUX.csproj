@@ -62,6 +62,18 @@
     <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonVerde.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionPictogramas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionPictogramas.Designer.cs">
+      <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.Designer.cs">
+      <DependentUpon>ComunicacionTTS.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMS\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Comunicacion\Menus secundarios\ComunicacionPictogramas.resx">
+      <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.resx">
+      <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Principal actividades.resx">
       <DependentUpon>Principal actividades.cs</DependentUpon>
@@ -180,6 +198,25 @@
     <None Include="Resources\Diseño_sin_título__25_-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\alivio.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\asustado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\confundido %281%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\confundido.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\conmocionado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento %281%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento %282%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\decepcionado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\emocionado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enamorado %281%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enamorado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %281%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %282%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %283%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\preocupado %281%29.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\preocupado.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\sorprendido.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaAmarillo.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaRojo.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaVerde.png" />
@@ -191,6 +228,7 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\triste.png" />
     <None Include="Resources\Diseño sin título %2840%29.png" />
     <None Include="Resources\Diseño sin título %2839%29.png" />
     <None Include="Resources\Diseño sin título %2838%29.png" />
@@ -206,8 +244,6 @@
     <None Include="Resources\Diseño sin título %2827%29.png" />
     <None Include="Resources\Diseño sin título %2826%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FORMS\Comunicacion\Menus secundarios\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
