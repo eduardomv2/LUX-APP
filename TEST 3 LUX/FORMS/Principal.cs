@@ -20,7 +20,8 @@ namespace TEST_3_LUX
         public Principal()
         {
             InitializeComponent();
-           
+            panel2.Visible = false;
+
         }
   
         private void Principal_Load(object sender, EventArgs e)
@@ -66,20 +67,18 @@ namespace TEST_3_LUX
 
         }
 
+
         private void btnActividades_Click(object sender, EventArgs e)
         {
-            //Abrir formulario de actividades
-            Principal_actividades act = new Principal_actividades();
-            act.Show();
-            this.Hide();
+           
         }
 
         private void btnComunicacion_Click(object sender, EventArgs e)
         {
-            ComunicacionPrincipal com = new ComunicacionPrincipal(this);
-            com.Show();
-            this.Hide();
+           
         }
+
+
         #endregion
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -87,17 +86,44 @@ namespace TEST_3_LUX
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            //ABRIR GITHUB DEL PROYECTO
-            System.Diagnostics.Process.Start("https://github.com/eduardomv2/LUX-APP");
-        }
+        
 
         private void panelPrincipal_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-   
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            // Alternar la visibilidad de panel2
+            panel2.Visible = !panel2.Visible;
+        }
+
+        private void btnActividades_Click_1(object sender, EventArgs e)
+        {
+            Principal_actividades act = new Principal_actividades();
+            act.Show();
+            this.Hide();
+        }
+
+        private void btnComunicacion_Click_1(object sender, EventArgs e)
+        {
+            ComunicacionPrincipal com = new ComunicacionPrincipal(this);
+            com.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //FUNCION PROVICIONAL HASTA TENER AL MENOS UN PROTOTIPO DE LA PAG
+
+            //ABRIR GITHUB DEL PROYECTO
+            System.Diagnostics.Process.Start("https://github.com/eduardomv2/LUX-APP");
+        }
     }
 }

@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FORMS\Actividades\DibujarActividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Actividades\DibujarActividades.Designer.cs">
+      <DependentUpon>DibujarActividades.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,14 +86,17 @@
     <Compile Include="FORMS\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Principal actividades.cs">
+    <Compile Include="FORMS\Actividades\Principal actividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Principal actividades.Designer.cs">
+    <Compile Include="FORMS\Actividades\Principal actividades.Designer.cs">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS\Actividades\DibujarActividades.resx">
+      <DependentUpon>DibujarActividades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,7 +106,7 @@
     <EmbeddedResource Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.resx">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Principal actividades.resx">
+    <EmbeddedResource Include="FORMS\Actividades\Principal actividades.resx">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Principal.resx">
@@ -229,6 +238,55 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Emociones\triste.png" />
+    <None Include="Resources\Agregar un título %283%29.png" />
+    <None Include="Resources\Diseño sin título %2864%29.png" />
+    <None Include="Resources\Diseño sin título %2863%29.png" />
+    <None Include="Resources\Diseño sin título %2862%29.png" />
+    <None Include="Resources\Diseño sin título %2861%29.png" />
+    <None Include="Resources\EndeavourOS-Apollo1.png" />
+    <None Include="Resources\Apollo-flight1.jpg" />
+    <None Include="Resources\Apollo-rocket1.png" />
+    <None Include="Resources\SaturnV-21.png" />
+    <None Include="Resources\Orion_sky_dark1.png" />
+    <None Include="Resources\Orion-sky-ARM1.png" />
+    <None Include="Resources\Agregar un título %282%29.png" />
+    <None Include="Resources\Agregar un título %281%29.png" />
+    <None Include="Resources\Agregar un título.png" />
+    <None Include="Resources\DiseñoRetroceder.png" />
+    <None Include="Resources\Diseño sin título %2860%29.png" />
+    <None Include="Resources\DiseñoTeclado.png" />
+    <None Include="Resources\Diseño sin título %2859%29.png" />
+    <None Include="Resources\Diseño sin título %2857%29.png" />
+    <None Include="Resources\WhatsApp Image 2024-07-25 at 4.12.37 PM.jpeg" />
+    <None Include="Resources\WhatsApp Image 2024-07-25 at 4.12.37 PM %281%29.jpeg" />
+    <None Include="Resources\holaaa.jpg" />
+    <None Include="Resources\EndeavourOS-Apollo.png" />
+    <None Include="Resources\Apollo-flight.jpg" />
+    <None Include="Resources\Apollo-rocket.png" />
+    <None Include="Resources\SaturnV-2.png" />
+    <None Include="Resources\Orion_sky_dark.png" />
+    <None Include="Resources\Orion-sky-ARM.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\Diseño sin título %2849%291.png" />
+    <None Include="Resources\DiseñoDibujar21.png" />
+    <None Include="Resources\DiseñoDibujar31.png" />
+    <None Include="Resources\DiseñoDibujar41.png" />
+    <None Include="Resources\Diseño sin título %2850%291.png" />
+    <None Include="Resources\Diseño sin título %2851%29.png" />
+    <None Include="Resources\Diseño sin título %2850%29.png" />
+    <None Include="Resources\DiseñoDibujar4.png" />
+    <None Include="Resources\DiseñoDibujar3.png" />
+    <None Include="Resources\DiseñoDibujar2.png" />
+    <None Include="Resources\Diseño sin título %2849%29.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\circle.png" />
+    <None Include="Resources\line.png" />
+    <None Include="Resources\rectangle.png" />
+    <None Include="Resources\bucket.png" />
+    <None Include="Resources\eraser.png" />
+    <None Include="Resources\color.png" />
+    <None Include="Resources\color_palette.png" />
     <None Include="Resources\DibujarActividades.png" />
     <None Include="Resources\TecladoActividades.png" />
     <None Include="Resources\PictogramasActividades.png" />
