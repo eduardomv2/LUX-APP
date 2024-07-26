@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS.Comunicacion.Controles_personalizados;
+using TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios;
 
 namespace TEST_3_LUX.FORMS.Comunicacion3
 {
@@ -41,11 +42,16 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.Close();//.
             FormPrincipal.Show();
         }
-
+        private void btnTablaPictograma_Click(object sender, EventArgs e)
+        {
+            ComunicacionPictogramas cpm = new ComunicacionPictogramas(this);
+            this.Hide();
+            cpm.Show();
+        }
         #endregion
 
         #region TEMAS DE CHARLA
-        private void btnDudas_Click(object sender, EventArgs e)
+        private void btnTemaAmarillo_Click(object sender, EventArgs e)
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Comunicacion\Temas de charla\TemaAmarillo.csv");
             GenerarTabla(filePath, typeof(RBotonAmarillo));
@@ -57,7 +63,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             GenerarTabla(filePath, typeof(RBotonRojo));
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnTemaVerde_Click(object sender, EventArgs e)
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Resources\Comunicacion\Temas de charla\TemaVerde.csv");
             GenerarTabla(filePath, typeof(RBotonVerde));
@@ -129,8 +135,16 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         }
 
 
+
+
+
         #endregion
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ComunicacionTTS tts = new ComunicacionTTS();
+            this.Hide();
+            tts.Show();
+        }
     }
 }
