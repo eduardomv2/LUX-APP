@@ -8,20 +8,34 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
+using TEST_3_LUX.FORMS.Comunicacion3;
 
 namespace TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios
 {
     public partial class ComunicacionTTS : Form
     {
         private SpeechSynthesizer synthesizer = new SpeechSynthesizer();
-        public ComunicacionTTS()
+        private ComunicacionPrincipal cmp;
+        public ComunicacionTTS(ComunicacionPrincipal cmp)
         {
             InitializeComponent();
+            this.cmp = cmp;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        #region CABECERA DE VENTANA
+        private void btnRetroceder_Click(object sender, EventArgs e)
         {
-            synthesizer.SpeakAsync(textBox1.Text);
+            this.Hide();
+            cmp.Show();
         }
+        #endregion
+
+        #region FUNCIONES PARA TEXTO
+        private void btnHablar_Click(object sender, EventArgs e)
+        {
+            synthesizer.SpeakAsync(txtMensajeNota.Text);
+        }
+        #endregion
+
     }
 }

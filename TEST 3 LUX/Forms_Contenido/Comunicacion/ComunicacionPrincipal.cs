@@ -48,6 +48,12 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.Hide();
             cpm.Show();
         }
+        private void btnNotasAudio_Click(object sender, EventArgs e)
+        {
+            ComunicacionTTS tts = new ComunicacionTTS(this);
+            this.Hide();
+            tts.Show();
+        }
         #endregion
 
         #region TEMAS DE CHARLA
@@ -140,11 +146,6 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
 
         #endregion
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ComunicacionTTS tts = new ComunicacionTTS();
-            this.Hide();
-            tts.Show();
-        }
+       
     }
 }
