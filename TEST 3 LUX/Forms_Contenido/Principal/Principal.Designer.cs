@@ -53,9 +53,9 @@
             this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnMinimizar.CausesValidation = false;
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Location = new System.Drawing.Point(1246, 103);
+            this.btnMinimizar.Location = new System.Drawing.Point(1173, 3);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(50, 44);
+            this.btnMinimizar.Size = new System.Drawing.Size(40, 38);
             this.btnMinimizar.TabIndex = 0;
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.UseVisualStyleBackColor = false;
@@ -67,9 +67,9 @@
             this.btnMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnMaximizar.CausesValidation = false;
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaximizar.Location = new System.Drawing.Point(1246, 53);
+            this.btnMaximizar.Location = new System.Drawing.Point(1215, 3);
             this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(50, 44);
+            this.btnMaximizar.Size = new System.Drawing.Size(40, 38);
             this.btnMaximizar.TabIndex = 1;
             this.btnMaximizar.TabStop = false;
             this.btnMaximizar.UseVisualStyleBackColor = false;
@@ -81,9 +81,9 @@
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCerrar.CausesValidation = false;
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.Location = new System.Drawing.Point(1246, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(1256, 3);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(50, 44);
+            this.btnCerrar.Size = new System.Drawing.Size(40, 38);
             this.btnCerrar.TabIndex = 2;
             this.btnCerrar.TabStop = false;
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -185,7 +185,7 @@
             this.tlpBotones.Controls.Add(this.btnActividades, 1, 0);
             this.tlpBotones.Controls.Add(this.btnHorario, 0, 1);
             this.tlpBotones.Controls.Add(this.button3, 1, 1);
-            this.tlpBotones.Location = new System.Drawing.Point(560, 265);
+            this.tlpBotones.Location = new System.Drawing.Point(486, 265);
             this.tlpBotones.Name = "tlpBotones";
             this.tlpBotones.RowCount = 2;
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -276,7 +276,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = ">>>>>>>>";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Principal_Load);
             this.panel1.ResumeLayout(false);
