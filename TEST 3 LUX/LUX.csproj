@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -217,37 +218,14 @@
     <None Include="Resources\Diseño_sin_título__25_-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\alivio.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\asustado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\confundido %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\confundido.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\conmocionado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento %282%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\decepcionado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\emocionado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enamorado %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enamorado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %282%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %283%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\preocupado %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\preocupado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\sorprendido.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaAmarillo.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaRojo.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaVerde.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\ola.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\path191.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975917.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975918.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975924.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\morado.svg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\naranja.svg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\triste.png" />
     <None Include="Resources\Agregar un título %284%29.png" />
     <None Include="Resources\Agregar un título1.png" />
     <None Include="Resources\Agregar un título %281%291.png" />
