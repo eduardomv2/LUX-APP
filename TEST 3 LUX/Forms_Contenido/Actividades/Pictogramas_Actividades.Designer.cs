@@ -31,26 +31,23 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblFeedback = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBoxActividad = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnBien = new System.Windows.Forms.Button();
             this.btnMal = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxActividad = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxActividad)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.lblFeedback);
             this.panel1.Controls.Add(this.btnBien);
             this.panel1.Controls.Add(this.btnMal);
-            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 517);
             this.panel1.Name = "panel1";
@@ -82,6 +79,20 @@
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // pictureBoxActividad
+            // 
+            this.pictureBoxActividad.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxActividad.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxActividad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxActividad.Location = new System.Drawing.Point(600, 195);
+            this.pictureBoxActividad.Name = "pictureBoxActividad";
+            this.pictureBoxActividad.Size = new System.Drawing.Size(345, 320);
+            this.pictureBoxActividad.TabIndex = 1;
+            this.pictureBoxActividad.TabStop = false;
+            this.pictureBoxActividad.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -106,7 +117,7 @@
             // btnBien
             // 
             this.btnBien.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnBien.BackColor = System.Drawing.Color.Transparent;
+            this.btnBien.BackColor = System.Drawing.Color.White;
             this.btnBien.BackgroundImage = global::TEST_3_LUX.Properties.Resources.BotonBien;
             this.btnBien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBien.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -116,7 +127,7 @@
             this.btnBien.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBien.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBien.Location = new System.Drawing.Point(382, 20);
+            this.btnBien.Location = new System.Drawing.Point(381, 25);
             this.btnBien.Name = "btnBien";
             this.btnBien.Size = new System.Drawing.Size(260, 170);
             this.btnBien.TabIndex = 18;
@@ -127,7 +138,7 @@
             // btnMal
             // 
             this.btnMal.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnMal.BackColor = System.Drawing.Color.Transparent;
+            this.btnMal.BackColor = System.Drawing.Color.White;
             this.btnMal.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Agregar_un_título__4_;
             this.btnMal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMal.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -137,40 +148,13 @@
             this.btnMal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btnMal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMal.Location = new System.Drawing.Point(659, 19);
+            this.btnMal.Location = new System.Drawing.Point(657, 25);
             this.btnMal.Name = "btnMal";
             this.btnMal.Size = new System.Drawing.Size(263, 171);
             this.btnMal.TabIndex = 16;
             this.btnMal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMal.UseVisualStyleBackColor = false;
             this.btnMal.Click += new System.EventHandler(this.btnMal_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(355, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(590, 207);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBoxActividad
-            // 
-            this.pictureBoxActividad.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxActividad.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxActividad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxActividad.Location = new System.Drawing.Point(600, 198);
-            this.pictureBoxActividad.Name = "pictureBoxActividad";
-            this.pictureBoxActividad.Size = new System.Drawing.Size(345, 316);
-            this.pictureBoxActividad.TabIndex = 1;
-            this.pictureBoxActividad.TabStop = false;
-            this.pictureBoxActividad.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Pictogramas_Actividades
             // 
@@ -191,9 +175,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxActividad)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -206,7 +189,6 @@
         private System.Windows.Forms.Label lblFeedback;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBoxActividad;
     }

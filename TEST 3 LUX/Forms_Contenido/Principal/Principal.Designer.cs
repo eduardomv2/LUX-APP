@@ -38,13 +38,15 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
-            this.btnComunicacion = new System.Windows.Forms.Button();
-            this.btnActividades = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btnComunicacion = new System.Windows.Forms.Button();
+            this.btnActividades = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tlpBotones.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnMinimizar
@@ -53,7 +55,7 @@
             this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnMinimizar.CausesValidation = false;
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Location = new System.Drawing.Point(1173, 3);
+            this.btnMinimizar.Location = new System.Drawing.Point(1170, 6);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(40, 38);
             this.btnMinimizar.TabIndex = 0;
@@ -67,7 +69,7 @@
             this.btnMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnMaximizar.CausesValidation = false;
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaximizar.Location = new System.Drawing.Point(1215, 3);
+            this.btnMaximizar.Location = new System.Drawing.Point(1212, 6);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(40, 38);
             this.btnMaximizar.TabIndex = 1;
@@ -81,7 +83,7 @@
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCerrar.CausesValidation = false;
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.Location = new System.Drawing.Point(1256, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(1253, 6);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(40, 38);
             this.btnCerrar.TabIndex = 2;
@@ -108,9 +110,9 @@
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(111, 141);
+            this.button1.Location = new System.Drawing.Point(99, 137);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 20);
+            this.button1.Size = new System.Drawing.Size(163, 29);
             this.button1.TabIndex = 18;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -137,9 +139,9 @@
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(98, 238);
+            this.button5.Location = new System.Drawing.Point(81, 241);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(155, 35);
+            this.button5.Size = new System.Drawing.Size(201, 35);
             this.button5.TabIndex = 21;
             this.button5.UseVisualStyleBackColor = false;
             // 
@@ -151,9 +153,9 @@
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(92, 145);
+            this.button4.Location = new System.Drawing.Point(80, 148);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 35);
+            this.button4.Size = new System.Drawing.Size(204, 35);
             this.button4.TabIndex = 20;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -165,33 +167,63 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(106, 57);
+            this.button2.Location = new System.Drawing.Point(83, 57);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 35);
+            this.button2.Size = new System.Drawing.Size(190, 35);
             this.button2.TabIndex = 19;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // tlpBotones
             // 
-            this.tlpBotones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.tlpBotones.BackColor = System.Drawing.Color.Transparent;
             this.tlpBotones.ColumnCount = 2;
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tlpBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tlpBotones.Controls.Add(this.btnComunicacion, 0, 0);
-            this.tlpBotones.Controls.Add(this.btnActividades, 1, 0);
             this.tlpBotones.Controls.Add(this.btnHorario, 0, 1);
             this.tlpBotones.Controls.Add(this.button3, 1, 1);
-            this.tlpBotones.Location = new System.Drawing.Point(486, 265);
+            this.tlpBotones.Controls.Add(this.btnComunicacion, 0, 0);
+            this.tlpBotones.Controls.Add(this.btnActividades, 1, 0);
+            this.tlpBotones.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlpBotones.Location = new System.Drawing.Point(0, 0);
             this.tlpBotones.Name = "tlpBotones";
             this.tlpBotones.RowCount = 2;
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tlpBotones.Size = new System.Drawing.Size(332, 282);
+            this.tlpBotones.Size = new System.Drawing.Size(216, 182);
             this.tlpBotones.TabIndex = 19;
+            // 
+            // btnHorario
+            // 
+            this.btnHorario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnHorario.BackColor = System.Drawing.Color.Lime;
+            this.btnHorario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHorario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHorario.FlatAppearance.BorderSize = 0;
+            this.btnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHorario.Location = new System.Drawing.Point(3, 94);
+            this.btnHorario.Name = "btnHorario";
+            this.btnHorario.Size = new System.Drawing.Size(102, 85);
+            this.btnHorario.TabIndex = 9;
+            this.btnHorario.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.Cyan;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(111, 94);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(102, 85);
+            this.button3.TabIndex = 7;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // btnComunicacion
             // 
@@ -205,7 +237,7 @@
             this.btnComunicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnComunicacion.Location = new System.Drawing.Point(3, 3);
             this.btnComunicacion.Name = "btnComunicacion";
-            this.btnComunicacion.Size = new System.Drawing.Size(160, 135);
+            this.btnComunicacion.Size = new System.Drawing.Size(102, 85);
             this.btnComunicacion.TabIndex = 8;
             this.btnComunicacion.UseVisualStyleBackColor = false;
             this.btnComunicacion.Click += new System.EventHandler(this.btnComunicacion_Click_1);
@@ -220,44 +252,23 @@
             this.btnActividades.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActividades.FlatAppearance.BorderSize = 0;
             this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActividades.Location = new System.Drawing.Point(169, 3);
+            this.btnActividades.Location = new System.Drawing.Point(111, 3);
             this.btnActividades.Name = "btnActividades";
-            this.btnActividades.Size = new System.Drawing.Size(160, 135);
+            this.btnActividades.Size = new System.Drawing.Size(102, 85);
             this.btnActividades.TabIndex = 5;
             this.btnActividades.UseVisualStyleBackColor = false;
             this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click_1);
             // 
-            // btnHorario
+            // panel3
             // 
-            this.btnHorario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnHorario.BackColor = System.Drawing.Color.Lime;
-            this.btnHorario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHorario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHorario.FlatAppearance.BorderSize = 0;
-            this.btnHorario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHorario.Location = new System.Drawing.Point(3, 144);
-            this.btnHorario.Name = "btnHorario";
-            this.btnHorario.Size = new System.Drawing.Size(160, 135);
-            this.btnHorario.TabIndex = 9;
-            this.btnHorario.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.Cyan;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(169, 144);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 135);
-            this.button3.TabIndex = 7;
-            this.button3.UseVisualStyleBackColor = false;
+            this.panel3.Controls.Add(this.tlpBotones);
+            this.panel3.Location = new System.Drawing.Point(602, 307);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(216, 182);
+            this.panel3.TabIndex = 20;
             // 
             // Principal
             // 
@@ -267,10 +278,10 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1300, 725);
             this.ControlBox = false;
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnCerrar);
-            this.Controls.Add(this.tlpBotones);
             this.Controls.Add(this.btnMaximizar);
             this.Controls.Add(this.btnMinimizar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -282,6 +293,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.tlpBotones.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -301,6 +313,7 @@
         private System.Windows.Forms.Button btnActividades;
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

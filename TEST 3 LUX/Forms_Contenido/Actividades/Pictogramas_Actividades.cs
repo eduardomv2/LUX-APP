@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Drawing; 
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
+using static System.Net.Mime.MediaTypeNames;
+using TEST_3_LUX.Properties;
 
 namespace TEST_3_LUX
 {
@@ -25,10 +27,11 @@ namespace TEST_3_LUX
             actividades = new List<Pictogramas_BienMal>
             {
                 
-                new Pictogramas_BienMal(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\accionmala.jpg", false)
+                new Pictogramas_BienMal(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\GRITAR.png", false),
+                new Pictogramas_BienMal(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\accionmala.jpg", false),
                 // Agrega más imágenes aquí...
-
                 
+
             };
 
             indiceActual = 0;

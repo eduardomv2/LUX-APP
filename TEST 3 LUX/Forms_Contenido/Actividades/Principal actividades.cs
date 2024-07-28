@@ -23,7 +23,8 @@ namespace TEST_3_LUX.FORMS
         public Principal_actividades()
         {
             InitializeComponent();
-            
+            tableLayoutPanel1.Visible = false;
+
 
         }
 
@@ -64,9 +65,10 @@ namespace TEST_3_LUX.FORMS
 
         private void btnDibujar_Click(object sender, EventArgs e)
         {
-            DibujarActividades dibujarActividades = new DibujarActividades();
-            dibujarActividades.Show();
-            this.Hide();
+            // Alternar la visibilidad de panel2
+            tableLayoutPanel1.Visible = !tableLayoutPanel1.Visible;
+
+
         }
 
         private void btnTeclado_Click(object sender, EventArgs e)
@@ -79,24 +81,32 @@ namespace TEST_3_LUX.FORMS
 
         }
 
-        private void panelActividadesBotones_Paint_1(object sender, PaintEventArgs e)
-        {
-            panelActividadesSubBotones.BackColor = Color.FromArgb(100, 22, 0, 0);
-        }
+        
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            //Abrir formulario de dibujar
+
+        }
+
+       
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
             DibujarActividades dibujarActividades = new DibujarActividades();
             dibujarActividades.Show();
             this.Hide();
         }
 
-       
+        private void panelActividadesSubBotones_Paint_1(object sender, PaintEventArgs e)
+        {
+            panelActividadesSubBotones.BackColor = Color.FromArgb(128, 0, 0, 0);
+        }
     }
 }

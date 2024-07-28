@@ -203,13 +203,14 @@ namespace TEST_3_LUX
             index = 5;
         }
 
-        private void btnRetroceder_Click(object sender, EventArgs e)
+       
+
+        private void button3_Click(object sender, EventArgs e)
         {
             //Retroceder a la ventana principal
-           Principal_actividades pa = new Principal_actividades();
-           pa.Show();
-           this.Hide();
-
+            Principal_actividades pa = new Principal_actividades();
+            pa.Show();
+            this.Hide();
         }
 
         private void btnBorrador_Click_1(object sender, EventArgs e)

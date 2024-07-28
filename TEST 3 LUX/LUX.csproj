@@ -248,6 +248,7 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Emociones\triste.png" />
+    <None Include="Resources\GRITAR.png" />
     <None Include="Resources\Agregar un título %284%29.png" />
     <None Include="Resources\Agregar un título1.png" />
     <None Include="Resources\Agregar un título %281%291.png" />
