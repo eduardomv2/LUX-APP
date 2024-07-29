@@ -30,10 +30,12 @@ namespace TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios
 
         }
 
-        private void btnRetroceder_Click(object sender, EventArgs e)
+        #region CABECERA DE VENTANA
+        private void btnRetroceder_Click_1(object sender, EventArgs e)
         {
             this.Close();
             principalComunicacion.Show();
         }
+        #endregion
     }
 }

@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,71 +48,81 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FORMS\Actividades\DibujarActividades.cs">
+    <Compile Include="Forms_Contenido\Actividades\DibujarActividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Actividades\DibujarActividades.Designer.cs">
+    <Compile Include="Forms_Contenido\Actividades\DibujarActividades.Designer.cs">
       <DependentUpon>DibujarActividades.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\ComunicacionPrincipal.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\ComunicacionPrincipal.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.Designer.cs">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonRojo.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonRojo.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Controles personalizados\RBotonVerde.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonVerde.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionPictogramas.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionPictogramas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionPictogramas.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionPictogramas.Designer.cs">
       <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionTTS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionTTS.Designer.cs">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Principal.cs">
+    <Compile Include="Forms_Contenido\Principal\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Principal.Designer.cs">
+    <Compile Include="Forms_Contenido\Principal\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\Actividades\Principal actividades.cs">
+    <Compile Include="Forms_Contenido\Actividades\Principal actividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\Actividades\Principal actividades.Designer.cs">
+    <Compile Include="Forms_Contenido\Actividades\Principal actividades.Designer.cs">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Pictogramas_Actividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Pictogramas_Actividades.Designer.cs">
+      <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pictogramas_BienMal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FORMS\Actividades\DibujarActividades.resx">
+    <EmbeddedResource Include="Forms_Contenido\Actividades\DibujarActividades.resx">
       <DependentUpon>DibujarActividades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Comunicacion\ComunicacionPrincipal.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Comunicacion\Menus secundarios\ComunicacionPictogramas.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionPictogramas.resx">
       <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Comunicacion\Menus secundarios\ComunicacionTTS.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionTTS.resx">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Actividades\Principal actividades.resx">
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Principal actividades.resx">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\Principal.resx">
+    <EmbeddedResource Include="Forms_Contenido\Principal\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Pictogramas_Actividades.resx">
+      <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -207,37 +218,32 @@
     <None Include="Resources\Diseño_sin_título__25_-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\alivio.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\asustado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\confundido %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\confundido.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\conmocionado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento %282%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\contento.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\decepcionado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\emocionado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enamorado %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enamorado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %282%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado %283%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\enfadado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\preocupado %281%29.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\preocupado.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\sorprendido.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaAmarillo.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaRojo.png" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\Desplegados\temaVerde.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\ola.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\path191.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975917.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975918.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_colored-line-banner-in-flat-style_21975924.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_neumorphic-rectangle-button_11888117.png" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\vecteezy_quote-frames-blank-templates-set-text-in-brackets-citation_16459790.png" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\morado.svg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\naranja.svg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
+    <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
-    <Content Include="bin\Debug\Resources\Comunicacion\Emociones\triste.png" />
+    <None Include="Resources\Agregar un título %284%29.png" />
+    <None Include="Resources\Agregar un título1.png" />
+    <None Include="Resources\Agregar un título %281%291.png" />
+    <None Include="Resources\Agregar un título %282%291.png" />
+    <None Include="Resources\Diseño sin título %2861%291.png" />
+    <None Include="Resources\Diseño sin título %2862%291.png" />
+    <None Include="Resources\Diseño sin título %2863%291.png" />
+    <None Include="Resources\Diseño sin título %2864%291.png" />
+    <None Include="Resources\Agregar un título %283%291.png" />
+    <None Include="Resources\Axelbotones.png" />
+    <None Include="Resources\accionmala1.jpg" />
+    <None Include="Resources\BotonBien1.png" />
+    <None Include="Resources\Diseño sin título %2865%29.png" />
+    <None Include="Resources\Diseño sin título %2866%29.png" />
+    <None Include="Resources\ACCIONES.png" />
+    <None Include="Resources\ACCIONES1.png" />
+    <Content Include="Resources\accionmala.jpg" />
+    <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
     <None Include="Resources\Diseño sin título %2864%29.png" />
     <None Include="Resources\Diseño sin título %2863%29.png" />
