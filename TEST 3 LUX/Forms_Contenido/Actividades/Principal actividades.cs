@@ -79,10 +79,7 @@ namespace TEST_3_LUX.FORMS
 
         }
 
-        private void panelActividadesBotones_Paint_1(object sender, PaintEventArgs e)
-        {
-            panelActividadesSubBotones.BackColor = Color.FromArgb(100, 22, 0, 0);
-        }
+        
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -97,6 +94,11 @@ namespace TEST_3_LUX.FORMS
             this.Hide();
         }
 
-       
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            //hacer transparente el panel
+            panel2.BackColor = Color.FromArgb(100, 0, 0, 0);
+            
+        }
     }
 }

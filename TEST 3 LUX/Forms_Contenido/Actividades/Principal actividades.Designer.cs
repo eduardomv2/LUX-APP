@@ -33,9 +33,7 @@
             this.btnDibujar = new System.Windows.Forms.Button();
             this.btnPictogramas = new System.Windows.Forms.Button();
             this.btnRetroceder = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelActividadesSubBotones = new System.Windows.Forms.Panel();
             this.panelSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,9 +46,9 @@
             this.panelSuperior.Controls.Add(this.btnDibujar);
             this.panelSuperior.Controls.Add(this.btnPictogramas);
             this.panelSuperior.Controls.Add(this.btnRetroceder);
-            this.panelSuperior.Location = new System.Drawing.Point(2, 1);
+            this.panelSuperior.Location = new System.Drawing.Point(12, 12);
             this.panelSuperior.Name = "panelSuperior";
-            this.panelSuperior.Size = new System.Drawing.Size(717, 154);
+            this.panelSuperior.Size = new System.Drawing.Size(729, 160);
             this.panelSuperior.TabIndex = 0;
             this.panelSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSuperior_Paint);
             // 
@@ -128,34 +126,17 @@
             this.btnRetroceder.UseVisualStyleBackColor = false;
             this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1300, 260);
-            this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 495);
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Location = new System.Drawing.Point(0, 242);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1300, 230);
+            this.panel2.Size = new System.Drawing.Size(1300, 293);
             this.panel2.TabIndex = 5;
-            // 
-            // panelActividadesSubBotones
-            // 
-            this.panelActividadesSubBotones.BackColor = System.Drawing.Color.Transparent;
-            this.panelActividadesSubBotones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelActividadesSubBotones.Location = new System.Drawing.Point(0, 260);
-            this.panelActividadesSubBotones.Name = "panelActividadesSubBotones";
-            this.panelActividadesSubBotones.Size = new System.Drawing.Size(1300, 235);
-            this.panelActividadesSubBotones.TabIndex = 6;
-            this.panelActividadesSubBotones.Paint += new System.Windows.Forms.PaintEventHandler(this.panelActividadesBotones_Paint_1);
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Principal_actividades
             // 
@@ -165,9 +146,7 @@
             this.BackgroundImage = global::TEST_3_LUX.Properties.Resources.FondodeActividades;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1300, 725);
-            this.Controls.Add(this.panelActividadesSubBotones);
             this.Controls.Add(this.panelSuperior);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -184,12 +163,10 @@
         #endregion
 
         private System.Windows.Forms.Panel panelSuperior;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnRetroceder;
         private System.Windows.Forms.Button btnPictogramas;
         private System.Windows.Forms.Button btnTeclado;
         private System.Windows.Forms.Button btnDibujar;
-        private System.Windows.Forms.Panel panelActividadesSubBotones;
     }
 }
