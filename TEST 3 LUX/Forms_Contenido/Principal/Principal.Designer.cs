@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
@@ -43,6 +44,7 @@
             this.btnActividades = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.tmTransicion = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tlpBotones.SuspendLayout();
@@ -264,6 +266,12 @@
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // tmTransicion
+            // 
+            this.tmTransicion.Enabled = true;
+            this.tmTransicion.Interval = 20;
+            this.tmTransicion.Tick += new System.EventHandler(this.tmTransicion_Tick);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,6 +314,7 @@
         private System.Windows.Forms.Button btnActividades;
         private System.Windows.Forms.Button btnHorario;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Timer tmTransicion;
     }
 }
 
