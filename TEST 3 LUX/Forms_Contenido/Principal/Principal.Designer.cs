@@ -40,9 +40,9 @@
             this.btnPaginaWeb = new System.Windows.Forms.Button();
             this.tlpBotones = new System.Windows.Forms.TableLayoutPanel();
             this.btnComunicacion = new System.Windows.Forms.Button();
+            this.btnActividades = new System.Windows.Forms.Button();
             this.btnHorario = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.btnActividades = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tlpBotones.SuspendLayout();
@@ -54,7 +54,7 @@
             this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnMinimizar.CausesValidation = false;
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Location = new System.Drawing.Point(1173, 3);
+            this.btnMinimizar.Location = new System.Drawing.Point(1168, 7);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(40, 38);
             this.btnMinimizar.TabIndex = 0;
@@ -68,7 +68,7 @@
             this.btnMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnMaximizar.CausesValidation = false;
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaximizar.Location = new System.Drawing.Point(1215, 3);
+            this.btnMaximizar.Location = new System.Drawing.Point(1210, 7);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(40, 38);
             this.btnMaximizar.TabIndex = 1;
@@ -82,7 +82,7 @@
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCerrar.CausesValidation = false;
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.Location = new System.Drawing.Point(1256, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(1251, 7);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(40, 38);
             this.btnCerrar.TabIndex = 2;
@@ -186,7 +186,7 @@
             this.tlpBotones.Controls.Add(this.btnActividades, 2, 0);
             this.tlpBotones.Controls.Add(this.btnHorario, 0, 2);
             this.tlpBotones.Controls.Add(this.button3, 2, 2);
-            this.tlpBotones.Location = new System.Drawing.Point(388, 90);
+            this.tlpBotones.Location = new System.Drawing.Point(409, 165);
             this.tlpBotones.Name = "tlpBotones";
             this.tlpBotones.RowCount = 3;
             this.tlpBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.89265F));
@@ -212,6 +212,24 @@
             this.btnComunicacion.TabIndex = 8;
             this.btnComunicacion.UseVisualStyleBackColor = false;
             this.btnComunicacion.Click += new System.EventHandler(this.btnComunicacion_Click_1);
+            // 
+            // btnActividades
+            // 
+            this.btnActividades.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnActividades.BackColor = System.Drawing.Color.Transparent;
+            this.btnActividades.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnActividades.BackgroundImage")));
+            this.btnActividades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnActividades.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActividades.FlatAppearance.BorderSize = 0;
+            this.btnActividades.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnActividades.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActividades.Location = new System.Drawing.Point(295, 4);
+            this.btnActividades.Name = "btnActividades";
+            this.btnActividades.Size = new System.Drawing.Size(250, 259);
+            this.btnActividades.TabIndex = 5;
+            this.btnActividades.UseVisualStyleBackColor = false;
+            this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click_1);
             // 
             // btnHorario
             // 
@@ -245,24 +263,6 @@
             this.button3.Size = new System.Drawing.Size(250, 259);
             this.button3.TabIndex = 7;
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // btnActividades
-            // 
-            this.btnActividades.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnActividades.BackColor = System.Drawing.Color.Transparent;
-            this.btnActividades.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnActividades.BackgroundImage")));
-            this.btnActividades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnActividades.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnActividades.FlatAppearance.BorderSize = 0;
-            this.btnActividades.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnActividades.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnActividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActividades.Location = new System.Drawing.Point(295, 4);
-            this.btnActividades.Name = "btnActividades";
-            this.btnActividades.Size = new System.Drawing.Size(250, 259);
-            this.btnActividades.TabIndex = 5;
-            this.btnActividades.UseVisualStyleBackColor = false;
-            this.btnActividades.Click += new System.EventHandler(this.btnActividades_Click_1);
             // 
             // Principal
             // 
