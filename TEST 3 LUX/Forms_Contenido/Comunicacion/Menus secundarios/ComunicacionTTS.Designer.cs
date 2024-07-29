@@ -41,11 +41,14 @@
             this.txtMensajeNota.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtMensajeNota.BackColor = System.Drawing.Color.White;
+            this.txtMensajeNota.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMensajeNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMensajeNota.Location = new System.Drawing.Point(109, 235);
+            this.txtMensajeNota.ForeColor = System.Drawing.Color.Black;
+            this.txtMensajeNota.Location = new System.Drawing.Point(109, 249);
             this.txtMensajeNota.Multiline = true;
             this.txtMensajeNota.Name = "txtMensajeNota";
-            this.txtMensajeNota.Size = new System.Drawing.Size(1064, 469);
+            this.txtMensajeNota.Size = new System.Drawing.Size(1064, 385);
             this.txtMensajeNota.TabIndex = 0;
             // 
             // btnHablar
@@ -55,13 +58,14 @@
             this.btnHablar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHablar.BackgroundImage")));
             this.btnHablar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHablar.FlatAppearance.BorderSize = 0;
+            this.btnHablar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnHablar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnHablar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHablar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHablar.Location = new System.Drawing.Point(1000, 161);
+            this.btnHablar.Location = new System.Drawing.Point(1000, 190);
             this.btnHablar.Name = "btnHablar";
             this.btnHablar.Size = new System.Drawing.Size(173, 53);
             this.btnHablar.TabIndex = 1;
-            this.btnHablar.Text = "Hablar";
             this.btnHablar.UseVisualStyleBackColor = false;
             this.btnHablar.Click += new System.EventHandler(this.btnHablar_Click);
             // 

@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComunicacionPrincipal));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnNotasAudio = new System.Windows.Forms.Button();
             this.btnRetroceder = new System.Windows.Forms.Button();
+            this.btnNotasAudio = new System.Windows.Forms.Button();
             this.btnTablaPictograma = new System.Windows.Forms.Button();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -63,6 +63,22 @@
             this.panel1.Size = new System.Drawing.Size(773, 176);
             this.panel1.TabIndex = 15;
             // 
+            // btnRetroceder
+            // 
+            this.btnRetroceder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetroceder.BackgroundImage")));
+            this.btnRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetroceder.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRetroceder.FlatAppearance.BorderSize = 0;
+            this.btnRetroceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetroceder.Location = new System.Drawing.Point(32, 24);
+            this.btnRetroceder.Name = "btnRetroceder";
+            this.btnRetroceder.Size = new System.Drawing.Size(114, 105);
+            this.btnRetroceder.TabIndex = 17;
+            this.btnRetroceder.UseVisualStyleBackColor = true;
+            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
+            // 
             // btnNotasAudio
             // 
             this.btnNotasAudio.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNotasAudio.BackgroundImage")));
@@ -79,22 +95,6 @@
             this.btnNotasAudio.TabIndex = 18;
             this.btnNotasAudio.UseVisualStyleBackColor = true;
             this.btnNotasAudio.Click += new System.EventHandler(this.btnNotasAudio_Click);
-            // 
-            // btnRetroceder
-            // 
-            this.btnRetroceder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetroceder.BackgroundImage")));
-            this.btnRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRetroceder.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnRetroceder.FlatAppearance.BorderSize = 0;
-            this.btnRetroceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnRetroceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetroceder.Location = new System.Drawing.Point(32, 24);
-            this.btnRetroceder.Name = "btnRetroceder";
-            this.btnRetroceder.Size = new System.Drawing.Size(114, 105);
-            this.btnRetroceder.TabIndex = 17;
-            this.btnRetroceder.UseVisualStyleBackColor = true;
-            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
             // 
             // btnTablaPictograma
             // 
@@ -122,7 +122,7 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(195, 496);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(213, 495);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
