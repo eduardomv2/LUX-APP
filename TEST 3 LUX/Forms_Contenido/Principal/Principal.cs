@@ -73,6 +73,8 @@ namespace TEST_3_LUX
             ComunicacionPrincipal com = new ComunicacionPrincipal(this);
             com.Show();
             this.Hide();
+
+
         }
         #endregion
 
@@ -81,6 +83,7 @@ namespace TEST_3_LUX
         private void btnOpciones_Click(object sender, EventArgs e)
         {
             // Alternar la visibilidad de panel2
+            
             panel2.Visible = !panel2.Visible;
         }
 
@@ -104,7 +107,7 @@ namespace TEST_3_LUX
                 }
                 else
                 {
-                    this.Opacity = this.Opacity - .15;
+                    this.Opacity = this.Opacity - .5;
                     this.Top = this.Top + 3;   
                 }
             }

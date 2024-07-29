@@ -19,7 +19,7 @@ namespace TEST_3_LUX.FORMS
         public Principal_actividades()
         {
             InitializeComponent();
-            tableLayoutPanel1.Visible = false;  
+            
 
         }
 
@@ -53,10 +53,13 @@ namespace TEST_3_LUX.FORMS
 
         private void btnPictogramas_Click(object sender, EventArgs e)
         {
+
             //Abrir formulario de Pictogramas
-            Pictogramas_Actividades pictogramas_Actividades = new Pictogramas_Actividades(this);
-            pictogramas_Actividades.Show();
-            this.Hide();
+            panel2.Visible = false;
+            panel3.Visible = false;
+
+            panel1.Visible = !panel1.Visible;
+            
 
 
 
@@ -65,14 +68,21 @@ namespace TEST_3_LUX.FORMS
 
         private void btnDibujar_Click(object sender, EventArgs e)
         {
-            //tableLayoutPanel1
-            tableLayoutPanel1.Visible = !tableLayoutPanel1.Visible;
-         
+            panel1.Visible = false;
+            panel3.Visible = false;
+
+            panel2.Visible = !panel2.Visible;
+            
+
         }
 
         private void btnTeclado_Click(object sender, EventArgs e)
         {
 
+            panel1.Visible = false;
+            panel2.Visible = false;
+
+            panel3.Visible = !panel3.Visible;
         }
 
         private void panelSuperior_Paint(object sender, PaintEventArgs e)
@@ -158,6 +168,13 @@ namespace TEST_3_LUX.FORMS
                     this.Left = this.Left + 3;
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Pictogramas_Actividades pictogramas_Actividades = new Pictogramas_Actividades(this);
+            pictogramas_Actividades.Show();
+            this.Hide();
         }
     }
 }
