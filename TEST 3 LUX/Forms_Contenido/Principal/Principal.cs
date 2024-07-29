@@ -7,6 +7,8 @@ namespace TEST_3_LUX
 {
     public partial class Principal : Form
     {
+        string Transicion;
+
         public Principal()
         {
             InitializeComponent();
@@ -15,7 +17,12 @@ namespace TEST_3_LUX
   
         private void Principal_Load(object sender, EventArgs e)
         {
-            
+            Transicion = "FadeIn";
+
+            this.Top = this.Top + 15;
+
+
+            tmTransicion.Start();
         }
 
 
@@ -42,7 +49,8 @@ namespace TEST_3_LUX
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             //Cerrar ventana
-            Application.Exit();
+            Transicion = "FadeOutExit";
+            tmTransicion.Start();
         }
         #endregion
 
@@ -53,6 +61,11 @@ namespace TEST_3_LUX
             Principal_actividades act = new Principal_actividades();
             act.Show();
             this.Hide();
+
+            Transicion = "FadeOut";
+            tmTransicion.Start();
+
+
         }
 
         private void btnComunicacion_Click_1(object sender, EventArgs e)
@@ -79,5 +92,47 @@ namespace TEST_3_LUX
             System.Diagnostics.Process.Start("https://github.com/eduardomv2/LUX-APP");
         }
         #endregion
+
+        private void tmTransicion_Tick(object sender, EventArgs e)
+        {
+            if (Transicion == "FadeOut")
+            {
+                if (this.Opacity == 0)
+                {
+                    tmTransicion.Stop();                
+                    this.Hide();
+                }
+                else
+                {
+                    this.Opacity = this.Opacity - .15;
+                    this.Top = this.Top + 3;   
+                }
+            }
+            else if (Transicion == "FadeIn")
+            {
+                if (this.Opacity == 1)
+                {
+                    tmTransicion.Stop();
+                }
+                else
+                {
+                    this.Opacity = this.Opacity + .15;
+                    this.Top = this.Top - 3;
+                }
+            }
+            else if (Transicion == "FadeOutExit")
+            {
+                if (this.Opacity == 0)
+                {
+                    tmTransicion.Stop();
+                    Application.Exit();
+                }
+                else
+                {
+                    this.Opacity = this.Opacity - .10;
+                    this.Left = this.Left + 3;
+                }
+            }
+        }
     }
 }
