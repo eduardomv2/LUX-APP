@@ -114,8 +114,14 @@
     <Compile Include="Pictogramas_BienMal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\Calcar_Actividades.resx">
+      <DependentUpon>Calcar_Actividades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarActividades.resx">
       <DependentUpon>DibujarActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarEscritura_Actividades.resx">
+      <DependentUpon>DibujarEscritura_Actividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
@@ -238,6 +244,11 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\Diseño sin título %2886%29.png" />
+    <None Include="Resources\Diseño sin título %2884%29.png" />
+    <None Include="Resources\Diseño sin título %2883%29.png" />
+    <None Include="Resources\Diseño sin título %2882%29.png" />
+    <None Include="Resources\Diseño sin título %2881%29.png" />
     <None Include="Resources\ec.png" />
     <None Include="Resources\Mochila %284%29.png" />
     <None Include="Resources\Mochila %283%29.png" />
@@ -284,9 +295,11 @@
     <None Include="Resources\ACCIONES1.png" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %281%29.gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %282%29.gif" />
+    <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %283%29.gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título.gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\OSO .....gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\Imagenes\BIEN O MAL.png" />
+    <None Include="Resources\2.png" />
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
