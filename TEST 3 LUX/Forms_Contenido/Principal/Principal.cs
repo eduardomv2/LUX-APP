@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
 using TEST_3_LUX.FORMS.Comunicacion3;
@@ -9,6 +11,10 @@ namespace TEST_3_LUX
     {
         string Transicion;
 
+        private List<object> fondos;
+        private int indiceFondoActual;
+
+
         public Principal()
         {
             InitializeComponent();
@@ -17,12 +23,44 @@ namespace TEST_3_LUX
   
         private void Principal_Load(object sender, EventArgs e)
         {
+            // Inicializar la lista de rutas de imágenes
+            fondos = new List<object>
+            {
+                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (83).png",
+                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (81).png",
+                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (82).png",
+                Color.CornflowerBlue
+                
+
+
+            };
+
+            // Inicializar el índice de la imagen actual
+            indiceFondoActual = 0;
+
+
             Transicion = "FadeIn";
-
             this.Top = this.Top + 15;
-
-
             tmTransicion.Start();
+        }
+
+        private void CambiarFondo()
+        {
+            var fondoActual = fondos[indiceFondoActual];
+
+            if (fondoActual is Color)
+            {
+                // Si el fondo es un color, establecer el color de fondo del formulario
+                this.BackgroundImage = null; // Limpiar la imagen de fondo
+                this.BackColor = (Color)fondoActual;
+            }
+            else if (fondoActual is string)
+            {
+                // Si el fondo es una ruta de imagen, establecer la imagen de fondo del formulario
+                this.BackgroundImage = Image.FromFile((string)fondoActual);
+                this.BackgroundImageLayout = ImageLayout.Stretch; // Ajustar la imagen al tamaño del formulario
+                this.BackColor = DefaultBackColor; // Resetear el color de fondo a su valor por defecto
+            }
         }
 
 
@@ -107,7 +145,7 @@ namespace TEST_3_LUX
                 }
                 else
                 {
-                    this.Opacity = this.Opacity - .5;
+                    this.Opacity = this.Opacity - .15;
                     this.Top = this.Top + 3;   
                 }
             }
@@ -120,7 +158,7 @@ namespace TEST_3_LUX
                 else
                 {
                     this.Opacity = this.Opacity + .15;
-                    this.Top = this.Top - 3;
+                    this.Top = this.Top - 10;
                 }
             }
             else if (Transicion == "FadeOutExit")
@@ -133,9 +171,22 @@ namespace TEST_3_LUX
                 else
                 {
                     this.Opacity = this.Opacity - .10;
-                    this.Left = this.Left + 3;
+                    this.Left = this.Left + 10;
                 }
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // Incrementar el índice del fondo actual
+            indiceFondoActual = (indiceFondoActual + 1) % fondos.Count;
+
+            // Cambiar el fondo
+            CambiarFondo();
+        }
+
+      
+
+        
     }
 }

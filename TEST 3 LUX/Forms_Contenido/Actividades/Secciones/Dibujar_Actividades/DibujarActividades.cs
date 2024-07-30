@@ -174,10 +174,7 @@ namespace TEST_3_LUX
 
         
 
-        private void btnRectangulo_Click_2(object sender, EventArgs e)
-        {
-            index = 4;
-        }
+        
 
         private void btnColor_Click_1(object sender, EventArgs e)
         {
@@ -188,20 +185,11 @@ namespace TEST_3_LUX
             p.Color = cd.Color;
         }
 
-        private void btnLLenar_Click_1(object sender, EventArgs e)
-        {
-            index = 7;
-        }
+        
 
-        private void btnCirculo_Click_1(object sender, EventArgs e)
-        {
-            index = 3;
-        }
+       
 
-        private void btnLinea_Click_1(object sender, EventArgs e)
-        {
-            index = 5;
-        }
+       
 
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
@@ -209,6 +197,36 @@ namespace TEST_3_LUX
            Principal_actividades pa = new Principal_actividades();
            pa.Show();
            this.Hide();
+
+        }
+
+        private void btnLLenar_Click(object sender, EventArgs e)
+        {
+            index = 7;
+        }
+
+        private void btnCirculo_Click(object sender, EventArgs e)
+        {
+            index = 3;
+        }
+
+        private void btnRectangulo_Click(object sender, EventArgs e)
+        {
+            index = 4;
+        }
+
+        private void btnLinea_Click(object sender, EventArgs e)
+        {
+            index = 5;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void DibujarActividades_Load(object sender, EventArgs e)
+        {
 
         }
 
