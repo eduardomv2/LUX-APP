@@ -48,10 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms_Contenido\Actividades\DibujarActividades.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarEscritura_Actividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\DibujarActividades.Designer.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarEscritura_Actividades.Designer.cs">
+      <DependentUpon>DibujarEscritura_Actividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\Calcar_Actividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\Calcar_Actividades.Designer.cs">
+      <DependentUpon>Calcar_Actividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarActividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarActividades.Designer.cs">
       <DependentUpon>DibujarActividades.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.cs">
@@ -93,16 +105,16 @@
     <Compile Include="Forms_Contenido\Actividades\Principal actividades.Designer.cs">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\Pictogramas_Actividades.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas_Actividades\Pictogramas_Actividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\Pictogramas_Actividades.Designer.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas_Actividades\Pictogramas_Actividades.Designer.cs">
       <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
     </Compile>
     <Compile Include="Pictogramas_BienMal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms_Contenido\Actividades\DibujarActividades.resx">
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar_Actividades\DibujarActividades.resx">
       <DependentUpon>DibujarActividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
@@ -121,7 +133,7 @@
       <DependentUpon>Principal.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Actividades\Pictogramas_Actividades.resx">
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas_Actividades\Pictogramas_Actividades.resx">
       <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -226,6 +238,20 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\ec.png" />
+    <None Include="Resources\Mochila %284%29.png" />
+    <None Include="Resources\Mochila %283%29.png" />
+    <None Include="Resources\Mochila %282%29.png" />
+    <None Include="Resources\Mochila %281%29.png" />
+    <None Include="Resources\Mochila.png" />
+    <None Include="Resources\Diseño sin título %2880%29.png" />
+    <None Include="Resources\Diseño sin título %2879%29.png" />
+    <None Include="Resources\Diseño sin título %2878%29.png" />
+    <None Include="Resources\Diseño sin título %2877%29.png" />
+    <None Include="Resources\Diseño sin título %2876%29.png" />
+    <None Include="Resources\Diseño sin título %2875%291.png" />
+    <None Include="Resources\Diseño sin título %2875%29.png" />
+    <None Include="Resources\BIEN O MAL.png" />
     <None Include="Resources\Diseño sin título %2874%29.png" />
     <None Include="Resources\Diseño sin título %2873%29.png" />
     <None Include="Resources\Diseño sin título %2872%29.png" />
@@ -256,10 +282,11 @@
     <None Include="Resources\Diseño sin título %2866%29.png" />
     <None Include="Resources\ACCIONES.png" />
     <None Include="Resources\ACCIONES1.png" />
-    <Content Include="Forms_Contenido\Actividades\GIF\Diseño sin título %281%29.gif" />
-    <Content Include="Forms_Contenido\Actividades\GIF\Diseño sin título %282%29.gif" />
-    <Content Include="Forms_Contenido\Actividades\GIF\Diseño sin título.gif" />
-    <Content Include="Forms_Contenido\Actividades\GIF\OSO .....gif" />
+    <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %281%29.gif" />
+    <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %282%29.gif" />
+    <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título.gif" />
+    <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\OSO .....gif" />
+    <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\Imagenes\BIEN O MAL.png" />
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
@@ -332,6 +359,8 @@
     <None Include="Resources\Diseño sin título %2827%29.png" />
     <None Include="Resources\Diseño sin título %2826%29.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Escritura_Actividades\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
