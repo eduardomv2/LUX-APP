@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.IO;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
 
@@ -10,13 +11,26 @@ namespace TEST_3_LUX
 {
     public partial class Calcar_Actividades : Form
     {
-        private List<string> imagenesDeFondo;
-        private int indiceActual;
+        private string frutasYVerduras;
+        private string CarnesyProteinas;
+        private string Postres;
+        private string VehiculosTerrestres;
+        private string VehiculosAereos;
+        private string VehiculosMarinos;
+        private string animalesMarinos;
+        private string animalesDeGranja;
+        private string animalesDeSelva;
 
+        private Random random;
 
         public Calcar_Actividades()
         {
             InitializeComponent();
+
+            InicializarRutas();
+            random = new Random();
+
+
             this.Width = 1300;
             this.Height = 910;
             pic.Size = new Size(this.Width, this.Height);
@@ -26,7 +40,7 @@ namespace TEST_3_LUX
             pic.Image = bm;
 
 
-            InicializarImagenesDeFondo();
+           
             this.Resize += new EventHandler(Form_Resize);
 
 
@@ -51,39 +65,83 @@ namespace TEST_3_LUX
         ColorDialog cd = new ColorDialog();
         Color new_Color;
 
-        private void InicializarImagenesDeFondo()
+        private void InicializarRutas()
         {
-            imagenesDeFondo = new List<string>
-            {
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (84).png",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (83).png",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (82).png"
-                // Agrega más rutas de imágenes según sea necesario
-            };
-            indiceActual = -1;
+            frutasYVerduras = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\";
+            CarnesyProteinas = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\";
+            Postres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\"; 
+            VehiculosTerrestres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\";
+            VehiculosAereos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\";
+            VehiculosMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Marinos\";
+            animalesMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\";
+            animalesDeGranja = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\";
+            animalesDeSelva = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\";        
         }
 
-        private void CambiarImagenDeFondo()
+        private void CambiarImagenDeFondo(string rutaCarpeta)
         {
-            indiceActual++;
-            if (indiceActual >= imagenesDeFondo.Count)
-            {
-                indiceActual = 0;
-            }
+            var archivos = Directory.GetFiles(rutaCarpeta, "*.png"); 
+            if (archivos.Length == 0) return;
 
-            string rutaImagen = imagenesDeFondo[indiceActual];
+            int indiceAleatorio = random.Next(archivos.Length);
+            string rutaImagen = archivos[indiceAleatorio];
+
             Image img = Image.FromFile(rutaImagen);
-            // Redimensionar la imagen para ajustarla al PictureBox
             Bitmap bmp = new Bitmap(img, pic.Size);
 
-            // Dibujar la imagen en el Bitmap actual
+            
+            g.Clear(Color.White);
             g.DrawImage(bmp, 0, 0, pic.Width, pic.Height);
             pic.Image = bm;
-
-            // Liberar recursos
             img.Dispose();
             bmp.Dispose();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(frutasYVerduras);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(CarnesyProteinas);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(Postres);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(VehiculosTerrestres);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(VehiculosAereos);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(VehiculosMarinos);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(animalesMarinos);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(animalesDeGranja);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            CambiarImagenDeFondo(animalesDeSelva);
+        }
+
 
         private void pic_Click(object sender, EventArgs e)
         {
@@ -266,10 +324,7 @@ namespace TEST_3_LUX
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            CambiarImagenDeFondo();
-        }
+      
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
@@ -281,6 +336,7 @@ namespace TEST_3_LUX
         {
 
         }
+
 
         private void pic_Paint(object sender, PaintEventArgs e)
         {
