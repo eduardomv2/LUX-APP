@@ -244,6 +244,10 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\Diseño sin título %2899%29.png" />
+    <None Include="Resources\Diseño sin título %2898%29.png" />
+    <None Include="Resources\Diseño sin título %2897%29.png" />
+    <None Include="Resources\Diseño sin título %2896%29.png" />
     <None Include="Resources\Diseño sin título %2895%29.png" />
     <None Include="Resources\Diseño sin título %2894%29.png" />
     <None Include="Resources\Diseño sin título %2892%29.png" />
