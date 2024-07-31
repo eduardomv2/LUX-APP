@@ -139,11 +139,12 @@
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(98, 238);
+            this.button5.Location = new System.Drawing.Point(80, 238);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(155, 35);
+            this.button5.Size = new System.Drawing.Size(204, 35);
             this.button5.TabIndex = 21;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -153,9 +154,9 @@
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(92, 145);
+            this.button4.Location = new System.Drawing.Point(80, 145);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 35);
+            this.button4.Size = new System.Drawing.Size(204, 35);
             this.button4.TabIndex = 20;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -167,9 +168,9 @@
             this.btnPaginaWeb.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnPaginaWeb.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnPaginaWeb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPaginaWeb.Location = new System.Drawing.Point(106, 57);
+            this.btnPaginaWeb.Location = new System.Drawing.Point(80, 57);
             this.btnPaginaWeb.Name = "btnPaginaWeb";
-            this.btnPaginaWeb.Size = new System.Drawing.Size(155, 35);
+            this.btnPaginaWeb.Size = new System.Drawing.Size(204, 35);
             this.btnPaginaWeb.TabIndex = 19;
             this.btnPaginaWeb.UseVisualStyleBackColor = false;
             this.btnPaginaWeb.Click += new System.EventHandler(this.btnPaginaWeb_Click);
@@ -286,6 +287,7 @@
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMaximizar);
             this.Controls.Add(this.btnMinimizar);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

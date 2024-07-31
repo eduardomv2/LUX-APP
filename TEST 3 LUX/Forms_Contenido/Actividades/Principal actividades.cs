@@ -25,7 +25,7 @@ namespace TEST_3_LUX.FORMS
 
         private void Principal_actividades_Load(object sender, EventArgs e)
         {
-            //button3.Image = Image.FromFile("C:\\Users\\eduar\\source\\repos\\LUX-APP\\TEST 3 LUX\\Forms_Contenido\\Actividades\\GIF\\011535.gif");
+           
 
             this.Top = this.Top + 15;
             Transicion = "FadeIn";
@@ -35,15 +35,9 @@ namespace TEST_3_LUX.FORMS
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-           
-            
 
-            
         }
-
-        
-
-       
+     
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
             Transicion = "FadeOut";
@@ -174,6 +168,77 @@ namespace TEST_3_LUX.FORMS
         {
             Pictogramas_Actividades pictogramas_Actividades = new Pictogramas_Actividades(this);
             pictogramas_Actividades.Show();
+            this.Hide();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Calcar_Actividades ca = new Calcar_Actividades();
+            ca.Show();
+            this.Hide();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            DibujarActividades da = new DibujarActividades();
+            da.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            DibujarEscritura_Actividades dea = new DibujarEscritura_Actividades();
+            dea.Show();
             this.Hide();
         }
     }

@@ -21,6 +21,15 @@ namespace TEST_3_LUX
             pic.Image = bm;
 
             this.Resize += new EventHandler(Form_Resize);
+
+
+            // Configurar el TrackBar para ajustar el grosor del lápiz
+            trackBar1.Minimum = 1;
+            trackBar1.Maximum = 20;
+            trackBar1.Value = 1;
+            trackBar1.TickFrequency = 1;
+            trackBar1.Scroll += new EventHandler(trackBar1_Scroll);
+
         }
 
         Bitmap bm;
@@ -55,12 +64,7 @@ namespace TEST_3_LUX
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            g.Clear(Color.White);
-            pic.Image = bm;
-            index = 0;
-        }
+       
 
         static Point SetPoint(PictureBox pb, Point pt)
         {
@@ -121,18 +125,6 @@ namespace TEST_3_LUX
 
         
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var save = new SaveFileDialog();
-            save.Filter = "Image(*.jpg) | *.jpg | *.* | *.*";
-            if (save.ShowDialog() == DialogResult.OK)
-            {
-                Bitmap btm = bm.Clone(new Rectangle(0, 0, pic.Width, pic.Height), bm.PixelFormat);
-                btm.Save(save.FileName, ImageFormat.Jpeg);
-                MessageBox.Show("Imagen guardada con exito");
-            }
-        }
-
         
 
         private void Form_Resize(object sender, EventArgs e)
@@ -174,10 +166,7 @@ namespace TEST_3_LUX
 
         
 
-        private void btnRectangulo_Click_2(object sender, EventArgs e)
-        {
-            index = 4;
-        }
+        
 
         private void btnColor_Click_1(object sender, EventArgs e)
         {
@@ -188,20 +177,11 @@ namespace TEST_3_LUX
             p.Color = cd.Color;
         }
 
-        private void btnLLenar_Click_1(object sender, EventArgs e)
-        {
-            index = 7;
-        }
+        
 
-        private void btnCirculo_Click_1(object sender, EventArgs e)
-        {
-            index = 3;
-        }
+       
 
-        private void btnLinea_Click_1(object sender, EventArgs e)
-        {
-            index = 5;
-        }
+       
 
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
@@ -210,6 +190,61 @@ namespace TEST_3_LUX
            pa.Show();
            this.Hide();
 
+        }
+
+        private void btnLLenar_Click(object sender, EventArgs e)
+        {
+            index = 7;
+        }
+
+        private void btnCirculo_Click(object sender, EventArgs e)
+        {
+            index = 3;
+        }
+
+        private void btnRectangulo_Click(object sender, EventArgs e)
+        {
+            index = 4;
+        }
+
+        private void btnLinea_Click(object sender, EventArgs e)
+        {
+            index = 5;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void DibujarActividades_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            // Actualizar el grosor del lápiz según el valor del TrackBar
+            p.Width = trackBar1.Value;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var save = new SaveFileDialog();
+            save.Filter = "Image(*.jpg) | *.jpg | *.* | *.*";
+            if (save.ShowDialog() == DialogResult.OK)
+            {
+                Bitmap btm = bm.Clone(new Rectangle(0, 0, pic.Width, pic.Height), bm.PixelFormat);
+                btm.Save(save.FileName, ImageFormat.Jpeg);
+                MessageBox.Show("Imagen guardada con exito");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            g.Clear(Color.White);
+            pic.Image = bm;
+            index = 0;
         }
 
         private void btnBorrador_Click_1(object sender, EventArgs e)
