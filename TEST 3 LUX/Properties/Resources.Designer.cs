@@ -273,6 +273,16 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Blanco {
+            get {
+                object obj = ResourceManager.GetObject("Blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BotonBien {
             get {
                 object obj = ResourceManager.GetObject("BotonBien", resourceCulture);
@@ -296,6 +306,16 @@ namespace TEST_3_LUX.Properties {
         internal static System.Drawing.Bitmap bucket {
             get {
                 object obj = ResourceManager.GetObject("bucket", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Calcar {
+            get {
+                object obj = ResourceManager.GetObject("Calcar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1256,6 +1276,16 @@ namespace TEST_3_LUX.Properties {
         internal static System.Drawing.Bitmap holaaa {
             get {
                 object obj = ResourceManager.GetObject("holaaa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap idka {
+            get {
+                object obj = ResourceManager.GetObject("idka", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

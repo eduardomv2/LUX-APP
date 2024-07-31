@@ -156,7 +156,8 @@
             // button13
             // 
             this.button13.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button13.BackColor = System.Drawing.Color.Gray;
+            this.button13.BackColor = System.Drawing.Color.Transparent;
+            this.button13.BackgroundImage = global::TEST_3_LUX.Properties.Resources.idka;
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.FlatAppearance.BorderSize = 0;
@@ -173,7 +174,8 @@
             // button14
             // 
             this.button14.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button14.BackColor = System.Drawing.Color.Gray;
+            this.button14.BackColor = System.Drawing.Color.Transparent;
+            this.button14.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Calcar;
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.FlatAppearance.BorderSize = 0;
@@ -190,7 +192,8 @@
             // button15
             // 
             this.button15.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button15.BackColor = System.Drawing.Color.Gray;
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Blanco;
             this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button15.FlatAppearance.BorderSize = 0;
@@ -211,7 +214,7 @@
             this.panel2.Controls.Add(this.button15);
             this.panel2.Controls.Add(this.button14);
             this.panel2.Controls.Add(this.button13);
-            this.panel2.Location = new System.Drawing.Point(248, 246);
+            this.panel2.Location = new System.Drawing.Point(226, 246);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(916, 244);
             this.panel2.TabIndex = 22;
@@ -219,7 +222,7 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button10);
@@ -233,7 +236,7 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Location = new System.Drawing.Point(12, 208);
+            this.panel1.Location = new System.Drawing.Point(12, 205);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1288, 327);
             this.panel1.TabIndex = 23;
@@ -387,7 +390,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(346, 14);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(262, 293);
+            this.button7.Size = new System.Drawing.Size(262, 291);
             this.button7.TabIndex = 11;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
@@ -452,7 +455,7 @@
             this.panel3.Controls.Add(this.button16);
             this.panel3.Controls.Add(this.button17);
             this.panel3.Controls.Add(this.button18);
-            this.panel3.Location = new System.Drawing.Point(248, 248);
+            this.panel3.Location = new System.Drawing.Point(225, 248);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(916, 244);
             this.panel3.TabIndex = 23;

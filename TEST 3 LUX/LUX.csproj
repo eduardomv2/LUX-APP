@@ -66,6 +66,30 @@
     <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Libre\DibujarActividades.Designer.cs">
       <DependentUpon>DibujarActividades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Emociones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Emociones.Designer.cs">
+      <DependentUpon>Emociones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Nombre_Correcto\Nombre_Correcto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Nombre_Correcto\Nombre_Correcto.Designer.cs">
+      <DependentUpon>Nombre_Correcto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Opcion_Correcta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Opcion_Correcta.Designer.cs">
+      <DependentUpon>Opcion_Correcta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.Designer.cs">
+      <DependentUpon>Puzzle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,10 +129,10 @@
     <Compile Include="Forms_Contenido\Actividades\Principal actividades.Designer.cs">
       <DependentUpon>Principal actividades.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Pictogramas_Actividades.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Pictogramas_Actividades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Pictogramas_Actividades.Designer.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Pictogramas_Actividades.Designer.cs">
       <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
     </Compile>
     <Compile Include="Pictogramas_BienMal.cs" />
@@ -139,7 +163,7 @@
       <DependentUpon>Principal.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Pictogramas_Actividades.resx">
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Pictogramas_Actividades.resx">
       <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -244,6 +268,9 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\idka.png" />
+    <None Include="Resources\Blanco.png" />
+    <None Include="Resources\Calcar.png" />
     <None Include="Resources\Diseño sin título %2899%29.png" />
     <None Include="Resources\Diseño sin título %2898%29.png" />
     <None Include="Resources\Diseño sin título %2897%29.png" />
