@@ -25,7 +25,7 @@ namespace TEST_3_LUX.FORMS
 
         private void Principal_actividades_Load(object sender, EventArgs e)
         {
-            //pictureBox1.BackgroundImage = Image.FromFile("C:\\Users\\eduar\\source\\repos\\LUX-APP\\TEST 3 LUX\\Forms_Contenido\\Actividades\\Recursos_Actividades\\GIF\\Diseño sin título (3).gif");
+           
 
             this.Top = this.Top + 15;
             Transicion = "FadeIn";

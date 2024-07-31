@@ -30,6 +30,10 @@
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.picColor = new System.Windows.Forms.Button();
+            this.pic = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.btnRetroceder = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
@@ -41,7 +45,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnRectangulo = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -53,14 +56,13 @@
             this.btnBorrador = new System.Windows.Forms.Button();
             this.btnLapiz = new System.Windows.Forms.Button();
             this.colorPicker = new System.Windows.Forms.PictureBox();
-            this.picColor = new System.Windows.Forms.Button();
-            this.pic = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.colorPicker)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -75,7 +77,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel1.Controls.Add(this.btnRetroceder);
+            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.trackBar1);
             this.panel1.Controls.Add(this.panel3);
@@ -88,19 +90,65 @@
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.trackBar1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.trackBar1.Location = new System.Drawing.Point(770, 133);
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.trackBar1.Size = new System.Drawing.Size(147, 45);
+            this.trackBar1.TabIndex = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
+            // picColor
+            // 
+            this.picColor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picColor.BackColor = System.Drawing.Color.White;
+            this.picColor.Location = new System.Drawing.Point(571, 68);
+            this.picColor.Name = "picColor";
+            this.picColor.Size = new System.Drawing.Size(53, 42);
+            this.picColor.TabIndex = 3;
+            this.picColor.UseVisualStyleBackColor = false;
+            // 
+            // pic
+            // 
+            this.pic.BackColor = System.Drawing.Color.Transparent;
+            this.pic.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pic.Location = new System.Drawing.Point(0, 176);
+            this.pic.Name = "pic";
+            this.pic.Size = new System.Drawing.Size(1300, 523);
+            this.pic.TabIndex = 5;
+            this.pic.TabStop = false;
+            this.pic.Click += new System.EventHandler(this.pic_Click);
+            this.pic.Paint += new System.Windows.Forms.PaintEventHandler(this.pic_Paint);
+            this.pic.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pic_MouseClick);
+            this.pic.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pic_MouseDown);
+            this.pic.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pic_MouseMove);
+            this.pic.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pic_MouseUp);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título__99_;
+            this.panel5.Controls.Add(this.btnRetroceder);
+            this.panel5.Location = new System.Drawing.Point(12, 21);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(95, 130);
+            this.panel5.TabIndex = 14;
+            // 
             // btnRetroceder
             // 
             this.btnRetroceder.BackColor = System.Drawing.Color.Transparent;
-            this.btnRetroceder.BackgroundImage = global::TEST_3_LUX.Properties.Resources.DiseñoRetroceder;
             this.btnRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRetroceder.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRetroceder.FlatAppearance.BorderSize = 0;
             this.btnRetroceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnRetroceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetroceder.Location = new System.Drawing.Point(9, 52);
+            this.btnRetroceder.Location = new System.Drawing.Point(12, 62);
             this.btnRetroceder.Name = "btnRetroceder";
-            this.btnRetroceder.Size = new System.Drawing.Size(93, 68);
+            this.btnRetroceder.Size = new System.Drawing.Size(71, 54);
             this.btnRetroceder.TabIndex = 9;
             this.btnRetroceder.UseVisualStyleBackColor = false;
             this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
@@ -119,7 +167,7 @@
             this.panel4.Controls.Add(this.button5);
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.button3);
-            this.panel4.Location = new System.Drawing.Point(114, 18);
+            this.panel4.Location = new System.Drawing.Point(120, 16);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(300, 140);
             this.panel4.TabIndex = 13;
@@ -249,17 +297,6 @@
             this.button3.TabIndex = 0;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.trackBar1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.trackBar1.Location = new System.Drawing.Point(770, 133);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trackBar1.Size = new System.Drawing.Size(147, 45);
-            this.trackBar1.TabIndex = 10;
-            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // panel3
             // 
@@ -442,7 +479,7 @@
             this.colorPicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.colorPicker.Cursor = System.Windows.Forms.Cursors.Hand;
             this.colorPicker.Image = global::TEST_3_LUX.Properties.Resources.color_palette;
-            this.colorPicker.Location = new System.Drawing.Point(200, 18);
+            this.colorPicker.Location = new System.Drawing.Point(199, 18);
             this.colorPicker.Name = "colorPicker";
             this.colorPicker.Size = new System.Drawing.Size(356, 139);
             this.colorPicker.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -450,32 +487,6 @@
             this.colorPicker.TabStop = false;
             this.colorPicker.Click += new System.EventHandler(this.colorPicker_Click);
             this.colorPicker.MouseClick += new System.Windows.Forms.MouseEventHandler(this.colorPicker_MouseClick);
-            // 
-            // picColor
-            // 
-            this.picColor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.picColor.BackColor = System.Drawing.Color.White;
-            this.picColor.Location = new System.Drawing.Point(571, 68);
-            this.picColor.Name = "picColor";
-            this.picColor.Size = new System.Drawing.Size(53, 42);
-            this.picColor.TabIndex = 3;
-            this.picColor.UseVisualStyleBackColor = false;
-            // 
-            // pic
-            // 
-            this.pic.BackColor = System.Drawing.Color.Transparent;
-            this.pic.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pic.Location = new System.Drawing.Point(0, 176);
-            this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(1300, 523);
-            this.pic.TabIndex = 5;
-            this.pic.TabStop = false;
-            this.pic.Click += new System.EventHandler(this.pic_Click);
-            this.pic.Paint += new System.Windows.Forms.PaintEventHandler(this.pic_Paint);
-            this.pic.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pic_MouseClick);
-            this.pic.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pic_MouseDown);
-            this.pic.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pic_MouseMove);
-            this.pic.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pic_MouseUp);
             // 
             // Calcar_Actividades
             // 
@@ -492,11 +503,12 @@
             this.Load += new System.EventHandler(this.Calcar_Actividades_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.colorPicker)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -529,5 +541,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel5;
     }
 }
