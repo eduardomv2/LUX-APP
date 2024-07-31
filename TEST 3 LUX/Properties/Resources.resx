@@ -118,11 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PAGINA_WEB__2_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAGINA_WEB__2_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Diseño sin título (64)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (64)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (97)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (97).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño sin título (65)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (65).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (39)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (39).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +151,8 @@
   <data name="DibujarActividades" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DibujarActividades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (65)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (65).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Calcar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calcar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (29)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (29).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,23 +160,17 @@
   <data name="Mochila (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mochila (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (80)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (80).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Diseño sin título (79)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (79).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño_sin_título__17_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño_sin_título__17_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (35)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (35).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (50)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (50)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Diseño sin título (35)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (35).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (77)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (77).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +187,8 @@
   <data name="Diseño sin título (89)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (89).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Orion-sky-ARM1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Orion-sky-ARM1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (49)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (49).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (59)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (59).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +199,8 @@
   <data name="FondodeActividades" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondodeActividades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PAGINA_WEB__4_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAGINA_WEB__4_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (74)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (74).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,9 +259,6 @@
   <data name="Diseño sin título (24)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PAGINA_WEB__4_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PAGINA_WEB__4_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Axelbotones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Axelbotones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -313,14 +310,17 @@
   <data name="Orion_sky_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orion_sky_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TecladoActividades" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TecladoActividades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (99)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (99).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DiseñoDibujar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DiseñoDibujar3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (87)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (87).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TecladoActividades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TecladoActividades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (49)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (49)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,6 +361,9 @@
   <data name="Diseño sin título (67)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (67).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Diseño_sin_título__17_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño_sin_título__17_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SaturnV-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaturnV-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -382,8 +385,8 @@
   <data name="Diseño sin título (71)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (71).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (69)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (69)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OSO ...." type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OSO .....png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (61)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (61).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -400,6 +403,9 @@
   <data name="Diseño sin título (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Diseño sin título (98)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (98).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -415,8 +421,8 @@
   <data name="PanelSuperiorActividades" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PanelSuperiorActividades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PAGINA_WEB__2_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PAGINA_WEB__2_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (31)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (62)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (62)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -463,6 +469,9 @@
   <data name="Diseño sin título (75)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (75).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\test.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -478,23 +487,20 @@
   <data name="PAGINA_WEB-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PAGINA_WEB-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Diseño sin título (57)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (57).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (61)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (61)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (31)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Agregar un título (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Agregar un título (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (62)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (62).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiseñoDibujar21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiseñoDibujar21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (91)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (91).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -511,8 +517,8 @@
   <data name="Mochila (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mochila (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (49)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (49).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ACCIONES1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ACCIONES1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -535,8 +541,11 @@
   <data name="OSO .... (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OSO .... (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OSO ...." type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OSO .....png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Orion-sky-ARM1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orion-sky-ARM1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ACCIONES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACCIONES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="color" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -553,8 +562,8 @@
   <data name="holaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\holaaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DiseñoDibujar21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DiseñoDibujar21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (69)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (69)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Diseño sin título (73)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Diseño sin título (73).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -571,10 +580,10 @@
   <data name="Orion_sky_dark1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orion_sky_dark1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ACCIONES" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ACCIONES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (80)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (80).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (99)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (99).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="idka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
