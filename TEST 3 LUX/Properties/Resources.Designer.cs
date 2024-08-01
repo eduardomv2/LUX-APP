@@ -323,6 +323,36 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CASA_CON_CHIMENEA {
+            get {
+                object obj = ResourceManager.GetObject("CASA CON CHIMENEA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CASA_CON_CHIMENEA__1_ {
+            get {
+                object obj = ResourceManager.GetObject("CASA CON CHIMENEA (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CASA_CON_CHIMENEA__2_ {
+            get {
+                object obj = ResourceManager.GetObject("CASA CON CHIMENEA (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circle {
             get {
                 object obj = ResourceManager.GetObject("circle", resourceCulture);
@@ -366,6 +396,36 @@ namespace TEST_3_LUX.Properties {
         internal static System.Drawing.Bitmap DibujarActividades {
             get {
                 object obj = ResourceManager.GetObject("DibujarActividades", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_01T053409_393 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-01T053409.393", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_01T053515_294 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-01T053515.294", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título__100_ {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título (100)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1346,6 +1406,56 @@ namespace TEST_3_LUX.Properties {
         internal static System.Drawing.Bitmap Mochila__4_ {
             get {
                 object obj = ResourceManager.GetObject("Mochila (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Niño_jugando_Futbol {
+            get {
+                object obj = ResourceManager.GetObject("Niño jugando Futbol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Niño_jugando_Futbol__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Niño jugando Futbol (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Niño_jugando_Futbol__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Niño jugando Futbol (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Niño_jugando_Futbol__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Niño jugando Futbol (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Niño_jugando_Futbol__5_ {
+            get {
+                object obj = ResourceManager.GetObject("Niño jugando Futbol (5)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

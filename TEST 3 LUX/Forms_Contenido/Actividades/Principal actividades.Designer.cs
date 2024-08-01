@@ -157,7 +157,7 @@
             // 
             this.button13.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button13.BackColor = System.Drawing.Color.Transparent;
-            this.button13.BackgroundImage = global::TEST_3_LUX.Properties.Resources.idka;
+            this.button13.BackgroundImage = global::TEST_3_LUX.Properties.Resources.CASA_CON_CHIMENEA__2_;
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.FlatAppearance.BorderSize = 0;

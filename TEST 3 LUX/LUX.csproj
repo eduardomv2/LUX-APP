@@ -268,6 +268,17 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\CASA CON CHIMENEA %282%29.png" />
+    <None Include="Resources\CASA CON CHIMENEA %281%29.png" />
+    <None Include="Resources\CASA CON CHIMENEA.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-01T053515.294.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-01T053409.393.png" />
+    <None Include="Resources\Niño jugando Futbol %285%29.png" />
+    <None Include="Resources\Niño jugando Futbol %284%29.png" />
+    <None Include="Resources\Niño jugando Futbol %283%29.png" />
+    <None Include="Resources\Niño jugando Futbol %281%29.png" />
+    <None Include="Resources\Niño jugando Futbol.png" />
+    <None Include="Resources\Diseño sin título %28100%29.png" />
     <None Include="Resources\idka.png" />
     <None Include="Resources\Blanco.png" />
     <None Include="Resources\Calcar.png" />
@@ -373,6 +384,9 @@
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Bicicleta.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Camioneta_Carro.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Tren.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Coche rojo en la calle.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Mariposa en una flor.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Niño jugando Futbol %285%29.png" />
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
