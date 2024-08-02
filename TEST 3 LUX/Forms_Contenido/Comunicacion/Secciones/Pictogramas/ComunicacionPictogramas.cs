@@ -34,7 +34,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios
         private void btnRetroceder_Click_1(object sender, EventArgs e)
         {
             this.Close();
-            principalComunicacion.Show();
+            principalComunicacion.Mostrar();
         }
         #endregion
     }
