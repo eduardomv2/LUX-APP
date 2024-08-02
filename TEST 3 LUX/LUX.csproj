@@ -72,6 +72,9 @@
     <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.Designer.cs">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\DoubleBufferedFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -81,16 +84,16 @@
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonVerde.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionPictogramas.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionPictogramas.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.Designer.cs">
       <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionTTS.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionTTS.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.Designer.cs">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_Contenido\Principal\Principal.cs">
@@ -126,10 +129,10 @@
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionPictogramas.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.resx">
       <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Menus secundarios\ComunicacionTTS.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.resx">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Principal actividades.resx">

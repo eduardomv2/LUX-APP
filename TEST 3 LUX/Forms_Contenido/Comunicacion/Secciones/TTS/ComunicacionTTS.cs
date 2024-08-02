@@ -26,7 +26,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
             this.Hide();
-            cmp.Show();
+            cmp.Mostrar();
         }
         #endregion
 
