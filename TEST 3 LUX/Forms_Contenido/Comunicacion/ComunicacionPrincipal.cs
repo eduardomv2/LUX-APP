@@ -50,8 +50,10 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             btnNotasAudio.SuspendLayout(); 
         }
 
-        private void ComunicacionPrincipal_Load(object sender, EventArgs e)
+        private async void ComunicacionPrincipal_Load(object sender, EventArgs e)
         {
+            await Task.Delay(10);
+
             ResumeDrawing(this);
             ResumeDrawing(flowLayoutPanel1);
             ResumeDrawing(panel1);
@@ -81,24 +83,20 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         private void btnTablaPictograma_Click(object sender, EventArgs e)
         {
             ComunicacionPictogramas cpm = new ComunicacionPictogramas(this);
-            this.Hide();
-
             Transicion = "FadeOut";
             isUpdating = true;
             Salida = false;
             tmCarga.Start();
-            cpm.Show();
+            cpm.Mostrar();
         }
         private void btnNotasAudio_Click(object sender, EventArgs e)
         {
             ComunicacionTTS tts = new ComunicacionTTS(this);
-            this.Hide();
-
             Transicion = "FadeOut";
             isUpdating = true;
             Salida = false;
             tmCarga.Start();
-            tts.Show();
+            tts.Mostrar();
         }
         #endregion
 
@@ -274,12 +272,14 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         }
 
         // Nuevo método personalizado para mostrar el formulario
-        public void Mostrar()
+        public async void Mostrar()
         {
             Transicion = "FadeIn";
             isUpdating = true;
-            Salida = false;
+            Salida = true;
+
             Show();
+            await Task.Delay(10);
             tmCarga.Start();
         }
         #endregion
