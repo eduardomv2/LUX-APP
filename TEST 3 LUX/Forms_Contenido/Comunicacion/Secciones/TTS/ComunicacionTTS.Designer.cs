@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComunicacionTTS));
             this.txtMensajeNota = new System.Windows.Forms.TextBox();
             this.btnHablar = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
             this.btnRetroceder = new System.Windows.Forms.Button();
+            this.tmCarga = new System.Windows.Forms.Timer(this.components);
             this.panel21.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,6 +98,12 @@
             this.btnRetroceder.UseVisualStyleBackColor = true;
             this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
             // 
+            // tmCarga
+            // 
+            this.tmCarga.Enabled = true;
+            this.tmCarga.Interval = 20;
+            this.tmCarga.Tick += new System.EventHandler(this.tmCarga_Tick);
+            // 
             // ComunicacionTTS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -106,10 +114,13 @@
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.btnHablar);
             this.Controls.Add(this.txtMensajeNota);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ComunicacionTTS";
+            this.Opacity = 0D;
             this.Text = "ComunicacionTTS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ComunicacionTTS_Load);
             this.panel21.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -122,5 +133,6 @@
         private System.Windows.Forms.Button btnHablar;
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Button btnRetroceder;
+        private System.Windows.Forms.Timer tmCarga;
     }
 }

@@ -99,6 +99,9 @@
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\DoubleBufferedFlowLayoutPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\DoubleBufferedTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
       <SubType>Component</SubType>
     </Compile>
