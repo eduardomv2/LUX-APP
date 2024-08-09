@@ -28,49 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.lblFeedback = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.btnBien = new System.Windows.Forms.Button();
             this.btnMal = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btn_Emociones = new System.Windows.Forms.Button();
+            this.btn_Seguridad = new System.Windows.Forms.Button();
+            this.btn_Social = new System.Windows.Forms.Button();
+            this.btn_Amigos = new System.Windows.Forms.Button();
+            this.btn_Aula = new System.Windows.Forms.Button();
+            this.btn_Higiene = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnRetroceder = new System.Windows.Forms.Button();
             this.pictureBoxActividad = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxActividad)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.lblFeedback);
-            this.panel1.Controls.Add(this.btnBien);
-            this.panel1.Controls.Add(this.btnMal);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 517);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1300, 208);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
             // lblFeedback
             // 
-            this.lblFeedback.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFeedback.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblFeedback.AutoSize = true;
             this.lblFeedback.BackColor = System.Drawing.Color.White;
-            this.lblFeedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFeedback.Location = new System.Drawing.Point(2, 96);
+            this.lblFeedback.Font = new System.Drawing.Font("HP Simplified", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFeedback.Location = new System.Drawing.Point(464, 55);
             this.lblFeedback.Name = "lblFeedback";
-            this.lblFeedback.Size = new System.Drawing.Size(109, 39);
+            this.lblFeedback.Size = new System.Drawing.Size(97, 35);
             this.lblFeedback.TabIndex = 2;
             this.lblFeedback.Text = "label1";
+            this.lblFeedback.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFeedback.Click += new System.EventHandler(this.lblFeedback_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(874, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(426, 725);
+            this.panel3.TabIndex = 21;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel4.Controls.Add(this.btnBien);
+            this.panel4.Controls.Add(this.btnMal);
+            this.panel4.Location = new System.Drawing.Point(23, 156);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(377, 460);
+            this.panel4.TabIndex = 2;
             // 
             // btnBien
             // 
-            this.btnBien.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnBien.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnBien.BackColor = System.Drawing.Color.Transparent;
             this.btnBien.BackgroundImage = global::TEST_3_LUX.Properties.Resources.BotonBien;
             this.btnBien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -81,9 +100,9 @@
             this.btnBien.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBien.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBien.Location = new System.Drawing.Point(382, 20);
+            this.btnBien.Location = new System.Drawing.Point(3, 5);
             this.btnBien.Name = "btnBien";
-            this.btnBien.Size = new System.Drawing.Size(260, 170);
+            this.btnBien.Size = new System.Drawing.Size(357, 220);
             this.btnBien.TabIndex = 18;
             this.btnBien.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBien.UseVisualStyleBackColor = false;
@@ -91,68 +110,193 @@
             // 
             // btnMal
             // 
-            this.btnMal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnMal.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnMal.BackColor = System.Drawing.Color.Transparent;
-            this.btnMal.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Agregar_un_título__4_;
+            this.btnMal.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Agregar_un_título__5_;
             this.btnMal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMal.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMal.FlatAppearance.BorderSize = 0;
-            this.btnMal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnMal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnMal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnMal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnMal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMal.Location = new System.Drawing.Point(659, 19);
+            this.btnMal.Location = new System.Drawing.Point(3, 238);
             this.btnMal.Name = "btnMal";
-            this.btnMal.Size = new System.Drawing.Size(263, 171);
+            this.btnMal.Size = new System.Drawing.Size(357, 220);
             this.btnMal.TabIndex = 16;
             this.btnMal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMal.UseVisualStyleBackColor = false;
             this.btnMal.Click += new System.EventHandler(this.btnMal_Click);
             // 
-            // pictureBox2
+            // panel5
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(355, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(590, 207);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Higiene__8_;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Controls.Add(this.btn_Emociones);
+            this.panel5.Controls.Add(this.btn_Seguridad);
+            this.panel5.Controls.Add(this.btn_Social);
+            this.panel5.Controls.Add(this.btn_Amigos);
+            this.panel5.Controls.Add(this.btn_Aula);
+            this.panel5.Controls.Add(this.btn_Higiene);
+            this.panel5.Location = new System.Drawing.Point(13, 144);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(400, 467);
+            this.panel5.TabIndex = 2;
+            // 
+            // btn_Emociones
+            // 
+            this.btn_Emociones.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Emociones.FlatAppearance.BorderSize = 0;
+            this.btn_Emociones.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Emociones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Emociones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Emociones.Location = new System.Drawing.Point(223, 311);
+            this.btn_Emociones.Name = "btn_Emociones";
+            this.btn_Emociones.Size = new System.Drawing.Size(130, 117);
+            this.btn_Emociones.TabIndex = 27;
+            this.btn_Emociones.UseVisualStyleBackColor = true;
+            this.btn_Emociones.Click += new System.EventHandler(this.btn_Emociones_Click);
+            // 
+            // btn_Seguridad
+            // 
+            this.btn_Seguridad.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Seguridad.FlatAppearance.BorderSize = 0;
+            this.btn_Seguridad.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Seguridad.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Seguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Seguridad.Location = new System.Drawing.Point(55, 311);
+            this.btn_Seguridad.Name = "btn_Seguridad";
+            this.btn_Seguridad.Size = new System.Drawing.Size(130, 117);
+            this.btn_Seguridad.TabIndex = 26;
+            this.btn_Seguridad.UseVisualStyleBackColor = true;
+            this.btn_Seguridad.Click += new System.EventHandler(this.btn_Seguridad_Click);
+            // 
+            // btn_Social
+            // 
+            this.btn_Social.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Social.FlatAppearance.BorderSize = 0;
+            this.btn_Social.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Social.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Social.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Social.Location = new System.Drawing.Point(223, 166);
+            this.btn_Social.Name = "btn_Social";
+            this.btn_Social.Size = new System.Drawing.Size(130, 117);
+            this.btn_Social.TabIndex = 25;
+            this.btn_Social.UseVisualStyleBackColor = true;
+            this.btn_Social.Click += new System.EventHandler(this.btn_Social_Click);
+            // 
+            // btn_Amigos
+            // 
+            this.btn_Amigos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Amigos.FlatAppearance.BorderSize = 0;
+            this.btn_Amigos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Amigos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Amigos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Amigos.Location = new System.Drawing.Point(55, 166);
+            this.btn_Amigos.Name = "btn_Amigos";
+            this.btn_Amigos.Size = new System.Drawing.Size(130, 117);
+            this.btn_Amigos.TabIndex = 24;
+            this.btn_Amigos.UseVisualStyleBackColor = true;
+            this.btn_Amigos.Click += new System.EventHandler(this.btn_Amigos_Click);
+            // 
+            // btn_Aula
+            // 
+            this.btn_Aula.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Aula.FlatAppearance.BorderSize = 0;
+            this.btn_Aula.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Aula.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Aula.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Aula.Location = new System.Drawing.Point(223, 30);
+            this.btn_Aula.Name = "btn_Aula";
+            this.btn_Aula.Size = new System.Drawing.Size(130, 117);
+            this.btn_Aula.TabIndex = 23;
+            this.btn_Aula.UseVisualStyleBackColor = true;
+            this.btn_Aula.Click += new System.EventHandler(this.btn_Aula_Click);
+            // 
+            // btn_Higiene
+            // 
+            this.btn_Higiene.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Higiene.FlatAppearance.BorderSize = 0;
+            this.btn_Higiene.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Higiene.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Higiene.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Higiene.Location = new System.Drawing.Point(55, 31);
+            this.btn_Higiene.Name = "btn_Higiene";
+            this.btn_Higiene.Size = new System.Drawing.Size(130, 117);
+            this.btn_Higiene.TabIndex = 22;
+            this.btn_Higiene.UseVisualStyleBackColor = true;
+            this.btn_Higiene.Click += new System.EventHandler(this.btn_Higiene_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.flowLayoutPanel1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título___2024_08_05T064210_476;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnRetroceder);
+            this.panel2.Location = new System.Drawing.Point(9, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1300, 192);
-            this.panel2.TabIndex = 2;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.panel2.Size = new System.Drawing.Size(408, 128);
+            this.panel2.TabIndex = 1;
             // 
-            // flowLayoutPanel1
+            // button2
             // 
-            this.flowLayoutPanel1.BackgroundImage = global::TEST_3_LUX.Properties.Resources.PanelSuperiorActividades;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 16);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(522, 118);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título___2024_08_06T005122_533;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(145, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(93, 83);
+            this.button2.TabIndex = 2;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(144, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 83);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnRetroceder
+            // 
+            this.btnRetroceder.BackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRetroceder.FlatAppearance.BorderSize = 0;
+            this.btnRetroceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetroceder.Location = new System.Drawing.Point(32, 19);
+            this.btnRetroceder.Name = "btnRetroceder";
+            this.btnRetroceder.Size = new System.Drawing.Size(91, 83);
+            this.btnRetroceder.TabIndex = 0;
+            this.btnRetroceder.UseVisualStyleBackColor = false;
+            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
             // 
             // pictureBoxActividad
             // 
-            this.pictureBoxActividad.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxActividad.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxActividad.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxActividad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxActividad.Location = new System.Drawing.Point(600, 198);
+            this.pictureBoxActividad.Location = new System.Drawing.Point(399, 108);
             this.pictureBoxActividad.Name = "pictureBoxActividad";
-            this.pictureBoxActividad.Size = new System.Drawing.Size(345, 316);
+            this.pictureBoxActividad.Size = new System.Drawing.Size(535, 535);
             this.pictureBoxActividad.TabIndex = 1;
             this.pictureBoxActividad.TabStop = false;
             this.pictureBoxActividad.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -161,36 +305,48 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackgroundImage = global::TEST_3_LUX.Properties.Resources.Diseño_sin_título___2024_08_06T060752_638;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1300, 725);
-            this.Controls.Add(this.pictureBoxActividad);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.lblFeedback);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pictureBoxActividad);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Pictogramas_Actividades";
             this.Text = "Pictogramas_Actividades";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Pictogramas_Actividades_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxActividad)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnBien;
         private System.Windows.Forms.Button btnMal;
         private System.Windows.Forms.Label lblFeedback;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBoxActividad;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRetroceder;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Higiene;
+        private System.Windows.Forms.Button btn_Emociones;
+        private System.Windows.Forms.Button btn_Seguridad;
+        private System.Windows.Forms.Button btn_Social;
+        private System.Windows.Forms.Button btn_Amigos;
+        private System.Windows.Forms.Button btn_Aula;
     }
 }
