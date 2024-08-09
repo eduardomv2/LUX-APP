@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Puzzlee;
 
 namespace TEST_3_LUX.FORMS
 {
@@ -14,7 +15,7 @@ namespace TEST_3_LUX.FORMS
     {
     
         string Transicion;
-
+       
 
         public Principal_actividades()
         {
@@ -37,9 +38,13 @@ namespace TEST_3_LUX.FORMS
         {
 
         }
-     
+
+       
+
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
+
+
             Transicion = "FadeOut";
             tmTransicion.Start();
 
@@ -164,21 +169,20 @@ namespace TEST_3_LUX.FORMS
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        
+       
+        private void button2_Click_1(object sender, EventArgs e)
         {
             Pictogramas_Actividades pictogramas_Actividades = new Pictogramas_Actividades(this);
             pictogramas_Actividades.Show();
             this.Hide();
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Puzzle puzzle = new Puzzle();
+            puzzle.Show();
+            this.Hide();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -240,6 +244,11 @@ namespace TEST_3_LUX.FORMS
             DibujarEscritura_Actividades dea = new DibujarEscritura_Actividades();
             dea.Show();
             this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

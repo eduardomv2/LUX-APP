@@ -90,6 +90,12 @@
     <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.Designer.cs">
       <DependentUpon>Puzzle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escritura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escritura.Designer.cs">
+      <DependentUpon>Escritura.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\DibujarEscritura_Actividades.resx">
       <DependentUpon>DibujarEscritura_Actividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.resx">
+      <DependentUpon>Puzzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Escritura.resx">
+      <DependentUpon>Escritura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
@@ -274,6 +286,47 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\PIEZAS %285%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-09T042043.531.png" />
+    <None Include="Resources\PIEZAS %284%29.png" />
+    <None Include="Resources\PIEZAS %283%29.png" />
+    <None Include="Resources\PIEZAS %282%29.png" />
+    <None Include="Resources\PIEZAS %281%29.png" />
+    <None Include="Resources\PIEZAS.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-09T040100.208.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-09T034901.086.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-08T222530.387.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-08T220015.625.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-07T055930.819.png" />
+    <None Include="Resources\Higiene %288%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T060752.638.png" />
+    <None Include="Resources\Higiene %287%29.png" />
+    <None Include="Resources\Higiene %286%29.png" />
+    <None Include="Resources\Higiene %285%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T055608.718.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T054954.216.png" />
+    <None Include="Resources\Higiene %284%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T054239.886.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T054003.137.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T053432.309.png" />
+    <None Include="Resources\Higiene %283%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T005122.533.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T004624.892.png" />
+    <None Include="Resources\Higiene %282%29.png" />
+    <None Include="Resources\Higiene %281%29.png" />
+    <None Include="Resources\Higiene.png" />
+    <None Include="Resources\Agregar un título %285%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T064210.476.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T063957.957.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T063538.045.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T063008.493.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T062113.761.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T061114.649.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T060412.682.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T051313.065.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-04T023310.799.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-04T022359.168.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-04T021856.104.png" />
     <None Include="Resources\CASA CON CHIMENEA %282%29.png" />
     <None Include="Resources\CASA CON CHIMENEA %281%29.png" />
     <None Include="Resources\CASA CON CHIMENEA.png" />
@@ -356,43 +409,62 @@
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\OSO .....gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\Imagenes\BIEN O MAL.png" />
     <None Include="Resources\2.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Cerdo_Vaca.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Oveja_Caballo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Pavo_Burro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Pollo_Gallo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Estrella_Cangrejo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Pez.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Pulpo_PezPayaso.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Tortuga_CaballodeMar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\Jirafa_Elefante.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\Leon_Mono.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\Perezoso_Garras.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\Huevo_Queso.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\Pollo_Carne.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\Tocino_Leguminosas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Brocoli_Tomate.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Elote_Calabaza.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Fresa_Manzana.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Frutas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Sandia_Uva.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Verduras.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Zanahoria_Piña.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Donas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Panqueque_Cono.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Pastel_Muffin.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Tarta_Rebanada.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\Avion.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\GloboAerostatico.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\Helicoptero.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Marinos\Barco.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Marinos\Submarinos.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Autobus.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Bicicleta.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Camioneta_Carro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Tren.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Cerdo_Vaca.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Oveja_Caballo.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pavo_Burro.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pollo_Gallo.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Estrella_Cangrejo.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pez.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pulpo_PezPayaso.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Tortuga_CaballodeMar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Jirafa_Elefante.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Leon_Mono.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Perezoso_Garras.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Huevo_Queso.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Pollo_Carne.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Tocino_Leguminosas.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Brocoli_Tomate.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Elote_Calabaza.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Fresa_Manzana.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Frutas.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Sandia_Uva.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Verduras.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Zanahoria_Piña.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Donas.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Panqueque_Cono.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Pastel_Muffin.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Tarta_Rebanada.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Avion.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\GloboAerostatico.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Helicoptero.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Barco.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Submarinos.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Autobus.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Bicicleta.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Camioneta_Carro.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Tren.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Coche rojo en la calle.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Mariposa en una flor.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Niño jugando Futbol %285%29.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Bueno\Jugar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Malo\pelear.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\CompartirLonche.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\escucharprofesor.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\LimpiarSalon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\trabajarclase.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Bueno\lavardientes.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Malo\estornudar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\escucharprofesor.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\LimpiarSalon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\empujarr.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\estornudar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\casco.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\Cinturon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\empujarr.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\ESCUPIR.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jaguar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jirafa.png" />
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
@@ -466,7 +538,11 @@
     <None Include="Resources\Diseño sin título %2826%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms_Contenido\Actividades\Secciones\Teclado\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Malo\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Bueno\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Malo\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Malo\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Bueno\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
