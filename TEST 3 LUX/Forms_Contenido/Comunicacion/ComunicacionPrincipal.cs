@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS.Comunicacion.Controles_personalizados;
 using TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Vocabulario;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace TEST_3_LUX.FORMS.Comunicacion3
@@ -82,7 +84,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         }
         private void btnTablaPictograma_Click(object sender, EventArgs e)
         {
-            ComunicacionPictogramas cpm = new ComunicacionPictogramas(this);
+            ComunicacionSocial cpm = new ComunicacionSocial(this);
             Transicion = "FadeOut";
             isUpdating = true;
             Salida = false;
@@ -97,6 +99,15 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             Salida = false;
             tmCarga.Start();
             tts.Mostrar();
+        }
+        private void btnVocabulario_Click(object sender, EventArgs e)
+        {
+            ComunicacionVocabulario cpm = new ComunicacionVocabulario(this);
+            Transicion = "FadeOut";
+            isUpdating = true;
+            Salida = false;
+            tmCarga.Start();
+            cpm.Mostrar();
         }
         #endregion
 
@@ -283,5 +294,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             tmCarga.Start();
         }
         #endregion
+
+       
     }
 }
