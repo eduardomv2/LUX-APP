@@ -111,17 +111,38 @@
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonProp.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonRojo.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonVerde.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeccionPDFVocabulario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.Designer.cs">
-      <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeccionPDFVocabulario.Designer.cs">
+      <DependentUpon>SeccionPDFVocabulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeleccionPDFSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeleccionPDFSocial.Designer.cs">
+      <DependentUpon>SeleccionPDFSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.Designer.cs">
+      <DependentUpon>ComunicacionSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Vocabulario\ComunicacionVocabulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Vocabulario\ComunicacionVocabulario.Designer.cs">
+      <DependentUpon>ComunicacionVocabulario.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.cs">
       <SubType>Form</SubType>
@@ -168,8 +189,17 @@
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.resx">
-      <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeccionPDFVocabulario.resx">
+      <DependentUpon>SeccionPDFVocabulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeleccionPDFSocial.resx">
+      <DependentUpon>SeleccionPDFSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.resx">
+      <DependentUpon>ComunicacionSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Vocabulario\ComunicacionVocabulario.resx">
+      <DependentUpon>ComunicacionVocabulario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.resx">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
