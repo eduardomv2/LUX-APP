@@ -67,15 +67,15 @@ namespace TEST_3_LUX
 
         private void InicializarRutas()
         {
-            frutasYVerduras = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\";
-            CarnesyProteinas = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\";
-            Postres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\"; 
-            VehiculosTerrestres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\";
-            VehiculosAereos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\";
-            VehiculosMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Marinos\";
-            animalesMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\";
-            animalesDeGranja = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\";
-            animalesDeSelva = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\";        
+            frutasYVerduras = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\";
+            CarnesyProteinas = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\";
+            Postres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\"; 
+            VehiculosTerrestres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\";
+            VehiculosAereos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\";
+            VehiculosMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\";
+            animalesMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\";
+            animalesDeGranja = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\";
+            animalesDeSelva = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\";        
         }
 
         private void CambiarImagenDeFondo(string rutaCarpeta)
