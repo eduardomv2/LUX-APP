@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS.Comunicacion3;
 using TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Carga;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Emergente.Eliminar;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Impresion;
 
 namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
 {
@@ -39,6 +43,12 @@ namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
             scrollTimer.Interval = 50; // 50 ms de inactividad
             scrollTimer.Tick += ScrollTimer_Tick;
         }
+
+        private void ComunicacionSocial_Load(object sender, EventArgs e)
+        {
+
+        }
+
         #region CABECERA DE VENTANA
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
@@ -54,6 +64,29 @@ namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
         {
             GenerarBotones(@"Resources\Comunicacion\Social\SiNo");
         }
+        private void btnBebidas_Click(object sender, EventArgs e)
+        {
+            GenerarBotones(@"Resources\Comunicacion\Social\Bebidas");
+            //GenerarBotones(@"Resources\Comunicacion\Social\Bebidas\Cargados");
+        }
+
+        private void btnAlimentos_Click(object sender, EventArgs e)
+        {
+            GenerarBotones(@"Resources\Comunicacion\Social\Alimentos");
+            //GenerarBotones(@"Resources\Comunicacion\Social\Alimentos\Cargados");
+        }
+
+        private void btnObjetos_Click(object sender, EventArgs e)
+        {
+            GenerarBotones(@"Resources\Comunicacion\Social\Objetos");
+            //GenerarBotones(@"Resources\Comunicacion\Social\Objetos\Cargados");
+        }
+
+        private void btnPersonas_Click(object sender, EventArgs e)
+        {
+            GenerarBotones(@"Resources\Comunicacion\Social\Personas");
+            //GenerarBotones(@"Resources\Comunicacion\Social\Personas\Cargados");
+        }
         #endregion
 
         public void GenerarBotones(string directoryPath)
@@ -61,9 +94,16 @@ namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
             flpTabla.SuspendLayout();
             flpTabla.Controls.Clear();
 
-            string[] pngFiles = Directory.GetFiles(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, directoryPath), "*.png");
+            string[] imageFiles = Directory
+            .GetFiles(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, directoryPath), "*.*")
+            .Where(file => file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                           file.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                           file.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
+                           file.EndsWith(".bmp", StringComparison.OrdinalIgnoreCase) ||
+                           file.EndsWith(".gif", StringComparison.OrdinalIgnoreCase))
+            .ToArray();
 
-            foreach (string file in pngFiles)
+            foreach (string file in imageFiles)
             {
                 flpTabla.Controls.Add(new RBotonProp(Path.GetFileNameWithoutExtension(file), file));
             }
@@ -185,15 +225,29 @@ namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
 
         private void btnCargarImagenes_Click(object sender, EventArgs e)
         {
-
+            using (SeleccionImagen select = new SeleccionImagen())
+            {
+                select.ShowDialog();
+                select.Dispose();
+            } 
         }
 
-
-        private void ComunicacionSocial_Load(object sender, EventArgs e)
+        private void btnImprimir_Click(object sender, EventArgs e)
         {
-
+            using (SeleccionPDFSocial select = new SeleccionPDFSocial())
+            {
+                select.ShowDialog();
+                select.Dispose();
+            }    
         }
 
-        
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            using (ComunicacionEliminarTarjeta elmn = new ComunicacionEliminarTarjeta())
+            {
+                elmn.ShowDialog();
+                elmn.Dispose();
+            }
+        }
     }
 }

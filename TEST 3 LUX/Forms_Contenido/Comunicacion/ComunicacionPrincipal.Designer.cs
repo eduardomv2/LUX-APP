@@ -206,7 +206,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.btnVocabulario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnVocabulario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVocabulario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVocabulario.Location = new System.Drawing.Point(391, 24);
+            this.btnVocabulario.Location = new System.Drawing.Point(271, 24);
             this.btnVocabulario.Name = "btnVocabulario";
             this.btnVocabulario.Size = new System.Drawing.Size(114, 105);
             this.btnVocabulario.TabIndex = 19;
@@ -239,7 +239,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.btnNotasAudio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnNotasAudio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnNotasAudio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNotasAudio.Location = new System.Drawing.Point(271, 24);
+            this.btnNotasAudio.Location = new System.Drawing.Point(391, 24);
             this.btnNotasAudio.Name = "btnNotasAudio";
             this.btnNotasAudio.Size = new System.Drawing.Size(114, 105);
             this.btnNotasAudio.TabIndex = 18;
