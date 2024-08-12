@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComunicacionVocabulario));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.flpTabla = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
             this.btnDown = new System.Windows.Forms.Button();
             this.btnUp = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -40,7 +41,6 @@
             this.btnAbecedario = new System.Windows.Forms.Button();
             this.btnColores = new System.Windows.Forms.Button();
             this.tmCarga = new System.Windows.Forms.Timer(this.components);
-            this.flpTabla = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +58,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1059, 456);
             this.panel2.TabIndex = 25;
+            // 
+            // flpTabla
+            // 
+            this.flpTabla.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flpTabla.AutoScroll = true;
+            this.flpTabla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(105)))));
+            this.flpTabla.Location = new System.Drawing.Point(20, 8);
+            this.flpTabla.Name = "flpTabla";
+            this.flpTabla.Size = new System.Drawing.Size(1020, 416);
+            this.flpTabla.TabIndex = 26;
             // 
             // btnDown
             // 
@@ -200,20 +212,11 @@
             this.tmCarga.Interval = 20;
             this.tmCarga.Tick += new System.EventHandler(this.tmCarga_Tick);
             // 
-            // flpTabla
-            // 
-            this.flpTabla.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flpTabla.Location = new System.Drawing.Point(20, 17);
-            this.flpTabla.Name = "flpTabla";
-            this.flpTabla.Size = new System.Drawing.Size(1020, 416);
-            this.flpTabla.TabIndex = 26;
-            // 
             // ComunicacionVocabulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1284, 686);

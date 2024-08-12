@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,10 +35,71 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.6.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.6.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.6.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Quality, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Quality.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Snippets, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Snippets.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.System, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.System.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.WPFonts, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.WPFonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.6.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Speech" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -120,16 +183,28 @@
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonVerde.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeccionPDFVocabulario.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Carga\SeleccionImagen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeccionPDFVocabulario.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Carga\SeleccionImagen.Designer.cs">
+      <DependentUpon>SeleccionImagen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Eliminar\ComunicacionEliminarTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Eliminar\ComunicacionEliminarTarjeta.Designer.cs">
+      <DependentUpon>ComunicacionEliminarTarjeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeccionPDFVocabulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeccionPDFVocabulario.Designer.cs">
       <DependentUpon>SeccionPDFVocabulario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeleccionPDFSocial.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeleccionPDFSocial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeleccionPDFSocial.Designer.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeleccionPDFSocial.Designer.cs">
       <DependentUpon>SeleccionPDFSocial.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.cs">
@@ -189,10 +264,16 @@
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeccionPDFVocabulario.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Carga\SeleccionImagen.resx">
+      <DependentUpon>SeleccionImagen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Eliminar\ComunicacionEliminarTarjeta.resx">
+      <DependentUpon>ComunicacionEliminarTarjeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeccionPDFVocabulario.resx">
       <DependentUpon>SeccionPDFVocabulario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Impresion\SeleccionPDFSocial.resx">
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeleccionPDFSocial.resx">
       <DependentUpon>SeleccionPDFSocial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.resx">
@@ -575,4 +656,11 @@
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Bueno\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
+  </Target>
 </Project>
