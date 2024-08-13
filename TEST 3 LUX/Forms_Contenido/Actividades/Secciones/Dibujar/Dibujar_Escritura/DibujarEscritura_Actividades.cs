@@ -64,11 +64,25 @@ namespace TEST_3_LUX
 
         private void CargarImagenes()
         {
-            string carpetaImagenes = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\"; 
-            imagenes = Directory.GetFiles(carpetaImagenes, "*.jpg")
-                .Concat(Directory.GetFiles(carpetaImagenes, "*.png"))
-                .Concat(Directory.GetFiles(carpetaImagenes, "*.jpeg"))
-                .ToList();
+            // Obtener la ruta base del directorio donde se está ejecutando la aplicación
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+
+            // Construir la ruta completa a la carpeta de imágenes relativa a la ruta base
+            string carpetaImagenes = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\");
+
+            // Verificar si la carpeta de imágenes existe
+            if (Directory.Exists(carpetaImagenes))
+            {
+                // Obtener todas las imágenes en la carpeta
+                imagenes = Directory.GetFiles(carpetaImagenes, "*.jpg")
+                    .Concat(Directory.GetFiles(carpetaImagenes, "*.png"))
+                    .Concat(Directory.GetFiles(carpetaImagenes, "*.jpeg"))
+                    .ToList();
+            }
+            else
+            {
+                MessageBox.Show("La carpeta de imágenes no se encontró: " + carpetaImagenes, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
 

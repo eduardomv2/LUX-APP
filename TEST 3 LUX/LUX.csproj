@@ -586,77 +586,222 @@
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\OSO .....gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\Imagenes\BIEN O MAL.png" />
     <None Include="Resources\2.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Cerdo_Vaca.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Oveja_Caballo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pavo_Burro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pollo_Gallo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Estrella_Cangrejo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pez.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pulpo_PezPayaso.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Tortuga_CaballodeMar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Jirafa_Elefante.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Leon_Mono.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Perezoso_Garras.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Huevo_Queso.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Pollo_Carne.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Tocino_Leguminosas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Brocoli_Tomate.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Elote_Calabaza.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Fresa_Manzana.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Frutas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Sandia_Uva.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Verduras.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Zanahoria_Piña.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Donas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Panqueque_Cono.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Pastel_Muffin.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Tarta_Rebanada.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Avion.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\GloboAerostatico.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Helicoptero.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Barco.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Submarinos.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Autobus.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Bicicleta.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Camioneta_Carro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Tren.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Coche rojo en la calle.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Mariposa en una flor.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Niño jugando Futbol %285%29.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Bueno\Jugar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Malo\pelear.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\CompartirLonche.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\escucharprofesor.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\LimpiarSalon.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\trabajarclase.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Bueno\lavardientes.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Malo\estornudar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\escucharprofesor.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\LimpiarSalon.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\empujarr.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\estornudar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\casco.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\Cinturon.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\empujarr.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\ESCUPIR.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jaguar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jirafa.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Amigos_Familiares\Agregar un subtítulo %282%29.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Cumpleaños\Cumpleaños.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Navidad\Navidad.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\SanValentin\SanValentin.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Aguacate.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Manzana.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Pescado.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\platanos.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Gato.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Jirafa.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Leon.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Perro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Casco.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Lapiz.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Pelota.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Cerdo_Vaca.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Oveja_Caballo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pavo_Burro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pollo_Gallo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Estrella_Cangrejo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pez.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pulpo_PezPayaso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Tortuga_CaballodeMar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Jirafa_Elefante.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Leon_Mono.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Perezoso_Garras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Huevo_Queso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Pollo_Carne.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Tocino_Leguminosas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Brocoli_Tomate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Elote_Calabaza.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Fresa_Manzana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Frutas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Sandia_Uva.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Verduras.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Zanahoria_Piña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Donas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Panqueque_Cono.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Pastel_Muffin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Tarta_Rebanada.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Avion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\GloboAerostatico.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Helicoptero.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Barco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Submarinos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Autobus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Bicicleta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Camioneta_Carro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Tren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Coche rojo en la calle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Mariposa en una flor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Niño jugando Futbol %285%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Bueno\Jugar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Malo\pelear.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\CompartirLonche.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\escucharprofesor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\LimpiarSalon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\trabajarclase.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Bueno\testnadamas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Bueno\lavardientes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Malo\estornudar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\escucharprofesor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\LimpiarSalon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\empujarr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\estornudar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\casco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\Cinturon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\empujarr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\ESCUPIR.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jaguar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jirafa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Amigos_Familiares\Agregar un subtítulo %282%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Cumpleaños\Cumpleaños.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Navidad\Navidad.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\SanValentin\SanValentin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Aguacate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Manzana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Pescado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\platanos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Gato.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Jirafa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Leon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Perro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Casco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Lapiz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Pelota.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\12.png" />
     <None Include="Resources\21.png" />
     <None Include="Resources\3.png" />
@@ -734,7 +879,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Malo\" />
-    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Bueno\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Malo\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Malo\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Bueno\" />

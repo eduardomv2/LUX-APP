@@ -17,11 +17,15 @@ namespace TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado.Cartas
         public Cartas()
         {
             InitializeComponent();
-            // Asignar eventos a los botones
-            button4.Click += (s, e) => CambiarImagenPanel(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Amigos_Familiares\");
-            button3.Click += (s, e) => CambiarImagenPanel(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Navidad\");
-            button2.Click += (s, e) => CambiarImagenPanel(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\SanValentin\");
-            button1.Click += (s, e) => CambiarImagenPanel(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Cumpleaños\");
+
+            // Obtener la ruta base del directorio donde se está ejecutando la aplicación
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+
+            // Asignar eventos a los botones con rutas relativas
+            button4.Click += (s, e) => CambiarImagenPanel(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Amigos_Familiares\"));
+            button3.Click += (s, e) => CambiarImagenPanel(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Navidad\"));
+            button2.Click += (s, e) => CambiarImagenPanel(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\SanValentin\"));
+            button1.Click += (s, e) => CambiarImagenPanel(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Cumpleaños\"));
 
             panel2.Visible = false;
         }

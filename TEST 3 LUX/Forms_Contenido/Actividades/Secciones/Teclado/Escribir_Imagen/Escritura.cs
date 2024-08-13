@@ -26,12 +26,15 @@ namespace TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado
             InitializeComponent();
             panel2.Visible = false;
             button7.Visible = false;
+            // Obtener la ruta base del directorio donde se está ejecutando la aplicación
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
 
+            // Definir las rutas relativas a las carpetas de recursos
             secciones = new List<string>
             {
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\"
+                Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\"),
+                Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\"),
+                Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\")
             };
 
             seccionActualIndex = 0;
@@ -127,20 +130,22 @@ namespace TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CargarImagenesDeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\");
-           
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            CargarImagenesDeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\"));
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CargarImagenesDeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            CargarImagenesDeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\"));
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            CargarImagenesDeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            CargarImagenesDeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\"));
 
-           
         }
 
         private void button7_Click(object sender, EventArgs e)
