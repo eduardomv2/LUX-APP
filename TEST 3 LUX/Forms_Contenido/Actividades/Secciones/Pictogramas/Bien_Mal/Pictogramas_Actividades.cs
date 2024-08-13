@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Drawing; 
 using System.Windows.Forms;
@@ -34,15 +34,18 @@ namespace TEST_3_LUX
             panel5.Visible = false;
             button2.Visible = false;
 
-            
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
 
-            actividadesHigiene = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\");
-            actividadesAula = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\");
-            actividadesAmigos = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\");
-            actividadesSocial = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\");
-            actividadesSeguridad = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\");
-            actividadesEmociones = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\");
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\"));
+
+            actividadesHigiene = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\"));
+            actividadesAula = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\"));
+            actividadesAmigos = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\"));
+            actividadesSocial = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\"));
+            actividadesSeguridad = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\"));
+            actividadesEmociones = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\"));
+
+            
 
             // Establecer cualquier lista como inicial
             // actividades = actividadesHigiene;
@@ -183,42 +186,48 @@ namespace TEST_3_LUX
 
         private void btn_Higiene_Click(object sender, EventArgs e)
         {
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\"));
             indiceActual = 0;
             MostrarActividad();
         }
 
         private void btn_Aula_Click(object sender, EventArgs e)
         {
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\"));
             indiceActual = 0;
             MostrarActividad();
         }
 
         private void btn_Amigos_Click(object sender, EventArgs e)
         {
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\"));
             indiceActual = 0;
             MostrarActividad();
         }
 
         private void btn_Social_Click(object sender, EventArgs e)
         {
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\"));
             indiceActual = 0;
             MostrarActividad();
         }
 
         private void btn_Seguridad_Click(object sender, EventArgs e)
         {
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\"));
             indiceActual = 0;
             MostrarActividad();
         }
 
         private void btn_Emociones_Click(object sender, EventArgs e)
         {
-            actividades = CargarImagenesDesdeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\");
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            actividades = CargarImagenesDesdeCarpeta(Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\"));
             indiceActual = 0;
             MostrarActividad();
         }

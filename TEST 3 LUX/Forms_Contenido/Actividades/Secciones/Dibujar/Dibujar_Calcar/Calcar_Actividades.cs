@@ -67,20 +67,26 @@ namespace TEST_3_LUX
 
         private void InicializarRutas()
         {
-            frutasYVerduras = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\";
-            CarnesyProteinas = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\";
-            Postres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\"; 
-            VehiculosTerrestres = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\";
-            VehiculosAereos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\";
-            VehiculosMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\";
-            animalesMarinos = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\";
-            animalesDeGranja = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\";
-            animalesDeSelva = @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\";        
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+
+            frutasYVerduras = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\");
+            CarnesyProteinas = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\");
+            Postres = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\");
+            VehiculosTerrestres = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\");
+            VehiculosAereos = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\");
+            VehiculosMarinos = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\");
+            animalesMarinos = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\");
+            animalesDeGranja = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\");
+            animalesDeSelva = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\");
+
+
+            //@"Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\"
+            //@"Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\
         }
 
         private void CambiarImagenDeFondo(string rutaCarpeta)
         {
-            var archivos = Directory.GetFiles(rutaCarpeta, "*.png"); 
+            var archivos = Directory.GetFiles(rutaCarpeta, "*.png");
             if (archivos.Length == 0) return;
 
             int indiceAleatorio = random.Next(archivos.Length);
@@ -89,7 +95,6 @@ namespace TEST_3_LUX
             Image img = Image.FromFile(rutaImagen);
             Bitmap bmp = new Bitmap(img, pic.Size);
 
-            
             g.Clear(Color.White);
             g.DrawImage(bmp, 0, 0, pic.Width, pic.Height);
             pic.Image = bm;

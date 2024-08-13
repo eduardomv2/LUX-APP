@@ -19,10 +19,20 @@ namespace TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Puzzlee
         public Puzzle()
         {
             InitializeComponent();
-            CargarImagenesDeCarpeta(@"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\");
 
+            // Obtener la ruta base del directorio donde se está ejecutando la aplicación
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
 
+            // Construir la ruta completa a la carpeta de imágenes relativa a la ruta base
+            string carpetaImagenes = Path.Combine(basePath, @"Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\");
+
+            // Cargar las imágenes de la carpeta
+            CargarImagenesDeCarpeta(carpetaImagenes);
+
+            // Configurar el TableLayoutPanel
             ConfigureTableLayoutPanel();
+
+            // Cargar la primera imagen y dividirla en piezas
             CargarImagenYDividir(imagenes[imagenActualIndex]);
         }
 
