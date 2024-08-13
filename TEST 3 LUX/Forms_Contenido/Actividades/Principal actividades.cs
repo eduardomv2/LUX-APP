@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Puzzlee;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado.Cartas;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado.Escribir_Libre;
 
 namespace TEST_3_LUX.FORMS
 {
@@ -249,6 +252,27 @@ namespace TEST_3_LUX.FORMS
         private void button5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Escritura es = new Escritura();
+            es.Show();
+            this.Hide();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Escribir_Libre escribir_Libre = new Escribir_Libre();
+            escribir_Libre.Show();
+            this.Hide();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+           Cartas cartas = new Cartas();
+            cartas.Show();
+            this.Hide();
         }
     }
 }
