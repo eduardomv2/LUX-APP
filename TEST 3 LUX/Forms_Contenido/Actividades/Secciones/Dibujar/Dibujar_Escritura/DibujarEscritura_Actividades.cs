@@ -74,9 +74,12 @@ namespace TEST_3_LUX
 
         private void button3_Click(object sender, EventArgs e)
         {
+
+          
             Principal_actividades pa = new Principal_actividades();
             pa.Show();
             this.Hide();
+
         }
 
        
@@ -291,6 +294,24 @@ namespace TEST_3_LUX
             {
                 g.DrawLine(p, cX, cY, sX, sY);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //alternar visibilidad del panel4
+            panel4.Visible = !panel4.Visible;
+
+            //alternar color del botón verde y rojo
+            button2.BackColor = panel4.Visible ? Color.ForestGreen : Color.Red;
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            //abrir formulario principal actividades
+            Principal_actividades pa = new Principal_actividades();
+            pa.Show();
+            this.Hide();
         }
 
         private void button13_Click(object sender, EventArgs e)

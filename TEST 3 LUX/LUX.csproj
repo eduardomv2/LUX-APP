@@ -153,11 +153,23 @@
     <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.Designer.cs">
       <DependentUpon>Puzzle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escritura.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Cartas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escritura.Designer.cs">
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Cartas.Designer.cs">
+      <DependentUpon>Cartas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Escritura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Escritura.Designer.cs">
       <DependentUpon>Escritura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Escribir_Libre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Escribir_Libre.Designer.cs">
+      <DependentUpon>Escribir_Libre.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
@@ -258,8 +270,14 @@
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.resx">
       <DependentUpon>Puzzle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Escritura.resx">
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Cartas.resx">
+      <DependentUpon>Cartas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Escritura.resx">
       <DependentUpon>Escritura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Escribir_Libre.resx">
+      <DependentUpon>Escribir_Libre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
@@ -397,6 +415,54 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\LUX %283%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T195236.169.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T193525.302.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T181103.695.png" />
+    <None Include="Resources\Agregar un subtítulo %281%29.png" />
+    <None Include="Resources\Agregar un subtítulo1.png" />
+    <None Include="Resources\Agregar un subtítulo.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T142630.889.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T142451.215.png" />
+    <None Include="Resources\Agrega una Imagen de Hoy!!.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T014925.882.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T014653.299.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T014509.688.png" />
+    <None Include="Resources\Libreta.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T231916.206.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T185020.790.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T184712.682.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T184212.044.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050833.692.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050521.312.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050442.976.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050123.079.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050034.146.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T045718.777.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T043123.284.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T040549.987.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T035949.256.png" />
+    <None Include="Resources\Diseño_sin_título_-_2024-08-11T034856.314-removebg-preview.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T034856.314.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T023939.899.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T022810.623.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T022424.035.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020919.639.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020816.239.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020731.644.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020450.838.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020315.024.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020025.892.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T015926.796.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T004004.024.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T000815.081.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T000731.275.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T233405.090.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T233215.136.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T232630.030.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T171322.641.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T170712.854.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T170550.383.png" />
     <None Include="Resources\PIEZAS %285%29.png" />
     <None Include="Resources\Diseño sin título - 2024-08-09T042043.531.png" />
     <None Include="Resources\PIEZAS %284%29.png" />
@@ -576,6 +642,24 @@
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jaguar.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jirafa.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Amigos_Familiares\Agregar un subtítulo %282%29.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Cumpleaños\Cumpleaños.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Navidad\Navidad.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\SanValentin\SanValentin.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Aguacate.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Manzana.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Pescado.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\platanos.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Gato.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Jirafa.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Leon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Perro.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Casco.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Lapiz.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Pelota.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\21.png" />
+    <None Include="Resources\3.png" />
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
@@ -654,6 +738,7 @@
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Malo\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Malo\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Bueno\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Recursos\Diario\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
