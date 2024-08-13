@@ -105,9 +105,9 @@
             this.btnDibujar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnDibujar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDibujar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDibujar.Location = new System.Drawing.Point(278, 29);
+            this.btnDibujar.Location = new System.Drawing.Point(278, 23);
             this.btnDibujar.Name = "btnDibujar";
-            this.btnDibujar.Size = new System.Drawing.Size(111, 96);
+            this.btnDibujar.Size = new System.Drawing.Size(115, 107);
             this.btnDibujar.TabIndex = 9;
             this.btnDibujar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDibujar.UseVisualStyleBackColor = true;
@@ -214,7 +214,7 @@
             this.panel2.Controls.Add(this.button15);
             this.panel2.Controls.Add(this.button14);
             this.panel2.Controls.Add(this.button13);
-            this.panel2.Location = new System.Drawing.Point(226, 246);
+            this.panel2.Location = new System.Drawing.Point(224, 247);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(916, 244);
             this.panel2.TabIndex = 22;
@@ -236,7 +236,7 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Location = new System.Drawing.Point(12, 205);
+            this.panel1.Location = new System.Drawing.Point(12, 204);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1288, 327);
             this.panel1.TabIndex = 23;
@@ -411,6 +411,7 @@
             this.button5.Size = new System.Drawing.Size(150, 140);
             this.button5.TabIndex = 10;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button2
             // 
@@ -464,7 +465,8 @@
             // button16
             // 
             this.button16.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button16.BackColor = System.Drawing.Color.Gray;
+            this.button16.BackColor = System.Drawing.Color.Transparent;
+            this.button16.BackgroundImage = global::TEST_3_LUX.Properties.Resources._3;
             this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button16.FlatAppearance.BorderSize = 0;
@@ -476,11 +478,13 @@
             this.button16.Size = new System.Drawing.Size(280, 230);
             this.button16.TabIndex = 21;
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
             this.button17.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button17.BackColor = System.Drawing.Color.Gray;
+            this.button17.BackColor = System.Drawing.Color.Transparent;
+            this.button17.BackgroundImage = global::TEST_3_LUX.Properties.Resources._21;
             this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button17.FlatAppearance.BorderSize = 0;
@@ -492,11 +496,13 @@
             this.button17.Size = new System.Drawing.Size(280, 230);
             this.button17.TabIndex = 20;
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
             this.button18.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button18.BackColor = System.Drawing.Color.Gray;
+            this.button18.BackColor = System.Drawing.Color.Transparent;
+            this.button18.BackgroundImage = global::TEST_3_LUX.Properties.Resources._12;
             this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button18.FlatAppearance.BorderSize = 0;
@@ -508,6 +514,7 @@
             this.button18.Size = new System.Drawing.Size(280, 230);
             this.button18.TabIndex = 19;
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // Principal_actividades
             // 

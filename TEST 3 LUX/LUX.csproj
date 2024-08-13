@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,10 +35,71 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.6.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.6.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.6.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Quality, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Quality.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Snippets, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.Snippets.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.System, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.System.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.WPFonts, Version=6.1.1.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.6.1.1\lib\netstandard2.0\PdfSharp.WPFonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.6.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Speech" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -90,6 +153,24 @@
     <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.Designer.cs">
       <DependentUpon>Puzzle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Cartas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Cartas.Designer.cs">
+      <DependentUpon>Cartas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Escritura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Escritura.Designer.cs">
+      <DependentUpon>Escritura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Escribir_Libre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Escribir_Libre.Designer.cs">
+      <DependentUpon>Escribir_Libre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,7 +180,13 @@
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\DoubleBufferedFlowLayoutPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\DoubleBufferedTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonAmarillo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonProp.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonRojo.cs">
@@ -108,11 +195,41 @@
     <Compile Include="Forms_Contenido\Comunicacion\Controles personalizados\RBotonVerde.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.cs">
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Carga\SeleccionImagen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.Designer.cs">
-      <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Carga\SeleccionImagen.Designer.cs">
+      <DependentUpon>SeleccionImagen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Eliminar\ComunicacionEliminarTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Eliminar\ComunicacionEliminarTarjeta.Designer.cs">
+      <DependentUpon>ComunicacionEliminarTarjeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeccionPDFVocabulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeccionPDFVocabulario.Designer.cs">
+      <DependentUpon>SeccionPDFVocabulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeleccionPDFSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeleccionPDFSocial.Designer.cs">
+      <DependentUpon>SeleccionPDFSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.Designer.cs">
+      <DependentUpon>ComunicacionSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Vocabulario\ComunicacionVocabulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Vocabulario\ComunicacionVocabulario.Designer.cs">
+      <DependentUpon>ComunicacionVocabulario.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.cs">
       <SubType>Form</SubType>
@@ -150,11 +267,38 @@
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\DibujarEscritura_Actividades.resx">
       <DependentUpon>DibujarEscritura_Actividades.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.resx">
+      <DependentUpon>Puzzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Cartas.resx">
+      <DependentUpon>Cartas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Escritura.resx">
+      <DependentUpon>Escritura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Escribir_Libre.resx">
+      <DependentUpon>Escribir_Libre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\ComunicacionPrincipal.resx">
       <DependentUpon>ComunicacionPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\ComunicacionPictogramas.resx">
-      <DependentUpon>ComunicacionPictogramas.cs</DependentUpon>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Carga\SeleccionImagen.resx">
+      <DependentUpon>SeleccionImagen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Eliminar\ComunicacionEliminarTarjeta.resx">
+      <DependentUpon>ComunicacionEliminarTarjeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeccionPDFVocabulario.resx">
+      <DependentUpon>SeccionPDFVocabulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Emergente\Impresion\SeleccionPDFSocial.resx">
+      <DependentUpon>SeleccionPDFSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Social\ComunicacionSocial.resx">
+      <DependentUpon>ComunicacionSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\Pictogramas\Vocabulario\ComunicacionVocabulario.resx">
+      <DependentUpon>ComunicacionVocabulario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.resx">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
@@ -271,6 +415,95 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\LUX %283%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T195236.169.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T193525.302.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T181103.695.png" />
+    <None Include="Resources\Agregar un subtítulo %281%29.png" />
+    <None Include="Resources\Agregar un subtítulo1.png" />
+    <None Include="Resources\Agregar un subtítulo.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T142630.889.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T142451.215.png" />
+    <None Include="Resources\Agrega una Imagen de Hoy!!.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T014925.882.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T014653.299.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-12T014509.688.png" />
+    <None Include="Resources\Libreta.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T231916.206.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T185020.790.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T184712.682.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T184212.044.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050833.692.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050521.312.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050442.976.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050123.079.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T050034.146.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T045718.777.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T043123.284.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T040549.987.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T035949.256.png" />
+    <None Include="Resources\Diseño_sin_título_-_2024-08-11T034856.314-removebg-preview.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T034856.314.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T023939.899.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T022810.623.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T022424.035.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020919.639.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020816.239.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020731.644.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020450.838.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020315.024.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T020025.892.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T015926.796.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T004004.024.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T000815.081.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-11T000731.275.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T233405.090.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T233215.136.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T232630.030.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T171322.641.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T170712.854.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-10T170550.383.png" />
+    <None Include="Resources\PIEZAS %285%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-09T042043.531.png" />
+    <None Include="Resources\PIEZAS %284%29.png" />
+    <None Include="Resources\PIEZAS %283%29.png" />
+    <None Include="Resources\PIEZAS %282%29.png" />
+    <None Include="Resources\PIEZAS %281%29.png" />
+    <None Include="Resources\PIEZAS.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-09T040100.208.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-09T034901.086.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-08T222530.387.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-08T220015.625.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-07T055930.819.png" />
+    <None Include="Resources\Higiene %288%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T060752.638.png" />
+    <None Include="Resources\Higiene %287%29.png" />
+    <None Include="Resources\Higiene %286%29.png" />
+    <None Include="Resources\Higiene %285%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T055608.718.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T054954.216.png" />
+    <None Include="Resources\Higiene %284%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T054239.886.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T054003.137.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T053432.309.png" />
+    <None Include="Resources\Higiene %283%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T005122.533.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-06T004624.892.png" />
+    <None Include="Resources\Higiene %282%29.png" />
+    <None Include="Resources\Higiene %281%29.png" />
+    <None Include="Resources\Higiene.png" />
+    <None Include="Resources\Agregar un título %285%29.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T064210.476.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T063957.957.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T063538.045.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T063008.493.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T062113.761.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T061114.649.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T060412.682.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-05T051313.065.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-04T023310.799.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-04T022359.168.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-04T021856.104.png" />
     <None Include="Resources\CASA CON CHIMENEA %282%29.png" />
     <None Include="Resources\CASA CON CHIMENEA %281%29.png" />
     <None Include="Resources\CASA CON CHIMENEA.png" />
@@ -353,43 +586,80 @@
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\OSO .....gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\Imagenes\BIEN O MAL.png" />
     <None Include="Resources\2.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Cerdo_Vaca.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Oveja_Caballo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Pavo_Burro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Granja\Pollo_Gallo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Estrella_Cangrejo.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Pez.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Pulpo_PezPayaso.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Marinos\Tortuga_CaballodeMar.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\Jirafa_Elefante.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\Leon_Mono.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Animales_Selva\Perezoso_Garras.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\Huevo_Queso.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\Pollo_Carne.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Carnes_Proteinas\Tocino_Leguminosas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Brocoli_Tomate.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Elote_Calabaza.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Fresa_Manzana.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Frutas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Sandia_Uva.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Verduras.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Frutas_Verduras\Zanahoria_Piña.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Donas.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Panqueque_Cono.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Pastel_Muffin.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Postres\Tarta_Rebanada.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\Avion.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\GloboAerostatico.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Aereos\Helicoptero.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Marinos\Barco.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Marinos\Submarinos.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Autobus.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Bicicleta.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Camioneta_Carro.png" />
-    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos_dibujar\Vehiculos_Terrestres\Tren.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Cerdo_Vaca.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Oveja_Caballo.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pavo_Burro.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Granja\Pollo_Gallo.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Estrella_Cangrejo.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pez.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Pulpo_PezPayaso.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Marinos\Tortuga_CaballodeMar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Jirafa_Elefante.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Leon_Mono.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Animales_Selva\Perezoso_Garras.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Huevo_Queso.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Pollo_Carne.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Carnes_Proteinas\Tocino_Leguminosas.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Brocoli_Tomate.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Elote_Calabaza.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Fresa_Manzana.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Frutas.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Sandia_Uva.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Verduras.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Frutas_Verduras\Zanahoria_Piña.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Donas.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Panqueque_Cono.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Pastel_Muffin.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Postres\Tarta_Rebanada.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Avion.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\GloboAerostatico.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Aereos\Helicoptero.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Barco.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Marinos\Submarinos.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Autobus.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Bicicleta.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Camioneta_Carro.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Calcar\Recursos\Vehiculos_Terrestres\Tren.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Coche rojo en la calle.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Mariposa en una flor.png" />
     <Content Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\Recursos_DibujarEscritura\Niño jugando Futbol %285%29.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Bueno\Jugar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Amigos\Malo\pelear.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\CompartirLonche.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\escucharprofesor.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\LimpiarSalon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Bueno\trabajarclase.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Bueno\lavardientes.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Higiene\Malo\estornudar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\escucharprofesor.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Bueno\LimpiarSalon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\empujarr.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Inicial\Malo\estornudar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\casco.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Bueno\Cinturon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\empujarr.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\ESCUPIR.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jaguar.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\jirafa.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Amigos_Familiares\Agregar un subtítulo %282%29.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Cumpleaños\Cumpleaños.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\Navidad\Navidad.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Cartas\Recursos\SanValentin\SanValentin.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Aguacate.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Manzana.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\Pescado.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Alimentos\platanos.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Gato.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Jirafa.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Leon.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Animales\Perro.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Casco.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Lapiz.png" />
+    <Content Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Imagen\Recursos\Objetos\Pelota.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\21.png" />
+    <None Include="Resources\3.png" />
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />
@@ -463,7 +733,19 @@
     <None Include="Resources\Diseño sin título %2826%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms_Contenido\Actividades\Secciones\Teclado\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Aula\Malo\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Bueno\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Emociones\Malo\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Malo\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Bueno\" />
+    <Folder Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Recursos\Diario\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
+  </Target>
 </Project>

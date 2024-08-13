@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS.Comunicacion.Controles_personalizados;
 using TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social;
+using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Vocabulario;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace TEST_3_LUX.FORMS.Comunicacion3
@@ -50,8 +52,10 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             btnNotasAudio.SuspendLayout(); 
         }
 
-        private void ComunicacionPrincipal_Load(object sender, EventArgs e)
+        private async void ComunicacionPrincipal_Load(object sender, EventArgs e)
         {
+            await Task.Delay(10);
+
             ResumeDrawing(this);
             ResumeDrawing(flowLayoutPanel1);
             ResumeDrawing(panel1);
@@ -80,25 +84,30 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         }
         private void btnTablaPictograma_Click(object sender, EventArgs e)
         {
-            ComunicacionPictogramas cpm = new ComunicacionPictogramas(this);
-            this.Hide();
-
+            ComunicacionSocial cpm = new ComunicacionSocial(this);
             Transicion = "FadeOut";
             isUpdating = true;
             Salida = false;
             tmCarga.Start();
-            cpm.Show();
+            cpm.Mostrar();
         }
         private void btnNotasAudio_Click(object sender, EventArgs e)
         {
             ComunicacionTTS tts = new ComunicacionTTS(this);
-            this.Hide();
-
             Transicion = "FadeOut";
             isUpdating = true;
             Salida = false;
             tmCarga.Start();
-            tts.Show();
+            tts.Mostrar();
+        }
+        private void btnVocabulario_Click(object sender, EventArgs e)
+        {
+            ComunicacionVocabulario cpm = new ComunicacionVocabulario(this);
+            Transicion = "FadeOut";
+            isUpdating = true;
+            Salida = false;
+            tmCarga.Start();
+            cpm.Mostrar();
         }
         #endregion
 
@@ -274,14 +283,18 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         }
 
         // Nuevo método personalizado para mostrar el formulario
-        public void Mostrar()
+        public async void Mostrar()
         {
             Transicion = "FadeIn";
             isUpdating = true;
-            Salida = false;
+            Salida = true;
+
             Show();
+            await Task.Delay(10);
             tmCarga.Start();
         }
         #endregion
+
+       
     }
 }
