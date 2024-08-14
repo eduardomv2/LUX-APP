@@ -267,6 +267,9 @@
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\DibujarEscritura_Actividades.resx">
       <DependentUpon>DibujarEscritura_Actividades.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Emociones.resx">
+      <DependentUpon>Emociones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.resx">
       <DependentUpon>Puzzle.cs</DependentUpon>
     </EmbeddedResource>
@@ -415,6 +418,15 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\Diseño sin título - 2024-08-14T055056.180.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-14T053850.615.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-14T053819.767.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-14T053734.700.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-14T053456.294.png" />
+    <None Include="Resources\FELIZ %283%29.png" />
+    <None Include="Resources\FELIZ %282%29.png" />
+    <None Include="Resources\FELIZ %281%29.png" />
+    <None Include="Resources\FELIZ.png" />
     <None Include="Resources\LUX %283%29.png" />
     <None Include="Resources\Diseño sin título - 2024-08-12T195236.169.png" />
     <None Include="Resources\Diseño sin título - 2024-08-12T193525.302.png" />
@@ -746,6 +758,48 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Malo\ESCUPIR.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\Caerse_Triste.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\ComidaFavorita_Feliz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\HeladoCaido_Triste.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\Jugar_Feliz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\Niña_Sorprendido.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\Niño_Asustado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\Niño_Enojado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\Regalo_Feliz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\SeBurlan_Enojado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Acciones\TeRobanPaleta_Triste.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Emociones\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Emociones\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Emociones\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Emociones\FELIZ %284%29.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png">
