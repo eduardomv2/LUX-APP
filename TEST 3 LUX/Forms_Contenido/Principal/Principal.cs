@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
 using TEST_3_LUX.FORMS.Comunicacion3;
@@ -11,7 +12,7 @@ namespace TEST_3_LUX
     {
         string Transicion;
 
-        private List<object> fondos;
+        private List<Image> fondos;
         private int indiceFondoActual;
 
 
@@ -23,21 +24,18 @@ namespace TEST_3_LUX
   
         private void Principal_Load(object sender, EventArgs e)
         {
-            // Inicializar la lista de rutas de imágenes
-            fondos = new List<object>
+            // Cambia esto por la ruta relativa dentro del proyecto
+            string carpetaFondos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Forms_Contenido\Principal\Resources\Fondos");
+            fondos = new List<Image>();
+
+            // Cargar todas las imágenes de la carpeta
+            foreach (string archivo in Directory.GetFiles(carpetaFondos, "*.png"))
             {
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (83).png",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (81).png",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (82).png",
-                Color.CornflowerBlue
-                
-
-
-            };
+                fondos.Add(Image.FromFile(archivo));
+            }
 
             // Inicializar el índice de la imagen actual
             indiceFondoActual = 0;
-
 
             Transicion = "FadeIn";
             this.Top = this.Top + 15;
@@ -46,18 +44,10 @@ namespace TEST_3_LUX
 
         private void CambiarFondo()
         {
-            var fondoActual = fondos[indiceFondoActual];
-
-            if (fondoActual is Color)
+            if (fondos.Count > 0)
             {
-                // Si el fondo es un color, establecer el color de fondo del formulario
-                this.BackgroundImage = null; // Limpiar la imagen de fondo
-                this.BackColor = (Color)fondoActual;
-            }
-            else if (fondoActual is string)
-            {
-                // Si el fondo es una ruta de imagen, establecer la imagen de fondo del formulario
-                this.BackgroundImage = Image.FromFile((string)fondoActual);
+                // Establecer la imagen de fondo del formulario
+                this.BackgroundImage = fondos[indiceFondoActual];
                 this.BackgroundImageLayout = ImageLayout.Stretch; // Ajustar la imagen al tamaño del formulario
                 this.BackColor = DefaultBackColor; // Resetear el color de fondo a su valor por defecto
             }

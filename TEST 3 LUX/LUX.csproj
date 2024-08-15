@@ -270,6 +270,9 @@
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Emociones.resx">
       <DependentUpon>Emociones.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Opcion_Correcta.resx">
+      <DependentUpon>Opcion_Correcta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Puzzle.resx">
       <DependentUpon>Puzzle.cs</DependentUpon>
     </EmbeddedResource>
@@ -418,6 +421,17 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\Diseño sin título %284%29.jpg" />
+    <None Include="Resources\Diseño sin título %283%29.jpg" />
+    <None Include="Resources\Diseño sin título %282%29.jpg" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T053613.451.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T052707.487.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T052534.016.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T052453.337.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T052314.881.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T035014.528.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-15T034237.958.png" />
+    <None Include="Resources\Agregar un subtítulo %283%29.png" />
     <None Include="Resources\Diseño sin título - 2024-08-14T055056.180.png" />
     <None Include="Resources\Diseño sin título - 2024-08-14T053850.615.png" />
     <None Include="Resources\Diseño sin título - 2024-08-14T053819.767.png" />
@@ -802,6 +816,66 @@
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Emociones\Recursos\Emociones\FELIZ %284%29.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Animal_Cerdo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Objeto_Crayones.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Persona_DosNiños.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Animal_Elefante.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Comida_Fideos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Comida_Hamburguesa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Objeto_Lentes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Objeto_Llave.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Persona_Niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Persona_Niñaa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Persona_Niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Persona_Niñoo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Animal_Panda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Objeto_Paraguas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Animal_Perezoso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Comida_Pollo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Comida_Sandia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Objeto_Silla.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Comida_Subway.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Opcion_Correcta\Recursos\Animal_Tiburon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Puzzlee\Recursos\guacamaya.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -859,6 +933,15 @@
     <None Include="Resources\12.png" />
     <None Include="Resources\21.png" />
     <None Include="Resources\3.png" />
+    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Diseño sin título %2881%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Diseño sin título %2882%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Diseño sin título %2883%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\accionmala.jpg" />
     <None Include="Resources\BotonBien.png" />
     <None Include="Resources\Agregar un título %283%29.png" />

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Emociones;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Opcion_Correcta;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Puzzlee;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado.Cartas;
@@ -275,6 +276,13 @@ namespace TEST_3_LUX.FORMS
         {
            Cartas cartas = new Cartas();
             cartas.Show();
+            this.Dispose();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Opcion_Correcta oc = new Opcion_Correcta();
+            oc.Show();
             this.Dispose();
         }
     }
