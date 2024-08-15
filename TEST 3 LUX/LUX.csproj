@@ -933,13 +933,13 @@
     <None Include="Resources\12.png" />
     <None Include="Resources\21.png" />
     <None Include="Resources\3.png" />
-    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Diseño sin título %2881%29.png">
+    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Fondo_Primaveral.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Diseño sin título %2882%29.png">
+    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Fondo_Montañas.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Diseño sin título %2883%29.png">
+    <Content Include="Forms_Contenido\Principal\Resources\Fondos\Fondo_FloresBlancas.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\accionmala.jpg" />

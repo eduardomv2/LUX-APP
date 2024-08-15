@@ -24,17 +24,16 @@ namespace TEST_3_LUX
   
         private void Principal_Load(object sender, EventArgs e)
         {
-            // Cambia esto por la ruta relativa dentro del proyecto
+         
             string carpetaFondos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Forms_Contenido\Principal\Resources\Fondos");
             fondos = new List<Image>();
 
-            // Cargar todas las imágenes de la carpeta
+          
             foreach (string archivo in Directory.GetFiles(carpetaFondos, "*.png"))
             {
                 fondos.Add(Image.FromFile(archivo));
             }
 
-            // Inicializar el índice de la imagen actual
             indiceFondoActual = 0;
 
             Transicion = "FadeIn";
@@ -46,10 +45,10 @@ namespace TEST_3_LUX
         {
             if (fondos.Count > 0)
             {
-                // Establecer la imagen de fondo del formulario
+               
                 this.BackgroundImage = fondos[indiceFondoActual];
-                this.BackgroundImageLayout = ImageLayout.Stretch; // Ajustar la imagen al tamaño del formulario
-                this.BackColor = DefaultBackColor; // Resetear el color de fondo a su valor por defecto
+                this.BackgroundImageLayout = ImageLayout.Stretch; 
+                this.BackColor = DefaultBackColor; 
             }
         }
 
@@ -168,10 +167,10 @@ namespace TEST_3_LUX
 
         private void button5_Click(object sender, EventArgs e)
         {
-            // Incrementar el índice del fondo actual
+           
             indiceFondoActual = (indiceFondoActual + 1) % fondos.Count;
 
-            // Cambiar el fondo
+            
             CambiarFondo();
         }
 
