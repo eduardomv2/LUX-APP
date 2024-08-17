@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -105,7 +106,7 @@ namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
 
             foreach (string file in imageFiles)
             {
-                flpTabla.Controls.Add(new RBotonProp(Path.GetFileNameWithoutExtension(file), file));
+                flpTabla.Controls.Add(new RBotonProp(Path.GetFileNameWithoutExtension(file), file, doubleBufferedFlowLayoutPanel1));
             }
             flpTabla.ResumeLayout();
         }
@@ -248,6 +249,45 @@ namespace TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social
                 elmn.ShowDialog();
                 elmn.Dispose();
             }
+        }
+
+        private void btnBorrarMensaje_Click(object sender, EventArgs e)
+        {
+            doubleBufferedFlowLayoutPanel1.Controls.Clear();
+        }
+
+        private async void btnReproducirMensaje_Click(object sender, EventArgs e)
+        {
+            SpeechSynthesizer speech = new SpeechSynthesizer();
+            foreach (RBotonProp ctrl in doubleBufferedFlowLayoutPanel1.Controls)
+            {
+                speech.SpeakAsync(ctrl.textoLeer);
+                await Task.Delay(1000);
+            }
+        }
+
+        private void btnUpSuperior_Click(object sender, EventArgs e)
+        {
+            int change = doubleBufferedFlowLayoutPanel2.VerticalScroll.Value - doubleBufferedFlowLayoutPanel2.VerticalScroll.SmallChange * 25;
+            doubleBufferedFlowLayoutPanel2.AutoScrollPosition = new Point(0, change);
+        }
+
+        private void btnDownSuperior_Click(object sender, EventArgs e)
+        {
+            int change = doubleBufferedFlowLayoutPanel2.VerticalScroll.Value + doubleBufferedFlowLayoutPanel2.VerticalScroll.SmallChange * 25;
+            doubleBufferedFlowLayoutPanel2.AutoScrollPosition = new Point(0, change);
+        }
+
+        private void btnUp_Click(object sender, EventArgs e)
+        {
+            int change = doubleBufferedFlowLayoutPanel1.VerticalScroll.Value - doubleBufferedFlowLayoutPanel1.VerticalScroll.SmallChange * 6;
+            doubleBufferedFlowLayoutPanel1.AutoScrollPosition = new Point(0, change);
+        }
+
+        private void btnDown_Click(object sender, EventArgs e)
+        {
+            int change = doubleBufferedFlowLayoutPanel1.VerticalScroll.Value + doubleBufferedFlowLayoutPanel1.VerticalScroll.SmallChange * 6;
+            doubleBufferedFlowLayoutPanel1.AutoScrollPosition = new Point(0, change);
         }
     }
 }
