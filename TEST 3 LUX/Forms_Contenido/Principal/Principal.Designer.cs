@@ -250,6 +250,7 @@
             this.btnHorario.Size = new System.Drawing.Size(250, 259);
             this.btnHorario.TabIndex = 9;
             this.btnHorario.UseVisualStyleBackColor = false;
+            this.btnHorario.Click += new System.EventHandler(this.btnHorario_Click);
             // 
             // button3
             // 

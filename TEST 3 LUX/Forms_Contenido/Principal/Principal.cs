@@ -5,6 +5,7 @@ using System.IO;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
 using TEST_3_LUX.FORMS.Comunicacion3;
+using TEST_3_LUX.Forms_Contenido.Rutina;
 
 namespace TEST_3_LUX
 {
@@ -24,17 +25,24 @@ namespace TEST_3_LUX
   
         private void Principal_Load(object sender, EventArgs e)
         {
-         
+            // Cargar imágenes de la carpeta
             string carpetaFondos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Forms_Contenido\Principal\Resources\Fondos");
             fondos = new List<Image>();
 
-          
             foreach (string archivo in Directory.GetFiles(carpetaFondos, "*.png"))
             {
                 fondos.Add(Image.FromFile(archivo));
             }
 
+            if (ConfiguracionGlobal.FondoSeleccionado != null)
+            {
+                // Restaurar el fondo seleccionado
+                this.BackgroundImage = ConfiguracionGlobal.FondoSeleccionado;
+            }
+
             indiceFondoActual = 0;
+               
+           
 
             Transicion = "FadeIn";
             this.Top = this.Top + 15;
@@ -45,7 +53,7 @@ namespace TEST_3_LUX
         {
             if (fondos.Count > 0)
             {
-               
+                ConfiguracionGlobal.FondoSeleccionado = fondos[indiceFondoActual]; // Guardar fondo seleccionado
                 this.BackgroundImage = fondos[indiceFondoActual];
                 this.BackgroundImageLayout = ImageLayout.Stretch; 
                 this.BackColor = DefaultBackColor; 
@@ -174,8 +182,17 @@ namespace TEST_3_LUX
             CambiarFondo();
         }
 
-      
+        private void btnHorario_Click(object sender, EventArgs e)
+        {
+          
 
-        
+            Rutina rutina = new Rutina();
+            rutina.Show();
+            this.Hide();
+
+            Transicion = "FadeOut";
+            tmTransicion.Start();
+
+        }
     }
 }
