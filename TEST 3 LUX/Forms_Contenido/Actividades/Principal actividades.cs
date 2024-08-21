@@ -31,7 +31,7 @@ namespace TEST_3_LUX.FORMS
 
         private void Principal_actividades_Load(object sender, EventArgs e)
         {
-           
+          
 
             this.Top = this.Top + 15;
             Transicion = "FadeIn";

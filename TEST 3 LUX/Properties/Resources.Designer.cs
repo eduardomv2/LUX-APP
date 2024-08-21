@@ -123,6 +123,56 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _600_AM___1200_PM {
+            get {
+                object obj = ResourceManager.GetObject("600 AM - 1200 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _600_AM___1200_PM__1_ {
+            get {
+                object obj = ResourceManager.GetObject("600 AM - 1200 PM (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _600_AM___1200_PM__2_ {
+            get {
+                object obj = ResourceManager.GetObject("600 AM - 1200 PM (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _600_AM___1200_PM__3_ {
+            get {
+                object obj = ResourceManager.GetObject("600 AM - 1200 PM (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _600_AM___1200_PM__4_ {
+            get {
+                object obj = ResourceManager.GetObject("600 AM - 1200 PM (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ACCIONES {
             get {
                 object obj = ResourceManager.GetObject("ACCIONES", resourceCulture);
@@ -1303,6 +1353,76 @@ namespace TEST_3_LUX.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_17T020754_281 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-17T020754.281", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_17T070732_861 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-17T070732.861", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_17T070955_228 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-17T070955.228", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_17T071219_878 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-17T071219.878", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_17T071713_647 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-17T071713.647", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_19T052451_118 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-19T052451.118", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título___2024_08_20T002129_778 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título - 2024-08-20T002129.778", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Diseño_sin_título__100_ {
             get {
                 object obj = ResourceManager.GetObject("Diseño sin título (100)", resourceCulture);
@@ -2386,6 +2506,16 @@ namespace TEST_3_LUX.Properties {
         internal static System.Drawing.Bitmap idka {
             get {
                 object obj = ResourceManager.GetObject("idka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kilos {
+            get {
+                object obj = ResourceManager.GetObject("kilos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

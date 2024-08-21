@@ -111,6 +111,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfiguracionGlobal.cs" />
     <Compile Include="Forms_Contenido\Actividades\Secciones\Dibujar\Dibujar_Escritura\DibujarEscritura_Actividades.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,6 +256,18 @@
     <Compile Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Pictogramas_Actividades.Designer.cs">
       <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Rutina\Cartas\Cartas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Rutina\Cartas\Cartas.Designer.cs">
+      <DependentUpon>Cartas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Contenido\Rutina\RutinaR\Rutina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Rutina\RutinaR\Rutina.Designer.cs">
+      <DependentUpon>Rutina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pictogramas_BienMal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -318,6 +331,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Pictogramas_Actividades.resx">
       <DependentUpon>Pictogramas_Actividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Rutina\Cartas\Cartas.resx">
+      <DependentUpon>Cartas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Rutina\RutinaR\Rutina.resx">
+      <DependentUpon>Rutina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -421,6 +440,23 @@
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\purpura.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de botones\rojo.svg" />
     <Content Include="bin\Debug\Resources\Comunicacion\Temas de nubes\4173737.jpg" />
+    <None Include="Resources\Diseño sin título - 2024-08-20T002129.778.png" />
+    <None Include="Resources\600 AM - 1200 PM.png" />
+    <None Include="Resources\600 AM - 1200 PM %281%29.png" />
+    <None Include="Resources\600 AM - 1200 PM %282%29.png" />
+    <None Include="Resources\600 AM - 1200 PM %283%29.png" />
+    <None Include="Resources\600 AM - 1200 PM %284%29.png" />
+    <Content Include="Forms_Contenido\Rutina\RutinaR\Recursos\Fondos\preliminar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Diseño sin título - 2024-08-17T020754.281.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-19T052451.118.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-17T071713.647.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-17T071219.878.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-17T070955.228.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-17T070732.861.png" />
+    <None Include="Resources\kilos.png" />
+    <None Include="Resources\Diseño sin título - 2024-08-17T020754.2811.png" />
     <None Include="Resources\Diseño sin título %284%29.jpg" />
     <None Include="Resources\Diseño sin título %283%29.jpg" />
     <None Include="Resources\Diseño sin título %282%29.jpg" />
@@ -940,6 +976,96 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Forms_Contenido\Principal\Resources\Fondos\Fondo_FloresBlancas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Acomodar_la_caña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Acomodar_la_caño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Acostarme_a_dormir_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Acostarme_a_dormir_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Bañarme_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Bañarme_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Biblioteca.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Casa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Cenar_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Cenar_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Cine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Comer_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Comer_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Desayunar_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Desayunar_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Escuela.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Jugar_con_amigos_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Jugar_con_amigos_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Lavarme_los_dientes_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Lavarme_los_dientes_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Levantarme_de_la_cama_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Levantarme_de_la_cama_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Recoger_mis_juguetes_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Recoger_mis_juguetes_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Supermercado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Vestirme_niña.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\Cartas\Recursos\Vestirme_niño.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\RutinaR\Recursos\Mañana1.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\RutinaR\Recursos\Noche.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Forms_Contenido\Rutina\RutinaR\Recursos\Tarde1.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\accionmala.jpg" />
