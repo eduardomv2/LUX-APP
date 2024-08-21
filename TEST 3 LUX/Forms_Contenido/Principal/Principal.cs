@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
 using TEST_3_LUX.FORMS.Comunicacion3;
+using TEST_3_LUX.Forms_Contenido.Rutina;
 
 namespace TEST_3_LUX
 {
@@ -11,7 +13,7 @@ namespace TEST_3_LUX
     {
         string Transicion;
 
-        private List<object> fondos;
+        private List<Image> fondos;
         private int indiceFondoActual;
 
 
@@ -23,21 +25,24 @@ namespace TEST_3_LUX
   
         private void Principal_Load(object sender, EventArgs e)
         {
-            // Inicializar la lista de rutas de imágenes
-            fondos = new List<object>
+            // Cargar imágenes de la carpeta
+            string carpetaFondos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Forms_Contenido\Principal\Resources\Fondos");
+            fondos = new List<Image>();
+
+            foreach (string archivo in Directory.GetFiles(carpetaFondos, "*.png"))
             {
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (83).png",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (81).png",
-                @"C:\Users\eduar\source\repos\LUX-APP\TEST 3 LUX\Resources\Diseño sin título (82).png",
-                Color.CornflowerBlue
-                
+                fondos.Add(Image.FromFile(archivo));
+            }
 
+            if (ConfiguracionGlobal.FondoSeleccionado != null)
+            {
+                // Restaurar el fondo seleccionado
+                this.BackgroundImage = ConfiguracionGlobal.FondoSeleccionado;
+            }
 
-            };
-
-            // Inicializar el índice de la imagen actual
             indiceFondoActual = 0;
-
+               
+           
 
             Transicion = "FadeIn";
             this.Top = this.Top + 15;
@@ -46,20 +51,12 @@ namespace TEST_3_LUX
 
         private void CambiarFondo()
         {
-            var fondoActual = fondos[indiceFondoActual];
-
-            if (fondoActual is Color)
+            if (fondos.Count > 0)
             {
-                // Si el fondo es un color, establecer el color de fondo del formulario
-                this.BackgroundImage = null; // Limpiar la imagen de fondo
-                this.BackColor = (Color)fondoActual;
-            }
-            else if (fondoActual is string)
-            {
-                // Si el fondo es una ruta de imagen, establecer la imagen de fondo del formulario
-                this.BackgroundImage = Image.FromFile((string)fondoActual);
-                this.BackgroundImageLayout = ImageLayout.Stretch; // Ajustar la imagen al tamaño del formulario
-                this.BackColor = DefaultBackColor; // Resetear el color de fondo a su valor por defecto
+                ConfiguracionGlobal.FondoSeleccionado = fondos[indiceFondoActual]; // Guardar fondo seleccionado
+                this.BackgroundImage = fondos[indiceFondoActual];
+                this.BackgroundImageLayout = ImageLayout.Stretch; 
+                this.BackColor = DefaultBackColor; 
             }
         }
 
@@ -178,15 +175,24 @@ namespace TEST_3_LUX
 
         private void button5_Click(object sender, EventArgs e)
         {
-            // Incrementar el índice del fondo actual
+           
             indiceFondoActual = (indiceFondoActual + 1) % fondos.Count;
 
-            // Cambiar el fondo
+            
             CambiarFondo();
         }
 
-      
+        private void btnHorario_Click(object sender, EventArgs e)
+        {
+          
 
-        
+            Rutina rutina = new Rutina();
+            rutina.Show();
+            this.Hide();
+
+            Transicion = "FadeOut";
+            tmTransicion.Start();
+
+        }
     }
 }

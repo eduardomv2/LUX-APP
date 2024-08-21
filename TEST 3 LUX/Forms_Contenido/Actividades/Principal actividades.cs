@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Emociones;
+using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Opcion_Correcta;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Pictogramas.Puzzlee;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado;
 using TEST_3_LUX.Forms_Contenido.Actividades.Secciones.Teclado.Cartas;
@@ -29,7 +31,7 @@ namespace TEST_3_LUX.FORMS
 
         private void Principal_actividades_Load(object sender, EventArgs e)
         {
-           
+          
 
             this.Top = this.Top + 15;
             Transicion = "FadeIn";
@@ -104,7 +106,7 @@ namespace TEST_3_LUX.FORMS
             //Abrir formulario de dibujar
             DibujarActividades dibujarActividades = new DibujarActividades();
             dibujarActividades.Show();
-            this.Hide();
+            this.Dispose();
         }
 
        
@@ -120,7 +122,7 @@ namespace TEST_3_LUX.FORMS
         {
             DibujarActividades dibujarActividades = new DibujarActividades();
             dibujarActividades.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -172,20 +174,20 @@ namespace TEST_3_LUX.FORMS
             }
         }
 
-        
-       
+
+
         private void button2_Click_1(object sender, EventArgs e)
         {
             Pictogramas_Actividades pictogramas_Actividades = new Pictogramas_Actividades(this);
             pictogramas_Actividades.Show();
-            this.Hide();
+            this.Dispose();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+            private void button6_Click(object sender, EventArgs e)
         {
             Puzzle puzzle = new Puzzle();
             puzzle.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -232,47 +234,56 @@ namespace TEST_3_LUX.FORMS
         {
             Calcar_Actividades ca = new Calcar_Actividades();
             ca.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
             DibujarActividades da = new DibujarActividades();
             da.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             DibujarEscritura_Actividades dea = new DibujarEscritura_Actividades();
             dea.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Emociones emociones = new Emociones();
+            emociones.Show();
+            this.Dispose();
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
             Escritura es = new Escritura();
             es.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
             Escribir_Libre escribir_Libre = new Escribir_Libre();
             escribir_Libre.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
            Cartas cartas = new Cartas();
             cartas.Show();
-            this.Hide();
+            this.Dispose();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Opcion_Correcta oc = new Opcion_Correcta();
+            oc.Show();
+            this.Dispose();
         }
     }
 }
