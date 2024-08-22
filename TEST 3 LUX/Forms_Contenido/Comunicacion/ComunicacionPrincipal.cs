@@ -13,6 +13,7 @@ using TEST_3_LUX.FORMS.Comunicacion.Controles_personalizados;
 using TEST_3_LUX.FORMS.Comunicacion.Menus_secundarios;
 using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Social;
 using TEST_3_LUX.Forms_Contenido.Comunicacion.Secciones.Pictogramas.Vocabulario;
+using TEST_3_LUX.Forms_Contenido.Gestion_emocional;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace TEST_3_LUX.FORMS.Comunicacion3
@@ -293,8 +294,13 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             await Task.Delay(10);
             tmCarga.Start();
         }
+
         #endregion
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Gestion_emocional emociona = new Gestion_emocional(this);
+            emociona.Show();
+        }
     }
 }
