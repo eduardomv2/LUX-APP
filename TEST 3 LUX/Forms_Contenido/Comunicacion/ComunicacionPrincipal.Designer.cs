@@ -46,6 +46,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.btnRetroceder = new System.Windows.Forms.Button();
             this.btnNotasAudio = new System.Windows.Forms.Button();
             this.btnTablaPictograma = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tlpBotonesTemas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIncomodidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTranquilidad)).BeginInit();
@@ -187,6 +188,7 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnVocabulario);
             this.panel1.Controls.Add(this.btnRetroceder);
             this.panel1.Controls.Add(this.btnNotasAudio);
@@ -262,6 +264,16 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.btnTablaPictograma.UseVisualStyleBackColor = true;
             this.btnTablaPictograma.Click += new System.EventHandler(this.btnTablaPictograma_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(571, 42);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 59);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ComunicacionPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,5 +316,6 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
         private System.Windows.Forms.Button btnRetroceder;
         private System.Windows.Forms.Button btnNotasAudio;
         private System.Windows.Forms.Button btnTablaPictograma;
+        private System.Windows.Forms.Button button1;
     }
 }

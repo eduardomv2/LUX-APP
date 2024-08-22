@@ -109,6 +109,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TagLibSharp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <HintPath>..\packages\TagLibSharp.2.3.0\lib\net462\TagLibSharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfiguracionGlobal.cs" />
@@ -238,6 +241,15 @@
     <Compile Include="Forms_Contenido\Comunicacion\Secciones\TTS\ComunicacionTTS.Designer.cs">
       <DependentUpon>ComunicacionTTS.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms_Contenido\Gestion_emocional\Controles personalizados\RPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Gestion_emocional\Gestion_emocional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Contenido\Gestion_emocional\Gestion_emocional.Designer.cs">
+      <DependentUpon>Gestion_emocional.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms_Contenido\Principal\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -324,6 +336,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Actividades\Principal actividades.resx">
       <DependentUpon>Principal actividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Contenido\Gestion_emocional\Gestion_emocional.resx">
+      <DependentUpon>Gestion_emocional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms_Contenido\Principal\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -641,6 +656,12 @@
     <None Include="Resources\Diseño sin título %2866%29.png" />
     <None Include="Resources\ACCIONES.png" />
     <None Include="Resources\ACCIONES1.png" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Canciones\Beethoven - Moonlight Sonata.mp3" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Canciones\Clair de Lune %28Studio Version%29.mp3" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Videos\Algo dentro de mí.mp4" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Videos\Cuando estoy enfadado - Gestionar las emociones - A partir de 3 años.mp4" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Videos\El Remolino de las Emociones.mp4" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Videos\No estoy bien y eso está BIEN.mp4" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %281%29.gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %282%29.gif" />
     <Content Include="Forms_Contenido\Actividades\Recursos_Actividades\GIF\Diseño sin título %283%29.gif" />
@@ -969,6 +990,7 @@
     <None Include="Resources\12.png" />
     <None Include="Resources\21.png" />
     <None Include="Resources\3.png" />
+    <Content Include="bin\Debug\Resources\Gestion_emocional\Canciones\Kevin MacLeod - Impromptu in Quarter Comma Meantone.mp3" />
     <Content Include="Forms_Contenido\Principal\Resources\Fondos\Fondo_Primaveral.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1146,6 +1168,25 @@
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Seguridad\Malo\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Pictogramas\Bien_Mal\Social\Bueno\" />
     <Folder Include="Forms_Contenido\Actividades\Secciones\Teclado\Escribir_Libre\Recursos\Diario\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
