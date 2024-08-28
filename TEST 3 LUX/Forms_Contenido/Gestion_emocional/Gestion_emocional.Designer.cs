@@ -260,6 +260,7 @@
             this.Name = "Gestion_emocional";
             this.Text = "Gestion_emocional";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Gestion_emocional_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.wmpVideo)).EndInit();

@@ -30,12 +30,18 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComunicacionSocial));
-            this.btnDown = new System.Windows.Forms.Button();
-            this.btnUp = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.flpTabla = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnDownSuperior = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnCargarImagenes = new System.Windows.Forms.Button();
+            this.btnImprimir = new System.Windows.Forms.Button();
+            this.btnRetroceder = new System.Windows.Forms.Button();
+            this.tmCarga = new System.Windows.Forms.Timer(this.components);
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnReproducirMensaje = new System.Windows.Forms.Button();
+            this.btnBorrarMensaje = new System.Windows.Forms.Button();
+            this.doubleBufferedFlowLayoutPanel1 = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
+            this.flpTabla = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
             this.doubleBufferedFlowLayoutPanel2 = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
             this.btnSiNo = new System.Windows.Forms.Button();
             this.btnEmociones = new System.Windows.Forms.Button();
@@ -49,59 +55,11 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.btnUpSuperior = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnCargarImagenes = new System.Windows.Forms.Button();
-            this.btnImprimir = new System.Windows.Forms.Button();
-            this.btnRetroceder = new System.Windows.Forms.Button();
-            this.tmCarga = new System.Windows.Forms.Timer(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnReproducirMensaje = new System.Windows.Forms.Button();
-            this.btnBorrarMensaje = new System.Windows.Forms.Button();
-            this.doubleBufferedFlowLayoutPanel1 = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.doubleBufferedFlowLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.doubleBufferedFlowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnDown
-            // 
-            this.btnDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDown.BackColor = System.Drawing.Color.Transparent;
-            this.btnDown.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDown.BackgroundImage")));
-            this.btnDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDown.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnDown.FlatAppearance.BorderSize = 0;
-            this.btnDown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnDown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown.Location = new System.Drawing.Point(1072, 608);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(114, 105);
-            this.btnDown.TabIndex = 28;
-            this.btnDown.UseVisualStyleBackColor = false;
-            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
-            // 
-            // btnUp
-            // 
-            this.btnUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnUp.BackColor = System.Drawing.Color.Transparent;
-            this.btnUp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUp.BackgroundImage")));
-            this.btnUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUp.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnUp.FlatAppearance.BorderSize = 0;
-            this.btnUp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnUp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp.Location = new System.Drawing.Point(1072, 497);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(114, 105);
-            this.btnUp.TabIndex = 27;
-            this.btnUp.UseVisualStyleBackColor = false;
-            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // panel2
             // 
@@ -114,8 +72,145 @@
             this.panel2.Controls.Add(this.flpTabla);
             this.panel2.Location = new System.Drawing.Point(7, 417);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1059, 296);
+            this.panel2.Size = new System.Drawing.Size(1281, 296);
             this.panel2.TabIndex = 26;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel1.Controls.Add(this.doubleBufferedFlowLayoutPanel2);
+            this.panel1.Controls.Add(this.btnEliminar);
+            this.panel1.Controls.Add(this.btnCargarImagenes);
+            this.panel1.Controls.Add(this.btnImprimir);
+            this.panel1.Controls.Add(this.btnRetroceder);
+            this.panel1.Location = new System.Drawing.Point(0, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1755, 180);
+            this.panel1.TabIndex = 25;
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
+            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Location = new System.Drawing.Point(1053, 29);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(114, 105);
+            this.btnEliminar.TabIndex = 26;
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnCargarImagenes
+            // 
+            this.btnCargarImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCargarImagenes.BackgroundImage")));
+            this.btnCargarImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCargarImagenes.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCargarImagenes.FlatAppearance.BorderSize = 0;
+            this.btnCargarImagenes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnCargarImagenes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnCargarImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCargarImagenes.Location = new System.Drawing.Point(1173, 29);
+            this.btnCargarImagenes.Name = "btnCargarImagenes";
+            this.btnCargarImagenes.Size = new System.Drawing.Size(114, 105);
+            this.btnCargarImagenes.TabIndex = 20;
+            this.btnCargarImagenes.UseVisualStyleBackColor = true;
+            this.btnCargarImagenes.Click += new System.EventHandler(this.btnCargarImagenes_Click);
+            // 
+            // btnImprimir
+            // 
+            this.btnImprimir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImprimir.BackgroundImage")));
+            this.btnImprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnImprimir.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnImprimir.FlatAppearance.BorderSize = 0;
+            this.btnImprimir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnImprimir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImprimir.Location = new System.Drawing.Point(1293, 29);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(114, 105);
+            this.btnImprimir.TabIndex = 19;
+            this.btnImprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
+            // 
+            // btnRetroceder
+            // 
+            this.btnRetroceder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetroceder.BackgroundImage")));
+            this.btnRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRetroceder.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRetroceder.FlatAppearance.BorderSize = 0;
+            this.btnRetroceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetroceder.Location = new System.Drawing.Point(19, 29);
+            this.btnRetroceder.Name = "btnRetroceder";
+            this.btnRetroceder.Size = new System.Drawing.Size(114, 105);
+            this.btnRetroceder.TabIndex = 17;
+            this.btnRetroceder.UseVisualStyleBackColor = true;
+            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
+            // 
+            // tmCarga
+            // 
+            this.tmCarga.Enabled = true;
+            this.tmCarga.Interval = 20;
+            this.tmCarga.Tick += new System.EventHandler(this.tmCarga_Tick);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.btnReproducirMensaje);
+            this.panel3.Controls.Add(this.btnBorrarMensaje);
+            this.panel3.Location = new System.Drawing.Point(7, 184);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1130, 204);
+            this.panel3.TabIndex = 29;
+            // 
+            // btnReproducirMensaje
+            // 
+            this.btnReproducirMensaje.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReproducirMensaje.BackgroundImage")));
+            this.btnReproducirMensaje.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReproducirMensaje.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnReproducirMensaje.FlatAppearance.BorderSize = 0;
+            this.btnReproducirMensaje.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnReproducirMensaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnReproducirMensaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReproducirMensaje.Location = new System.Drawing.Point(965, 48);
+            this.btnReproducirMensaje.Name = "btnReproducirMensaje";
+            this.btnReproducirMensaje.Size = new System.Drawing.Size(114, 105);
+            this.btnReproducirMensaje.TabIndex = 31;
+            this.btnReproducirMensaje.UseVisualStyleBackColor = true;
+            this.btnReproducirMensaje.Click += new System.EventHandler(this.btnReproducirMensaje_Click);
+            // 
+            // btnBorrarMensaje
+            // 
+            this.btnBorrarMensaje.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBorrarMensaje.BackgroundImage")));
+            this.btnBorrarMensaje.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBorrarMensaje.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnBorrarMensaje.FlatAppearance.BorderSize = 0;
+            this.btnBorrarMensaje.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnBorrarMensaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnBorrarMensaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrarMensaje.Location = new System.Drawing.Point(840, 48);
+            this.btnBorrarMensaje.Name = "btnBorrarMensaje";
+            this.btnBorrarMensaje.Size = new System.Drawing.Size(114, 105);
+            this.btnBorrarMensaje.TabIndex = 27;
+            this.btnBorrarMensaje.UseVisualStyleBackColor = true;
+            this.btnBorrarMensaje.Click += new System.EventHandler(this.btnBorrarMensaje_Click);
+            // 
+            // doubleBufferedFlowLayoutPanel1
+            // 
+            this.doubleBufferedFlowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(68)))), ((int)(((byte)(125)))));
+            this.doubleBufferedFlowLayoutPanel1.Location = new System.Drawing.Point(20, 187);
+            this.doubleBufferedFlowLayoutPanel1.Name = "doubleBufferedFlowLayoutPanel1";
+            this.doubleBufferedFlowLayoutPanel1.Size = new System.Drawing.Size(734, 176);
+            this.doubleBufferedFlowLayoutPanel1.TabIndex = 30;
             // 
             // flpTabla
             // 
@@ -126,44 +221,8 @@
             this.flpTabla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(105)))));
             this.flpTabla.Location = new System.Drawing.Point(20, 7);
             this.flpTabla.Name = "flpTabla";
-            this.flpTabla.Size = new System.Drawing.Size(1020, 256);
+            this.flpTabla.Size = new System.Drawing.Size(1242, 256);
             this.flpTabla.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Controls.Add(this.btnDownSuperior);
-            this.panel1.Controls.Add(this.doubleBufferedFlowLayoutPanel2);
-            this.panel1.Controls.Add(this.btnUpSuperior);
-            this.panel1.Controls.Add(this.btnEliminar);
-            this.panel1.Controls.Add(this.btnCargarImagenes);
-            this.panel1.Controls.Add(this.btnImprimir);
-            this.panel1.Controls.Add(this.btnRetroceder);
-            this.panel1.Location = new System.Drawing.Point(0, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1755, 180);
-            this.panel1.TabIndex = 25;
-            // 
-            // btnDownSuperior
-            // 
-            this.btnDownSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDownSuperior.BackColor = System.Drawing.Color.Transparent;
-            this.btnDownSuperior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDownSuperior.BackgroundImage")));
-            this.btnDownSuperior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDownSuperior.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDownSuperior.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnDownSuperior.FlatAppearance.BorderSize = 0;
-            this.btnDownSuperior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnDownSuperior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnDownSuperior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDownSuperior.Location = new System.Drawing.Point(950, 26);
-            this.btnDownSuperior.Name = "btnDownSuperior";
-            this.btnDownSuperior.Size = new System.Drawing.Size(62, 60);
-            this.btnDownSuperior.TabIndex = 32;
-            this.btnDownSuperior.UseVisualStyleBackColor = false;
-            this.btnDownSuperior.Click += new System.EventHandler(this.btnDownSuperior_Click);
             // 
             // doubleBufferedFlowLayoutPanel2
             // 
@@ -383,147 +442,6 @@
             this.button6.TabIndex = 31;
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // btnUpSuperior
-            // 
-            this.btnUpSuperior.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnUpSuperior.BackColor = System.Drawing.Color.Transparent;
-            this.btnUpSuperior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpSuperior.BackgroundImage")));
-            this.btnUpSuperior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUpSuperior.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUpSuperior.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnUpSuperior.FlatAppearance.BorderSize = 0;
-            this.btnUpSuperior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnUpSuperior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnUpSuperior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpSuperior.Location = new System.Drawing.Point(882, 26);
-            this.btnUpSuperior.Name = "btnUpSuperior";
-            this.btnUpSuperior.Size = new System.Drawing.Size(62, 60);
-            this.btnUpSuperior.TabIndex = 31;
-            this.btnUpSuperior.UseVisualStyleBackColor = false;
-            this.btnUpSuperior.Click += new System.EventHandler(this.btnUpSuperior_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
-            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnEliminar.FlatAppearance.BorderSize = 0;
-            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Location = new System.Drawing.Point(1053, 29);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(114, 105);
-            this.btnEliminar.TabIndex = 26;
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnCargarImagenes
-            // 
-            this.btnCargarImagenes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCargarImagenes.BackgroundImage")));
-            this.btnCargarImagenes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCargarImagenes.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCargarImagenes.FlatAppearance.BorderSize = 0;
-            this.btnCargarImagenes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnCargarImagenes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnCargarImagenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargarImagenes.Location = new System.Drawing.Point(1173, 29);
-            this.btnCargarImagenes.Name = "btnCargarImagenes";
-            this.btnCargarImagenes.Size = new System.Drawing.Size(114, 105);
-            this.btnCargarImagenes.TabIndex = 20;
-            this.btnCargarImagenes.UseVisualStyleBackColor = true;
-            this.btnCargarImagenes.Click += new System.EventHandler(this.btnCargarImagenes_Click);
-            // 
-            // btnImprimir
-            // 
-            this.btnImprimir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnImprimir.BackgroundImage")));
-            this.btnImprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnImprimir.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnImprimir.FlatAppearance.BorderSize = 0;
-            this.btnImprimir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnImprimir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImprimir.Location = new System.Drawing.Point(1293, 29);
-            this.btnImprimir.Name = "btnImprimir";
-            this.btnImprimir.Size = new System.Drawing.Size(114, 105);
-            this.btnImprimir.TabIndex = 19;
-            this.btnImprimir.UseVisualStyleBackColor = true;
-            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
-            // 
-            // btnRetroceder
-            // 
-            this.btnRetroceder.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRetroceder.BackgroundImage")));
-            this.btnRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRetroceder.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnRetroceder.FlatAppearance.BorderSize = 0;
-            this.btnRetroceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnRetroceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRetroceder.Location = new System.Drawing.Point(19, 29);
-            this.btnRetroceder.Name = "btnRetroceder";
-            this.btnRetroceder.Size = new System.Drawing.Size(114, 105);
-            this.btnRetroceder.TabIndex = 17;
-            this.btnRetroceder.UseVisualStyleBackColor = true;
-            this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
-            // 
-            // tmCarga
-            // 
-            this.tmCarga.Enabled = true;
-            this.tmCarga.Interval = 20;
-            this.tmCarga.Tick += new System.EventHandler(this.tmCarga_Tick);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.btnReproducirMensaje);
-            this.panel3.Controls.Add(this.btnBorrarMensaje);
-            this.panel3.Location = new System.Drawing.Point(6, 184);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1130, 204);
-            this.panel3.TabIndex = 29;
-            // 
-            // btnReproducirMensaje
-            // 
-            this.btnReproducirMensaje.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnReproducirMensaje.BackgroundImage")));
-            this.btnReproducirMensaje.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnReproducirMensaje.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnReproducirMensaje.FlatAppearance.BorderSize = 0;
-            this.btnReproducirMensaje.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnReproducirMensaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnReproducirMensaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReproducirMensaje.Location = new System.Drawing.Point(965, 48);
-            this.btnReproducirMensaje.Name = "btnReproducirMensaje";
-            this.btnReproducirMensaje.Size = new System.Drawing.Size(114, 105);
-            this.btnReproducirMensaje.TabIndex = 31;
-            this.btnReproducirMensaje.UseVisualStyleBackColor = true;
-            this.btnReproducirMensaje.Click += new System.EventHandler(this.btnReproducirMensaje_Click);
-            // 
-            // btnBorrarMensaje
-            // 
-            this.btnBorrarMensaje.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBorrarMensaje.BackgroundImage")));
-            this.btnBorrarMensaje.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBorrarMensaje.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnBorrarMensaje.FlatAppearance.BorderSize = 0;
-            this.btnBorrarMensaje.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnBorrarMensaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnBorrarMensaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBorrarMensaje.Location = new System.Drawing.Point(840, 48);
-            this.btnBorrarMensaje.Name = "btnBorrarMensaje";
-            this.btnBorrarMensaje.Size = new System.Drawing.Size(114, 105);
-            this.btnBorrarMensaje.TabIndex = 27;
-            this.btnBorrarMensaje.UseVisualStyleBackColor = true;
-            this.btnBorrarMensaje.Click += new System.EventHandler(this.btnBorrarMensaje_Click);
-            // 
-            // doubleBufferedFlowLayoutPanel1
-            // 
-            this.doubleBufferedFlowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(68)))), ((int)(((byte)(125)))));
-            this.doubleBufferedFlowLayoutPanel1.Location = new System.Drawing.Point(19, 187);
-            this.doubleBufferedFlowLayoutPanel1.Name = "doubleBufferedFlowLayoutPanel1";
-            this.doubleBufferedFlowLayoutPanel1.Size = new System.Drawing.Size(734, 176);
-            this.doubleBufferedFlowLayoutPanel1.TabIndex = 30;
-            // 
             // ComunicacionSocial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -533,8 +451,6 @@
             this.ClientSize = new System.Drawing.Size(1300, 725);
             this.Controls.Add(this.doubleBufferedFlowLayoutPanel1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.btnDown);
-            this.Controls.Add(this.btnUp);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
@@ -546,16 +462,13 @@
             this.Load += new System.EventHandler(this.ComunicacionSocial_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.doubleBufferedFlowLayoutPanel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.doubleBufferedFlowLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnDown;
-        private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnEmociones;
@@ -580,8 +493,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button btnDownSuperior;
-        private System.Windows.Forms.Button btnUpSuperior;
         private System.Windows.Forms.Button button6;
     }
 }

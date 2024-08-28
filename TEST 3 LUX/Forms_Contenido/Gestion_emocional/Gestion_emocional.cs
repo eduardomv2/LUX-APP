@@ -14,8 +14,8 @@ namespace TEST_3_LUX.Forms_Contenido.Gestion_emocional
         private bool mediaVideo;
         private string[] imageFiles;
         private (string, int) cancionActual;
-        private ComunicacionPrincipal principal;
-        public Gestion_emocional(ComunicacionPrincipal principal)
+        private Principal principal;
+        public Gestion_emocional(Principal principal)
         {
             InitializeComponent();
             mediaVideo = false;
@@ -174,6 +174,7 @@ namespace TEST_3_LUX.Forms_Contenido.Gestion_emocional
         private void btnRetroceder_Click(object sender, EventArgs e)
         {
             Dispose();
+            principal.Opacity = 100;
             principal.Show();
         }
 
@@ -239,6 +240,11 @@ namespace TEST_3_LUX.Forms_Contenido.Gestion_emocional
             
             wmpVideo.URL = Path.Combine(seleccion, mediaVideo ? cancionActual.Item1 + ".mp4" : cancionActual.Item1 + ".mp3");
             wmpVideo.Ctlcontrols.play();
+        }
+
+        private void Gestion_emocional_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

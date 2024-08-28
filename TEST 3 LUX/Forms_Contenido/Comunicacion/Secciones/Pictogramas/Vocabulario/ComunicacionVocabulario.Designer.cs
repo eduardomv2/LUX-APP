@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComunicacionVocabulario));
             this.panel2 = new System.Windows.Forms.Panel();
             this.flpTabla = new TEST_3_LUX.Forms_Contenido.Comunicacion.Controles_personalizados.DoubleBufferedFlowLayoutPanel();
-            this.btnDown = new System.Windows.Forms.Button();
-            this.btnUp = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnAnimales = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
@@ -56,7 +54,7 @@
             this.panel2.Controls.Add(this.flpTabla);
             this.panel2.Location = new System.Drawing.Point(12, 218);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1059, 456);
+            this.panel2.Size = new System.Drawing.Size(1260, 456);
             this.panel2.TabIndex = 25;
             // 
             // flpTabla
@@ -68,46 +66,8 @@
             this.flpTabla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(105)))));
             this.flpTabla.Location = new System.Drawing.Point(20, 8);
             this.flpTabla.Name = "flpTabla";
-            this.flpTabla.Size = new System.Drawing.Size(1020, 416);
+            this.flpTabla.Size = new System.Drawing.Size(1221, 416);
             this.flpTabla.TabIndex = 26;
-            // 
-            // btnDown
-            // 
-            this.btnDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDown.BackColor = System.Drawing.Color.Transparent;
-            this.btnDown.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDown.BackgroundImage")));
-            this.btnDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDown.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnDown.FlatAppearance.BorderSize = 0;
-            this.btnDown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnDown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDown.Location = new System.Drawing.Point(1077, 569);
-            this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(114, 105);
-            this.btnDown.TabIndex = 24;
-            this.btnDown.UseVisualStyleBackColor = false;
-            this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
-            // 
-            // btnUp
-            // 
-            this.btnUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnUp.BackColor = System.Drawing.Color.Transparent;
-            this.btnUp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUp.BackgroundImage")));
-            this.btnUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUp.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnUp.FlatAppearance.BorderSize = 0;
-            this.btnUp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnUp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUp.Location = new System.Drawing.Point(1077, 458);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(114, 105);
-            this.btnUp.TabIndex = 23;
-            this.btnUp.UseVisualStyleBackColor = false;
-            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // panel1
             // 
@@ -221,8 +181,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1284, 686);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnDown);
-            this.Controls.Add(this.btnUp);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -240,8 +198,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnDown;
-        private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnAnimales;
         private System.Windows.Forms.Button btnImprimir;

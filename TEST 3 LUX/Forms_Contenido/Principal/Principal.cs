@@ -5,6 +5,7 @@ using System.IO;
 using System.Windows.Forms;
 using TEST_3_LUX.FORMS;
 using TEST_3_LUX.FORMS.Comunicacion3;
+using TEST_3_LUX.Forms_Contenido.Gestion_emocional;
 using TEST_3_LUX.Forms_Contenido.Rutina;
 
 namespace TEST_3_LUX
@@ -193,6 +194,14 @@ namespace TEST_3_LUX
             Transicion = "FadeOut";
             tmTransicion.Start();
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Gestion_emocional emc = new Gestion_emocional(this);
+            emc.Show();
+            Transicion = "FadeOut";
+            tmTransicion.Start();
         }
     }
 }

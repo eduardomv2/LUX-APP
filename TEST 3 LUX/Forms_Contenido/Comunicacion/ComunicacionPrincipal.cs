@@ -297,10 +297,6 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
 
         #endregion
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Gestion_emocional emociona = new Gestion_emocional(this);
-            emociona.Show();
-        }
+       
     }
 }
