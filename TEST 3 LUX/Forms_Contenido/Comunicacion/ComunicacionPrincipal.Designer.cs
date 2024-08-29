@@ -42,11 +42,11 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.pbTranquilidad = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnVocabulario = new System.Windows.Forms.Button();
             this.btnRetroceder = new System.Windows.Forms.Button();
             this.btnNotasAudio = new System.Windows.Forms.Button();
             this.btnTablaPictograma = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.tlpBotonesTemas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIncomodidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTranquilidad)).BeginInit();
@@ -193,10 +193,22 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.panel1.Controls.Add(this.btnRetroceder);
             this.panel1.Controls.Add(this.btnNotasAudio);
             this.panel1.Controls.Add(this.btnTablaPictograma);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1180, 171);
             this.panel1.TabIndex = 31;
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(571, 42);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 59);
+            this.button1.TabIndex = 20;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnVocabulario
             // 
@@ -263,16 +275,6 @@ namespace TEST_3_LUX.FORMS.Comunicacion3
             this.btnTablaPictograma.TabIndex = 16;
             this.btnTablaPictograma.UseVisualStyleBackColor = true;
             this.btnTablaPictograma.Click += new System.EventHandler(this.btnTablaPictograma_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(571, 42);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 59);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ComunicacionPrincipal
             // 

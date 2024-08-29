@@ -240,5 +240,10 @@ namespace TEST_3_LUX.Forms_Contenido.Gestion_emocional
             wmpVideo.URL = Path.Combine(seleccion, mediaVideo ? cancionActual.Item1 + ".mp4" : cancionActual.Item1 + ".mp3");
             wmpVideo.Ctlcontrols.play();
         }
+
+        private void Gestion_emocional_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
